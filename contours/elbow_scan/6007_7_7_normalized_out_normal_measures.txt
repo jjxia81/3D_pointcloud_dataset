@@ -1,0 +1,5 @@
+-------MEASUREMENT DATA---------
+
+6007_7_7_normalized_out_normal.ply
+
+ID : Dist [pointA][pointB]
