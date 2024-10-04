@@ -1,0 +1,6 @@
+Start.
+Establishing the optimization formulation.
+CG optimization.
+normal estimation time : 18.1064
+poisson reconstruction time : 0.740026
+Finish.

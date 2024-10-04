@@ -1,0 +1,15 @@
+torus_crosscut
+C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\torustorus_crosscut.xyz
+Read point cloud.
+make Regular_triangulation .
+0
+maxwd:   -1e+07
+minwd:   1e+07
+Compute 3D Voronoi DONE>> 
+====================WindingNumLBFGSTest
+Total Query points : 0 After QuChong n: 0
+Start opt...
+0	0	0	0	0
+reach the gradient tolerance
+Time: 0.075
+successful!

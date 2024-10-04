@@ -1,0 +1,40 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\wire_frames\fertility_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\wire_frames\fertility.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.997963
+Iter: 2
+normals variation 1.991900
+Iter: 3
+normals variation 1.789654
+Iter: 4
+normals variation 1.407038
+Iter: 5
+normals variation 0.579726
+Iter: 6
+normals variation 0.372701
+Iter: 7
+normals variation 0.493836
+Iter: 8
+normals variation 0.685136
+Iter: 9
+normals variation 1.393037
+Iter: 10
+normals variation 0.257605
+Iter: 11
+normals variation 0.267865
+Iter: 12
+normals variation 0.176083
+Iter: 13
+normals variation 0.078144
+ normal estimate time : 21.429
+poisson reconstruction time : 1.64234
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\wire_frames\fertility.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\wire_frames\fertility.ply_n.ply

@@ -1,0 +1,30 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\sparse_sample\bathtub_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\sparse_sample\bathtub.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.998570
+Iter: 2
+normals variation 1.991732
+Iter: 3
+normals variation 1.973111
+Iter: 4
+normals variation 1.075913
+Iter: 5
+normals variation 0.632474
+Iter: 6
+normals variation 0.421181
+Iter: 7
+normals variation 0.194228
+Iter: 8
+normals variation 0.108238
+ normal estimate time : 20.0179
+poisson reconstruction time : 2.26917
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\sparse_sample\bathtub.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\sparse_sample\bathtub.ply_n.ply

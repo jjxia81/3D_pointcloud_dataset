@@ -1,0 +1,74 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\torus\torus_n50_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\torus\torus_n50.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation -nan(ind)
+Iter: 2
+normals variation -nan(ind)
+Iter: 3
+normals variation -nan(ind)
+Iter: 4
+normals variation -nan(ind)
+Iter: 5
+normals variation -nan(ind)
+Iter: 6
+normals variation -nan(ind)
+Iter: 7
+normals variation -nan(ind)
+Iter: 8
+normals variation -nan(ind)
+Iter: 9
+normals variation -nan(ind)
+Iter: 10
+normals variation -nan(ind)
+Iter: 11
+normals variation -nan(ind)
+Iter: 12
+normals variation -nan(ind)
+Iter: 13
+normals variation -nan(ind)
+Iter: 14
+normals variation -nan(ind)
+Iter: 15
+normals variation -nan(ind)
+Iter: 16
+normals variation -nan(ind)
+Iter: 17
+normals variation -nan(ind)
+Iter: 18
+normals variation -nan(ind)
+Iter: 19
+normals variation -nan(ind)
+Iter: 20
+normals variation -nan(ind)
+Iter: 21
+normals variation -nan(ind)
+Iter: 22
+normals variation -nan(ind)
+Iter: 23
+normals variation -nan(ind)
+Iter: 24
+normals variation -nan(ind)
+Iter: 25
+normals variation -nan(ind)
+Iter: 26
+normals variation -nan(ind)
+Iter: 27
+normals variation -nan(ind)
+Iter: 28
+normals variation -nan(ind)
+Iter: 29
+normals variation -nan(ind)
+Iter: 30
+normals variation -nan(ind)
+ normal estimate time : 47.33
+poisson reconstruction time : 1.51097
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\torus\torus_n50.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\torus\torus_n50.ply_n.ply

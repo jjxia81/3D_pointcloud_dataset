@@ -1,0 +1,58 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\torus\torus_crosscut_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\torus\torus_crosscut.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.992977
+Iter: 2
+normals variation 2.000000
+Iter: 3
+normals variation 1.998826
+Iter: 4
+normals variation 1.915558
+Iter: 5
+normals variation 1.911724
+Iter: 6
+normals variation 1.979094
+Iter: 7
+normals variation 1.930364
+Iter: 8
+normals variation 1.979910
+Iter: 9
+normals variation 1.628702
+Iter: 10
+normals variation 1.459624
+Iter: 11
+normals variation 1.966876
+Iter: 12
+normals variation 1.791849
+Iter: 13
+normals variation 1.993076
+Iter: 14
+normals variation 1.927975
+Iter: 15
+normals variation 1.958605
+Iter: 16
+normals variation 1.860988
+Iter: 17
+normals variation 0.654687
+Iter: 18
+normals variation 0.555243
+Iter: 19
+normals variation 0.316879
+Iter: 20
+normals variation 0.191509
+Iter: 21
+normals variation 0.175461
+Iter: 22
+normals variation 0.077686
+ normal estimate time : 40.4603
+poisson reconstruction time : 1.63955
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\torus\torus_crosscut.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\vipss_data\torus\torus_crosscut.ply_n.ply
