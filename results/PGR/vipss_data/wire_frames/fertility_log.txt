@@ -1,0 +1,47 @@
+[In PGROctree] Max Depth: 6
+[In PGRExportQuery] Normalizing the point cloud. Result saved to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/fertility/samples/fertility_normalized.npy
+[In PGRExportQuery] Exporting points on octree for query. Result saved to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/fertility/samples/fertility_for_query.npy
+[In apps.PGRSolve] x_width range: [0.0400, 0.0400], mean: 0.0400
+[94m[Timer] x_width computed in 0[0m
+[In apps.PGRSolve] Starting to solve the system...
+[In solver] Precomputing B...
+[94m[Timer] B computed in 0.07370829582214355[0m
+[In solver] Starting CG iterations...
+[In solver] Converged in 91/1000 iterations
+[In solver] Got linearized surface elements
+[94m[Timer] CG finished in 0.04802370071411133[0m
+[In apps.PGRSolve] q_width range: [0.0400, 0.0400]
+[94m[Timer] q_width computed in 0[0m
+[94m[Timer] both width computed in 0[0m
+[In solver] Starting to query on the grid...
+[In apps.PGRSolve] sample vals range: [-0.6803, -0.2476], mean: -0.4532, median: -0.4485
+[In solver] Starting to query on the grid...
+[In apps.PGRSolve] Saving grid widths to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/fertility/solve/fertility_k_7_min_0.04_max_0.015_alpha_2.0_depth_min_1_depth_max_1_grid_width
+[In apps.PGRSolve] Saving grid eval values to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/fertility/solve/fertility_k_7_min_0.04_max_0.015_alpha_2.0_depth_min_1_depth_max_1_eval_grid
+[94m[Timer] Eval on grid finished in 0.029626846313476562[0m
+[In PGROctree] Max Depth: 6
+[In PGRLoadQuery] Isovalue: -0.448544
+[In PGRLoadQuery] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/fertility/recon/fertility_k_7_min_0.04_max_0.015_alpha_2.0_depth_min_1_depth_max_1_recon.ply
+---------Settings---------
+min depth:   1
+max depth:   10
+max iters:   None
+width_k:     7
+width_min:   0.04
+width_max:   0.015
+alpha:       2.0
+---------Settings---------
+
+[EXECUTING] ./apps/PGRExportQuery -i /home/jianjun/Documents/projects/3D_pointcloud_dataset/contours/vipss_data/wire_frames/fertility.xyz -o /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/fertility/samples/fertility -d 10 -m 1 
+
+
+[EXECUTING] python -m apps.PGRSolve --base /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/fertility/samples/fertility_normalized.npy --sample /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/fertility/samples/fertility_normalized.npy --query /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/fertility/samples/fertility_for_query.npy --width_k 7 --width_max 0.015 --width_min 0.04 --alpha 2.0 -o /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/fertility/solve/fertility_k_7_min_0.04_max_0.015_alpha_2.0_depth_min_1_depth_max_1_ 
+
+
+[EXECUTING] ./apps/PGRLoadQuery -i /home/jianjun/Documents/projects/3D_pointcloud_dataset/contours/vipss_data/wire_frames/fertility.xyz -d 10 -m 1 --grid_val /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/fertility/solve/fertility_k_7_min_0.04_max_0.015_alpha_2.0_depth_min_1_depth_max_1_eval_grid.npy --grid_width /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/fertility/solve/fertility_k_7_min_0.04_max_0.015_alpha_2.0_depth_min_1_depth_max_1_grid_width.npy --isov -0.44854429 -o /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/fertility/recon/fertility_k_7_min_0.04_max_0.015_alpha_2.0_depth_min_1_depth_max_1_recon.ply
+
+[94m[Timer] Note: Some preprocessing (width computation) is actually in the Main part.[0m
+[94m[Timer] Pre:    0.038648128509521484[0m
+[94m[Timer] Main:   0.679192304611206[0m
+[94m[Timer] Post:   0.08211350440979004[0m
+[94m[Timer] Total:  0.7999539375305176[0m

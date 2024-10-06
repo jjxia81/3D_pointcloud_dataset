@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 6
+[LOG] time (build tree): 0.00863099
+[DEBUG] samplePoints.size(): 499
+[DEBUG] N_sample_pts: 499
+[DEBUG] wn_pts_input.size(): 1497
+[DEBUG] num_points: 499
+num_nodes: 904, num_leaves: 499, tree depth: 7
+tree_depth*num_points: 3493, stdvec_node2point_index.size(): 3446
+[DEBUG] N_grid: 9332
+[DEBUG] Isovalue: 0.000139461
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 6651
+[DEBUG] triangles got: 0.000139461
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/vipss_data/wire_frames/phone_wire.ply

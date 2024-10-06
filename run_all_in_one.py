@@ -136,17 +136,76 @@ def run_vipss(input_dir, output_dir):
             print("Execution was successful.")
         else:
             print(f"Execution failed with return code: {exit_code}")
+            
+def run_PGR(input_dir, output_dir):
+    workdir = r'/home/jianjun/Documents/projects/ParametricGaussRecon'
+    os.chdir(workdir)
+    executable = r'python run_pgr.py '
+    # ./data/think10k591234.xyz ./data/think10k591234.xyz ./results/think10k591234.ply false true true
+    # ./jet/normals_estimation.exe input_xyz output_xyz neighbour_size 
+    filenames = os.listdir(input_dir)
+    for file in filenames:
+        input_file = os.path.join(input_dir, file) 
+        filename = filename = file.split('.')[0]
+        log_file = os.path.join(output_dir, filename + '_log.txt')
+        print('log file : ', log_file)
+        # Construct the command string
+        command = f'{executable} {input_file} --alpha 2 -wmin 0.04 --outdir {output_dir} > {log_file}'
+        # Run the command
+        exit_code = os.system(command)
+        # Check the exit code
+        if exit_code == 0:
+            print("Execution was successful.")
+        else:
+            print(f"Execution failed with return code: {exit_code}")
+
+def run_WNNC(input_dir, output_dir):
+    workdir = r'/home/jianjun/Documents/projects/WNNC'
+    os.chdir(workdir)
+    executable = r'./main_GaussReconCUDA '
+    
+    normalExe = r'python main_wnnc.py '
+    # ./data/think10k591234.xyz ./data/think10k591234.xyz ./results/think10k591234.ply false true true
+    # ./jet/normals_estimation.exe input_xyz output_xyz neighbour_size 
+    filenames = os.listdir(input_dir)
+    for file in filenames:
+        input_file = os.path.join(input_dir, file) 
+        filename = filename = file.split('.')[0]
+        log_file = os.path.join(output_dir, filename + '_log.txt')
+        print('log file : ', log_file)
+        outfile = os.path.join(output_dir, filename + '.ply') 
+        # Construct the command string
+        command = f'{executable} -i {input_file} -o {outfile} -w 0.05 > {log_file}'
+        # Run the command
+        exit_code = os.system(command)
+        log_file = os.path.join(output_dir, filename + '_log_normal.txt')
+        command = f'{normalExe}  {input_file} --out_dir {output_dir} --width_config l5 --tqdm > {log_file}'
+        exit_code = os.system(command)
+        
+        # Check the exit code
+        if exit_code == 0:
+            print("Execution was successful.")
+        else:
+            print(f"Execution failed with return code: {exit_code}")
+
+
 
 data_list = ['vipss_data']
 method_list = ['iprs', 'isoconstraints', 'gcno', 'local_vipss', 'vipss']
 
 data_folder = 'vipss_data'
-method = 'vipss'
+method = 'WNNC'
 
-input_dir = r'C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours' 
+input_dir = r'/home/jianjun/Documents/projects/3D_pointcloud_dataset/contours' 
 input_dir = os.path.join(input_dir, data_folder)
-output_dir = r'c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results'
-output_dir = os.path.join(output_dir, method, data_folder)
+output_dir = r'/home/jianjun/Documents/projects/3D_pointcloud_dataset/results'
+output_dir = os.path.join(output_dir, method)
+if not os.path.exists(output_dir) :
+        os.mkdir(output_dir)
+
+output_dir = os.path.join(output_dir, data_folder)
+if not os.path.exists(output_dir) :
+        os.mkdir(output_dir)
 
 items = os.listdir(input_dir)
 
@@ -164,6 +223,10 @@ for folder in items:
         run_isoconstraints(cur_in_dir, cur_out_dir)
     if method == "vipss":
         run_vipss(cur_in_dir, cur_out_dir)
+    if method == "PGR":
+        run_PGR(cur_in_dir, cur_out_dir)
+    if method == "WNNC":
+        run_WNNC(cur_in_dir, cur_out_dir)
 
 
 # run_isoconstraints(input_dir, output_dir)

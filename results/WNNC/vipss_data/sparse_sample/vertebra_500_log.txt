@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 5
+[LOG] time (build tree): 0.0060699
+[DEBUG] samplePoints.size(): 250
+[DEBUG] N_sample_pts: 250
+[DEBUG] wn_pts_input.size(): 750
+[DEBUG] num_points: 250
+num_nodes: 372, num_leaves: 250, tree depth: 5
+tree_depth*num_points: 1250, stdvec_node2point_index.size(): 1276
+[DEBUG] N_grid: 2763
+[DEBUG] Isovalue: 5.16115e-05
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 2059
+[DEBUG] triangles got: 5.16115e-05
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/vipss_data/sparse_sample/vertebra_500.ply

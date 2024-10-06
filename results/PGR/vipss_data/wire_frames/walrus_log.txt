@@ -1,0 +1,47 @@
+[In PGROctree] Max Depth: 7
+[In PGRExportQuery] Normalizing the point cloud. Result saved to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/walrus/samples/walrus_normalized.npy
+[In PGRExportQuery] Exporting points on octree for query. Result saved to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/walrus/samples/walrus_for_query.npy
+[In apps.PGRSolve] x_width range: [0.0400, 0.0400], mean: 0.0400
+[94m[Timer] x_width computed in 0[0m
+[In apps.PGRSolve] Starting to solve the system...
+[In solver] Precomputing B...
+[94m[Timer] B computed in 0.07367229461669922[0m
+[In solver] Starting CG iterations...
+[In solver] Converged in 108/999 iterations
+[In solver] Got linearized surface elements
+[94m[Timer] CG finished in 0.05341482162475586[0m
+[In apps.PGRSolve] q_width range: [0.0400, 0.0400]
+[94m[Timer] q_width computed in 0[0m
+[94m[Timer] both width computed in 0[0m
+[In solver] Starting to query on the grid...
+[In apps.PGRSolve] sample vals range: [-0.9345, -0.1107], mean: -0.4509, median: -0.4485
+[In solver] Starting to query on the grid...
+[In apps.PGRSolve] Saving grid widths to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/walrus/solve/walrus_k_7_min_0.04_max_0.015_alpha_2.0_depth_min_1_depth_max_1_grid_width
+[In apps.PGRSolve] Saving grid eval values to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/walrus/solve/walrus_k_7_min_0.04_max_0.015_alpha_2.0_depth_min_1_depth_max_1_eval_grid
+[94m[Timer] Eval on grid finished in 0.039247989654541016[0m
+[In PGROctree] Max Depth: 7
+[In PGRLoadQuery] Isovalue: -0.448458
+[In PGRLoadQuery] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/walrus/recon/walrus_k_7_min_0.04_max_0.015_alpha_2.0_depth_min_1_depth_max_1_recon.ply
+---------Settings---------
+min depth:   1
+max depth:   10
+max iters:   None
+width_k:     7
+width_min:   0.04
+width_max:   0.015
+alpha:       2.0
+---------Settings---------
+
+[EXECUTING] ./apps/PGRExportQuery -i /home/jianjun/Documents/projects/3D_pointcloud_dataset/contours/vipss_data/wire_frames/walrus.xyz -o /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/walrus/samples/walrus -d 10 -m 1 
+
+
+[EXECUTING] python -m apps.PGRSolve --base /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/walrus/samples/walrus_normalized.npy --sample /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/walrus/samples/walrus_normalized.npy --query /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/walrus/samples/walrus_for_query.npy --width_k 7 --width_max 0.015 --width_min 0.04 --alpha 2.0 -o /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/walrus/solve/walrus_k_7_min_0.04_max_0.015_alpha_2.0_depth_min_1_depth_max_1_ 
+
+
+[EXECUTING] ./apps/PGRLoadQuery -i /home/jianjun/Documents/projects/3D_pointcloud_dataset/contours/vipss_data/wire_frames/walrus.xyz -d 10 -m 1 --grid_val /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/walrus/solve/walrus_k_7_min_0.04_max_0.015_alpha_2.0_depth_min_1_depth_max_1_eval_grid.npy --grid_width /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/walrus/solve/walrus_k_7_min_0.04_max_0.015_alpha_2.0_depth_min_1_depth_max_1_grid_width.npy --isov -0.4484579 -o /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/vipss_data/wire_frames/walrus/recon/walrus_k_7_min_0.04_max_0.015_alpha_2.0_depth_min_1_depth_max_1_recon.ply
+
+[94m[Timer] Note: Some preprocessing (width computation) is actually in the Main part.[0m
+[94m[Timer] Pre:    0.04291796684265137[0m
+[94m[Timer] Main:   0.693899393081665[0m
+[94m[Timer] Post:   0.10010123252868652[0m
+[94m[Timer] Total:  0.8369185924530029[0m

@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 4
+[LOG] time (build tree): 0.0028441
+[DEBUG] samplePoints.size(): 120
+[DEBUG] N_sample_pts: 120
+[DEBUG] wn_pts_input.size(): 360
+[DEBUG] num_points: 120
+num_nodes: 195, num_leaves: 120, tree depth: 5
+tree_depth*num_points: 600, stdvec_node2point_index.size(): 610
+[DEBUG] N_grid: 1652
+[DEBUG] Isovalue: -0.000265901
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 1191
+[DEBUG] triangles got: -0.000265901
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/vipss_data/torus/torus_halfsample.ply

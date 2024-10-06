@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 5
+[LOG] time (build tree): 0.00931501
+[DEBUG] samplePoints.size(): 400
+[DEBUG] N_sample_pts: 400
+[DEBUG] wn_pts_input.size(): 1200
+[DEBUG] num_points: 400
+num_nodes: 591, num_leaves: 400, tree depth: 6
+tree_depth*num_points: 2400, stdvec_node2point_index.size(): 2247
+[DEBUG] N_grid: 7200
+[DEBUG] Isovalue: 4.07166e-05
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 5538
+[DEBUG] triangles got: 4.07166e-05
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/vipss_data/sparse_sample/bathtub.ply
