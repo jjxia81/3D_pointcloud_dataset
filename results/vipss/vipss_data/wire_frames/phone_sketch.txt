@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\phone_sketch.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_frames
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\phone_sketch.xyz
+number of points: 999
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 16.411
+K11: 2997
+setting K, HermiteApprox_Lamnda
+solved: 0.0226071
+K: 2997
+solve K total: 16.5928
+Build Time: 16.7379
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 3.5e-06
+eigval(0): 0.0291571
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.49152
+Statu: 3
+Obj: 106.8021212 -> 76.21854665
+number of call: 207 t: 1.3363004 ave: 0.006455557488
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.51026
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0601566
+eigval(0): 0.01787567341
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.8444389
+Statu: 3
+Obj: 176.2051803 -> 59.37568434
+number of call: 253 t: 1.6095097 ave: 0.006361698419
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.8629778
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0730389
+eigval(0): 0.0141620969
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.959559
+Statu: 3
+Obj: 397.06882 -> 59.37568499
+number of call: 255 t: 1.7127229 ave: 0.006716560392
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.9782145
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0413546
+eigval(0): 0.008506481302
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.0257116
+Statu: 3
+Obj: 1546.064957 -> 59.37574721
+number of call: 269 t: 1.7530637 ave: 0.006516965428
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.0455341
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0481675
+eigval(0): 0.003834605296
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.4351245
+Statu: 3
+Obj: 2951.268581 -> 59.37566393
+number of call: 315 t: 2.0691472 ave: 0.00656872127
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.4541199
+
+0: 106.80212 -> 76.218547
+0.001: 176.20518 -> 59.375684
+0.01: 397.06882 -> 59.375685
+0.1: 1546.065 -> 59.375747
+1: 2951.2686 -> 59.375664
+min energy: 
+1: 2951.2686 -> 59.375664
+Init Time: 122.31078
+
+OptNormal
+nlopt time: 2.360482
+Statu: 3
+Obj: 2951.268581 -> 59.37566393
+number of call: 315 t: 1.9996139 ave: 0.006347980635
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.3789385
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_framesphone_sketch_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 30.862809
+n_evacalls: 795344   ave: 3.880435258e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_framesphone_sketch_surface.ply

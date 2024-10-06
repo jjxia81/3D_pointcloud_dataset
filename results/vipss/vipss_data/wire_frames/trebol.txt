@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\trebol.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_frames
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\trebol.xyz
+number of points: 498
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 2.03721
+K11: 1494
+setting K, HermiteApprox_Lamnda
+solved: 0.0053281
+K: 1494
+solve K total: 2.09764
+Build Time: 2.13175
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 1.08e-05
+eigval(0): 0.00534292
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.203892
+Statu: 3
+Obj: 3.273416967 -> 3.262816342
+number of call: 131 t: 0.1708098 ave: 0.001303891603
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.2110181
+
+setting K, HermiteApprox_Lamnda
+solved: 0.3833696
+eigval(0): 0.004733941838
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.198171
+Statu: 3
+Obj: 3.686384229 -> 3.262816231
+number of call: 138 t: 0.1637524 ave: 0.001186611594
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.2028791
+
+setting K, HermiteApprox_Lamnda
+solved: 0.3806534
+eigval(0): 0.004542538927
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.1977514
+Statu: 3
+Obj: 5.233078135 -> 3.262816588
+number of call: 142 t: 0.1617516 ave: 0.001139095775
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.2025356
+
+setting K, HermiteApprox_Lamnda
+solved: 0.3815085
+eigval(0): 0.004195813419
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.2039423
+Statu: 3
+Obj: 16.92309248 -> 3.262816142
+number of call: 141 t: 0.1673681 ave: 0.001187007801
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.2086866
+
+setting K, HermiteApprox_Lamnda
+solved: 0.3798591
+eigval(0): 0.003370260138
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.2759908
+Statu: 3
+Obj: 131.377369 -> 3.262823881
+number of call: 179 t: 0.2168016 ave: 0.001211182123
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.2806841
+
+0: 3.273417 -> 3.2628163
+0.001: 3.6863842 -> 3.2628162
+0.01: 5.2330781 -> 3.2628166
+0.1: 16.923092 -> 3.2628161
+1: 131.37737 -> 3.2628239
+min energy: 
+0.1: 16.923092 -> 3.2628161
+Init Time: 14.589604
+
+OptNormal
+nlopt time: 0.2243496
+Statu: 3
+Obj: 16.92309248 -> 3.262816142
+number of call: 141 t: 0.1815065 ave: 0.001287280142
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.2286644
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_framestrebol_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 28.0742659
+n_evacalls: 1450044   ave: 1.936097518e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_framestrebol_surface.ply

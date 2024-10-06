@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\torus\torus_halfsample.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\torus
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\torus\torus_halfsample.xyz
+number of points: 241
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 0.257778
+K11: 723
+setting K, HermiteApprox_Lamnda
+solved: 0.0013681
+K: 723
+solve K total: 0.278636
+Build Time: 0.286495
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 1.23e-05
+eigval(0): 0.0142036
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.0359698
+Statu: 3
+Obj: 4.798991977 -> 4.756683021
+number of call: 115 t: 0.0237716 ave: 0.0002067095652
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.037219
+
+setting K, HermiteApprox_Lamnda
+solved: 0.045808
+eigval(0): 0.01416132022
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.0416178
+Statu: 3
+Obj: 4.805436873 -> 4.756690125
+number of call: 132 t: 0.0267068 ave: 0.0002023242424
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.0428122
+
+setting K, HermiteApprox_Lamnda
+solved: 0.0449334
+eigval(0): 0.01406638614
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.048742
+Statu: 3
+Obj: 4.895500713 -> 4.756779835
+number of call: 143 t: 0.0320132 ave: 0.0002238685315
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.0499838
+
+setting K, HermiteApprox_Lamnda
+solved: 0.0448483
+eigval(0): 0.01349558723
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.0791252
+Statu: 3
+Obj: 8.776400911 -> 4.756725767
+number of call: 202 t: 0.0451451 ave: 0.0002234905941
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.0803246
+
+setting K, HermiteApprox_Lamnda
+solved: 0.0456864
+eigval(0): 0.01105271008
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.0494073
+Statu: 3
+Obj: 109.6694128 -> 4.756710206
+number of call: 150 t: 0.0302055 ave: 0.00020137
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.0506038
+
+0: 4.798992 -> 4.756683
+0.001: 4.8054369 -> 4.7566901
+0.01: 4.8955007 -> 4.7567798
+0.1: 8.7764009 -> 4.7567258
+1: 109.66941 -> 4.7567102
+min energy: 
+0: 4.798992 -> 4.756683
+Init Time: 1.9771357
+
+OptNormal
+nlopt time: 0.0350751
+Statu: 3
+Obj: 4.798991977 -> 4.756683021
+number of call: 115 t: 0.0230301 ave: 0.0002002617391
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.0360388
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\torustorus_halfsample_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 11.7637211
+n_evacalls: 1245560   ave: 9.444523829e-06
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\torustorus_halfsample_surface.ply

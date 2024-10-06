@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\walrus.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_frames
+user lambda: 0.003
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\walrus.xyz
+number of points: 999
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 16.3072
+K11: 2997
+setting K, HermiteApprox_Lamnda
+solved: 3.09618
+K: 2997
+solve K total: 19.5445
+Build Time: 19.7225
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 9.9e-06
+eigval(0): 0.0307715
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.71549
+Statu: 3
+Obj: 219.8800734 -> 96.98675686
+number of call: 230 t: 1.5246465 ave: 0.006628897826
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.7404855
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0675137
+eigval(0): 0.02837245762
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.6313662
+Statu: 3
+Obj: 203.8882356 -> 96.98680214
+number of call: 217 t: 1.447293 ave: 0.006669552995
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.6529052
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0456056
+eigval(0): 0.01917894715
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.7632954
+Statu: 3
+Obj: 216.0893627 -> 96.98691875
+number of call: 238 t: 1.5537199 ave: 0.006528234874
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.7854495
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0472586
+eigval(0): 0.009269686026
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.2791744
+Statu: 3
+Obj: 299.1511658 -> 124.9945995
+number of call: 290 t: 1.9505606 ave: 0.006726071034
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.3006605
+
+setting K, HermiteApprox_Lamnda
+solved: 3.1002651
+eigval(0): 0.004929722753
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.7123025
+Statu: 3
+Obj: 926.5995026 -> 166.3426778
+number of call: 347 t: 2.2723507 ave: 0.006548561095
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.7337188
+
+0: 219.88007 -> 96.986757
+0.001: 203.88824 -> 96.986802
+0.01: 216.08936 -> 96.986919
+0.1: 299.15117 -> 124.9946
+1: 926.5995 -> 166.34268
+min energy: 
+0: 219.88007 -> 96.986757
+Init Time: 122.65567
+
+OptNormal
+nlopt time: 1.6796674
+Statu: 3
+Obj: 219.8800734 -> 96.98675686
+number of call: 230 t: 1.4891072 ave: 0.00647437913
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.7011781
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_frameswalrus_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 31.139071
+n_evacalls: 790216   ave: 3.940577133e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_frameswalrus_surface.ply

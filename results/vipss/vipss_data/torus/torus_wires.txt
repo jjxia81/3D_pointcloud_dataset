@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\torus\torus_wires.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\torus
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\torus\torus_wires.xyz
+number of points: 991
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 15.9858
+K11: 2973
+setting K, HermiteApprox_Lamnda
+solved: 0.0288276
+K: 2973
+solve K total: 16.1623
+Build Time: 16.2978
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 1.23e-05
+eigval(0): 0.0074599
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.69043
+Statu: 3
+Obj: 416.7261063 -> 19.13820817
+number of call: 227 t: 1.4938421 ave: 0.006580802203
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.7090629
+
+setting K, HermiteApprox_Lamnda
+solved: 2.9731583
+eigval(0): 0.004785676675
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.503453
+Statu: 3
+Obj: 33.98360057 -> 14.42901489
+number of call: 205 t: 1.3416412 ave: 0.00654459122
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.5240217
+
+setting K, HermiteApprox_Lamnda
+solved: 2.9784924
+eigval(0): 0.004710298594
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.543403
+Statu: 3
+Obj: 35.1537041 -> 14.42899165
+number of call: 212 t: 1.3772487 ave: 0.006496456132
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.5645797
+
+setting K, HermiteApprox_Lamnda
+solved: 2.9755739
+eigval(0): 0.004685415275
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.4282278
+Statu: 3
+Obj: 36.87882227 -> 14.42889202
+number of call: 62 t: 0.415664 ave: 0.006704258065
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.4488921
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0167828
+eigval(0): 0.004552628355
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.0801625
+Statu: 3
+Obj: 115.7481427 -> 14.42892463
+number of call: 155 t: 0.9950868 ave: 0.006419914839
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.0985233
+
+0: 416.72611 -> 19.138208
+0.001: 33.983601 -> 14.429015
+0.01: 35.153704 -> 14.428992
+0.1: 36.878822 -> 14.428892
+1: 115.74814 -> 14.428925
+min energy: 
+0.1: 36.878822 -> 14.428892
+Init Time: 116.27913
+
+OptNormal
+nlopt time: 0.4008364
+Statu: 3
+Obj: 36.87882227 -> 14.42889202
+number of call: 62 t: 0.390134 ave: 0.006292483871
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.4192597
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\torustorus_wires_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 47.173648
+n_evacalls: 1229993   ave: 3.835277762e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\torustorus_wires_surface.ply

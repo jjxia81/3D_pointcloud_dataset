@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\doghead.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_frames
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\doghead.xyz
+number of points: 1001
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 16.4033
+K11: 3003
+setting K, HermiteApprox_Lamnda
+solved: 0.0215549
+K: 3003
+solve K total: 16.5647
+Build Time: 16.7063
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 1.03e-05
+eigval(0): 0.0294126
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.55454
+Statu: 3
+Obj: 323.4567654 -> 198.733425
+number of call: 328 t: 2.147747 ave: 0.006548009146
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.5752966
+
+setting K, HermiteApprox_Lamnda
+solved: 3.1567068
+eigval(0): 0.0172454047
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.372093
+Statu: 3
+Obj: 600.6949231 -> 198.7282311
+number of call: 310 t: 2.0193249 ave: 0.00651395129
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.3906053
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0598989
+eigval(0): 0.01325490935
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.7922239
+Statu: 3
+Obj: 1104.706842 -> 198.7184332
+number of call: 352 t: 2.3192443 ave: 0.006588762216
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.8109999
+
+setting K, HermiteApprox_Lamnda
+solved: 3.1335038
+eigval(0): 0.009654360194
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.786023
+Statu: 3
+Obj: 2012.228861 -> 198.7597496
+number of call: 357 t: 2.3162603 ave: 0.00648812409
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.8049703
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0721327
+eigval(0): 0.005782694768
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.4686862
+Statu: 3
+Obj: 6333.082193 -> 198.7184437
+number of call: 321 t: 2.0912123 ave: 0.006514680062
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.4873836
+
+0: 323.45677 -> 198.73343
+0.001: 600.69492 -> 198.72823
+0.01: 1104.7068 -> 198.71843
+0.1: 2012.2289 -> 198.75975
+1: 6333.0822 -> 198.71844
+min energy: 
+0.01: 1104.7068 -> 198.71843
+Init Time: 126.89481
+
+OptNormal
+nlopt time: 2.7428122
+Statu: 3
+Obj: 1104.706842 -> 198.7184332
+number of call: 352 t: 2.2783004 ave: 0.006472444318
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.7612132
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_framesdoghead_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 39.0150498
+n_evacalls: 1001916   ave: 3.894043992e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_framesdoghead_surface.ply

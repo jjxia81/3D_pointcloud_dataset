@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\bathtub.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\sparse_sample
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\bathtub.xyz
+number of points: 800
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 8.4145
+K11: 2400
+setting K, HermiteApprox_Lamnda
+solved: 0.0135065
+K: 2400
+solve K total: 8.51733
+Build Time: 8.63326
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 9.2e-06
+eigval(0): 0.0674677
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.307499
+Statu: 3
+Obj: 377.7038107 -> 353.7961213
+number of call: 69 t: 0.2994072 ave: 0.004339234783
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.326617
+
+setting K, HermiteApprox_Lamnda
+solved: 1.5999245
+eigval(0): 0.05978884663
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.2821052
+Statu: 3
+Obj: 496.6661416 -> 353.7962915
+number of call: 64 t: 0.2709703 ave: 0.004233910937
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.2946887
+
+setting K, HermiteApprox_Lamnda
+solved: 1.6261243
+eigval(0): 0.04748869093
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.4553133
+Statu: 3
+Obj: 2044.265466 -> 353.9899314
+number of call: 103 t: 0.4263372 ave: 0.004139196117
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.4684981
+
+setting K, HermiteApprox_Lamnda
+solved: 1.6012546
+eigval(0): 0.01313529167
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.3421341
+Statu: 3
+Obj: 2666.511412 -> 666.8361124
+number of call: 297 t: 1.2602964 ave: 0.004243422222
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.3558309
+
+setting K, HermiteApprox_Lamnda
+solved: 1.6505828
+eigval(0): 0.003153906138
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.8680054
+Statu: 3
+Obj: 2873.395265 -> 663.0317736
+number of call: 204 t: 0.8285385 ave: 0.004061463235
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.8815261
+
+0: 377.70381 -> 353.79612
+0.001: 496.66614 -> 353.79629
+0.01: 2044.2655 -> 353.98993
+0.1: 2666.5114 -> 666.83611
+1: 2873.3953 -> 663.03177
+min energy: 
+0: 377.70381 -> 353.79612
+Init Time: 62.055122
+
+OptNormal
+nlopt time: 0.3087913
+Statu: 3
+Obj: 377.7038107 -> 353.7961213
+number of call: 69 t: 0.2958273 ave: 0.004287352174
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.3211853
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\sparse_samplebathtub_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 38.7583037
+n_evacalls: 1245399   ave: 3.112119385e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\sparse_samplebathtub_surface.ply

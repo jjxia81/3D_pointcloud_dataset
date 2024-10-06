@@ -1,0 +1,5 @@
+number of points: 991
+setup_time (Compute H): 16.298 s
+init_time (Optimize g/Eigen): 116.28 s
+solve_time (Optimize g/LBFGS): 0.41926 s
+surfacing_time: 47.174 s

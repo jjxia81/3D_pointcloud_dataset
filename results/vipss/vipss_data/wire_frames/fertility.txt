@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\fertility.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_frames
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\fertility.xyz
+number of points: 1000
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 16.3657
+K11: 3000
+setting K, HermiteApprox_Lamnda
+solved: 0.022098
+K: 3000
+solve K total: 16.5284
+Build Time: 16.691
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 5.1e-06
+eigval(0): 0.0782681
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.35545
+Statu: 3
+Obj: 395.7391622 -> 290.8579464
+number of call: 191 t: 1.2230962 ave: 0.006403645026
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.3748983
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0486842
+eigval(0): 0.050226665
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.1538904
+Statu: 3
+Obj: 1254.064186 -> 324.3875491
+number of call: 287 t: 1.8671855 ave: 0.006505872822
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.1730828
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0852803
+eigval(0): 0.03455102526
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.8082575
+Statu: 3
+Obj: 2183.07585 -> 311.0361973
+number of call: 246 t: 1.5929637 ave: 0.006475462195
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.8269343
+
+setting K, HermiteApprox_Lamnda
+solved: 3.044957
+eigval(0): 0.02000868122
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.5138224
+Statu: 3
+Obj: 3982.992417 -> 269.0529878
+number of call: 212 t: 1.3514986 ave: 0.006374993396
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.5322494
+
+setting K, HermiteApprox_Lamnda
+solved: 3.1035624
+eigval(0): 0.00660021096
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 3.7143763
+Statu: 3
+Obj: 4546.632275 -> 453.7103727
+number of call: 459 t: 3.002103 ave: 0.006540529412
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 3.73338
+
+0: 395.73916 -> 290.85795
+0.001: 1254.0642 -> 324.38755
+0.01: 2183.0759 -> 311.0362
+0.1: 3982.9924 -> 269.05299
+1: 4546.6323 -> 453.71037
+min energy: 
+0.1: 3982.9924 -> 269.05299
+Init Time: 122.43986
+
+OptNormal
+nlopt time: 1.549353
+Statu: 3
+Obj: 3982.992417 -> 269.0529878
+number of call: 212 t: 1.380123 ave: 0.006510014151
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.5677526
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_framesfertility_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 39.2419516
+n_evacalls: 1012957   ave: 3.873999745e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_framesfertility_surface.ply

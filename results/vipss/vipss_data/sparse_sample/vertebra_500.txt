@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\vertebra_500.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\sparse_sample
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\vertebra_500.xyz
+number of points: 500
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 2.09057
+K11: 1500
+setting K, HermiteApprox_Lamnda
+solved: 0.0053391
+K: 1500
+solve K total: 2.13685
+Build Time: 2.20345
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 1.17e-05
+eigval(0): 0.103875
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.153073
+Statu: 3
+Obj: 384.3825008 -> 210.6121764
+number of call: 109 t: 0.1298085 ave: 0.00119090367
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.1578263
+
+setting K, HermiteApprox_Lamnda
+solved: 0.412375
+eigval(0): 0.09291460317
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.1506154
+Statu: 3
+Obj: 444.5627484 -> 210.6200066
+number of call: 110 t: 0.1311658 ave: 0.001192416364
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.155481
+
+setting K, HermiteApprox_Lamnda
+solved: 0.3866663
+eigval(0): 0.06836170894
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.2100976
+Statu: 3
+Obj: 909.4740627 -> 227.1671374
+number of call: 146 t: 0.175103 ave: 0.001199335616
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.2148518
+
+setting K, HermiteApprox_Lamnda
+solved: 0.3861908
+eigval(0): 0.02930260667
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.24479
+Statu: 3
+Obj: 1491.29481 -> 318.3201255
+number of call: 161 t: 0.197663 ave: 0.001227720497
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.2495481
+
+setting K, HermiteApprox_Lamnda
+solved: 0.3831787
+eigval(0): 0.00961606148
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.2778325
+Statu: 3
+Obj: 1907.962956 -> 310.1281994
+number of call: 182 t: 0.2217311 ave: 0.001218302747
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.2825771
+
+0: 384.3825 -> 210.61218
+0.001: 444.56275 -> 210.62001
+0.01: 909.47406 -> 227.16714
+0.1: 1491.2948 -> 318.32013
+1: 1907.963 -> 310.1282
+min energy: 
+0: 384.3825 -> 210.61218
+Init Time: 14.753936
+
+OptNormal
+nlopt time: 0.151749
+Statu: 3
+Obj: 384.3825008 -> 210.6121764
+number of call: 109 t: 0.128414 ave: 0.001178110092
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.1561371
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\sparse_samplevertebra_500_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 24.8247545
+n_evacalls: 1265442   ave: 1.961745738e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\sparse_samplevertebra_500_surface.ply

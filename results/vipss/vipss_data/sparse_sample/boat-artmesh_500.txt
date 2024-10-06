@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\boat-artmesh_500.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\sparse_sample
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\boat-artmesh_500.xyz
+number of points: 508
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 2.22143
+K11: 1524
+setting K, HermiteApprox_Lamnda
+solved: 0.0058606
+K: 1524
+solve K total: 2.26583
+Build Time: 2.31857
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 3.6e-06
+eigval(0): 0.118793
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.162863
+Statu: 3
+Obj: 385.3320521 -> 255.9905056
+number of call: 113 t: 0.138314 ave: 0.001224017699
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.1677641
+
+setting K, HermiteApprox_Lamnda
+solved: 0.4082288
+eigval(0): 0.07794310021
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.2159088
+Statu: 3
+Obj: 532.7017643 -> 252.4904266
+number of call: 146 t: 0.179249 ave: 0.001227732877
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.2207762
+
+setting K, HermiteApprox_Lamnda
+solved: 0.4257022
+eigval(0): 0.03978913868
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.1784428
+Statu: 3
+Obj: 797.7532583 -> 252.6877152
+number of call: 138 t: 0.1629904 ave: 0.001181089855
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.183382
+
+setting K, HermiteApprox_Lamnda
+solved: 0.4032194
+eigval(0): 0.01603203205
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.2463654
+Statu: 3
+Obj: 1327.607631 -> 254.7301494
+number of call: 143 t: 0.2059213 ave: 0.001440009091
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.2514744
+
+setting K, HermiteApprox_Lamnda
+solved: 0.4047127
+eigval(0): 0.006232811881
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.2666393
+Statu: 3
+Obj: 1624.657323 -> 252.5865752
+number of call: 159 t: 0.2118086 ave: 0.00133212956
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.2715111
+
+0: 385.33205 -> 255.99051
+0.001: 532.70176 -> 252.49043
+0.01: 797.75326 -> 252.68772
+0.1: 1327.6076 -> 254.73015
+1: 1624.6573 -> 252.58658
+min energy: 
+0.001: 532.70176 -> 252.49043
+Init Time: 15.47147
+
+OptNormal
+nlopt time: 0.2207865
+Statu: 3
+Obj: 532.7017643 -> 252.4904266
+number of call: 146 t: 0.1832687 ave: 0.001255265068
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.225474
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\sparse_sampleboat-artmesh_500_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 12.9697635
+n_evacalls: 653197   ave: 1.985582221e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\sparse_sampleboat-artmesh_500_surface.ply

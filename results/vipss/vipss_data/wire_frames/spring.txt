@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\spring.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_frames
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\spring.xyz
+number of points: 999
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 16.3161
+K11: 2997
+setting K, HermiteApprox_Lamnda
+solved: 0.02199
+K: 2997
+solve K total: 16.4796
+Build Time: 16.6305
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 1.04e-05
+eigval(0): 0.0501509
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.861931
+Statu: 3
+Obj: 93.51803053 -> 90.14725859
+number of call: 123 t: 0.8065669 ave: 0.006557454472
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.880827
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0507469
+eigval(0): 0.01932606121
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.9634306
+Statu: 3
+Obj: 144.4919241 -> 90.14736406
+number of call: 140 t: 0.8928749 ave: 0.006377677857
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.9819781
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0528459
+eigval(0): 0.0168895184
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.9089911
+Statu: 3
+Obj: 155.3669802 -> 90.14727279
+number of call: 131 t: 0.8499901 ave: 0.006488474046
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.9277134
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0638685
+eigval(0): 0.01567269028
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.9404987
+Statu: 3
+Obj: 241.6895383 -> 90.1473104
+number of call: 135 t: 0.8767983 ave: 0.006494802222
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.9591988
+
+setting K, HermiteApprox_Lamnda
+solved: 3.0785034
+eigval(0): 0.01196640741
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.464232
+Statu: 3
+Obj: 1673.822881 -> 90.14728531
+number of call: 203 t: 1.3138532 ave: 0.006472183251
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.4826538
+
+0: 93.518031 -> 90.147259
+0.001: 144.49192 -> 90.147364
+0.01: 155.36698 -> 90.147273
+0.1: 241.68954 -> 90.14731
+1: 1673.8229 -> 90.147285
+min energy: 
+0: 93.518031 -> 90.147259
+Init Time: 117.15704
+
+OptNormal
+nlopt time: 0.830646
+Statu: 3
+Obj: 93.51803053 -> 90.14725859
+number of call: 123 t: 0.7755705 ave: 0.00630545122
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.8491176
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_framesspring_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 64.2860452
+n_evacalls: 1661894   ave: 3.868239804e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\vipss_data\wire_framesspring_surface.ply
