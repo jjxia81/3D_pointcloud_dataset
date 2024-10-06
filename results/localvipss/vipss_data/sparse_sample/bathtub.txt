@@ -1,0 +1,31 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\
+in_filename : bathtub
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\/bathtub_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\bathtub.xyz
+read point size : 800 
+build triangulation and initilization : 0.010386 s ! 
+Normal initializtion with local vipss total time used : 0.029195 
+average cluster J ele num : 3793 
+--- build_H_time_total sum  time : 0.168356 
+start to call solver ! 
+opt solve time : 0.040599 ! 
+opt fun call count : 95 
+total local vipss running time : 0.258373 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\/bathtub_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.008253 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.112116 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 26.3053
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\bathtub.ply.ply
+------- tet search time 1.61693
+------- voxel pt ave nn num 17
+------- nn search time: 13.651833 
+------- cal nn coordinate and hrbf time: 11.612706 
+ ------ voxel dist func val evaluated count : 1304026  
+ ------ voxel dist func val evaluated time : 25.973759 
+------- total surface time: 26.429704 
+--------- v cell deallocated size 846 

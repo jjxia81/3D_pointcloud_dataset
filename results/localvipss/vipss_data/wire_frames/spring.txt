@@ -1,0 +1,31 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\
+in_filename : spring
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\/spring_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\spring.xyz
+read point size : 999 
+build triangulation and initilization : 0.020465 s ! 
+Normal initializtion with local vipss total time used : 0.060318 
+average cluster J ele num : 7861 
+--- build_H_time_total sum  time : 0.360638 
+start to call solver ! 
+opt solve time : 0.062380 ! 
+opt fun call count : 107 
+total local vipss running time : 0.531093 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\/spring_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.010741 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.240027 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 76.183
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\spring.ply.ply
+------- tet search time 2.50709
+------- voxel pt ave nn num 33
+------- nn search time: 37.846268 
+------- cal nn coordinate and hrbf time: 36.490499 
+ ------ voxel dist func val evaluated count : 1694516  
+ ------ voxel dist func val evaluated time : 75.697986 
+------- total surface time: 76.438653 
+--------- v cell deallocated size 1045 

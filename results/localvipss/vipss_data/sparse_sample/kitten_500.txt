@@ -1,0 +1,31 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\
+in_filename : kitten_500
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\/kitten_500_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\kitten_500.xyz
+read point size : 500 
+build triangulation and initilization : 0.006532 s ! 
+Normal initializtion with local vipss total time used : 0.025583 
+average cluster J ele num : 3857 
+--- build_H_time_total sum  time : 0.112012 
+start to call solver ! 
+opt solve time : 0.024529 ! 
+opt fun call count : 63 
+total local vipss running time : 0.175509 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\/kitten_500_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.005367 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.099283 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 19.9291
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\kitten_500.ply.ply
+------- tet search time 1.28506
+------- voxel pt ave nn num 12
+------- nn search time: 8.600360 
+------- cal nn coordinate and hrbf time: 10.463496 
+ ------ voxel dist func val evaluated count : 1132325  
+ ------ voxel dist func val evaluated time : 19.603706 
+------- total surface time: 20.036925 
+--------- v cell deallocated size 546 

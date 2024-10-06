@@ -1,0 +1,31 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\
+in_filename : hand_ok
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\/hand_ok_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\hand_ok.xyz
+read point size : 1110 
+build triangulation and initilization : 0.019388 s ! 
+Normal initializtion with local vipss total time used : 1.565134 
+average cluster J ele num : 6383 
+--- build_H_time_total sum  time : 0.380954 
+start to call solver ! 
+opt solve time : 0.131974 ! 
+opt fun call count : 158 
+total local vipss running time : 2.123881 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\/hand_ok_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.012345 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.201259 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 25.863169
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\hand_ok.ply.ply
+------- tet search time 1.181298
+------- voxel pt ave nn num 23
+------- nn search time: 13.336743 
+------- cal nn coordinate and hrbf time: 11.678916 
+ ------ voxel dist func val evaluated count : 863244  
+ ------ voxel dist func val evaluated time : 25.618317 
+------- total surface time: 26.082365 
+--------- v cell deallocated size 1156 

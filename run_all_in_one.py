@@ -136,6 +136,42 @@ def run_vipss(input_dir, output_dir):
             print("Execution was successful.")
         else:
             print(f"Execution failed with return code: {exit_code}")
+
+def run_localvipss(input_dir, output_dir):
+    workdir = r'C:\Users\jianjun.x\Documents\projects\VIPSS_LOCAL'
+    os.chdir(workdir)
+    executable = r'.\bin\LocalVipss.exe'
+    filenames = os.listdir(input_dir)
+    for file in filenames:
+        
+        input_file = os.path.join(input_dir, file) 
+        print('input file : ', input_file)
+        print(file)
+        filename = file.split('.')[0]
+        if filename != 'torus_wires': 
+            continue
+        output_file = os.path.join(output_dir, filename + '.ply') 
+        print('output file : ', output_file)
+        log_file = os.path.join(output_dir, filename + '.txt')
+        print('log file : ', log_file)
+        # Construct the command string
+        command = f'{executable} -input {input_file} -output {output_file} > {log_file}'
+        if filename == 'walrus' :
+            command = f'{executable} -input {input_file} -output {output_file} -lambda 0.002 > {log_file}'
+
+        if filename == 'hand_ok' or filename == 'torus_wires':
+            command = f'{executable} -input {input_file} -output {output_file} -initPV 0 > {log_file}'
+        
+        # print(command)
+        # Run the command
+        exit_code = os.system(command)
+
+        # Check the exit code
+        if exit_code == 0:
+            print("Execution was successful.")
+        else:
+            print(f"Execution failed with return code: {exit_code}")
+
             
 def run_PGR(input_dir, output_dir):
     workdir = r'/home/jianjun/Documents/projects/ParametricGaussRecon'
@@ -191,14 +227,14 @@ def run_WNNC(input_dir, output_dir):
 
 
 data_list = ['vipss_data']
-method_list = ['iprs', 'isoconstraints', 'gcno', 'local_vipss', 'vipss']
+method_list = ['iprs', 'isoconstraints', 'gcno', 'localvipss', 'vipss']
 
 data_folder = 'vipss_data'
-method = 'WNNC'
+method = 'localvipss'
 
-input_dir = r'/home/jianjun/Documents/projects/3D_pointcloud_dataset/contours' 
+input_dir = r'C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours' 
 input_dir = os.path.join(input_dir, data_folder)
-output_dir = r'/home/jianjun/Documents/projects/3D_pointcloud_dataset/results'
+output_dir = r'c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results'
 output_dir = os.path.join(output_dir, method)
 if not os.path.exists(output_dir) :
         os.mkdir(output_dir)
@@ -227,6 +263,8 @@ for folder in items:
         run_PGR(cur_in_dir, cur_out_dir)
     if method == "WNNC":
         run_WNNC(cur_in_dir, cur_out_dir)
+    if method == "localvipss":
+        run_localvipss(cur_in_dir, cur_out_dir)
 
 
 # run_isoconstraints(input_dir, output_dir)

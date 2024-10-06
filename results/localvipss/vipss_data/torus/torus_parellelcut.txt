@@ -1,0 +1,31 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\torus\
+in_filename : torus_parellelcut
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\torus\/torus_parellelcut_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\torus\torus_parellelcut.xyz
+read point size : 499 
+build triangulation and initilization : 0.011939 s ! 
+Normal initializtion with local vipss total time used : 0.041661 
+average cluster J ele num : 11255 
+--- build_H_time_total sum  time : 0.269901 
+start to call solver ! 
+opt solve time : 0.830079 ! 
+opt fun call count : 468 
+total local vipss running time : 1.180404 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\torus\/torus_parellelcut_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.008764 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.161142 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 70.9044
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\torus\torus_parellelcut.ply.ply
+------- tet search time 2.02207
+------- voxel pt ave nn num 44
+------- nn search time: 39.657955 
+------- cal nn coordinate and hrbf time: 29.709557 
+ ------ voxel dist func val evaluated count : 1311129  
+ ------ voxel dist func val evaluated time : 70.490348 
+------- total surface time: 71.078362 
+--------- v cell deallocated size 545 

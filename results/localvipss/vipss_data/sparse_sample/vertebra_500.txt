@@ -1,0 +1,31 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\
+in_filename : vertebra_500
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\/vertebra_500_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\vertebra_500.xyz
+read point size : 500 
+build triangulation and initilization : 0.008457 s ! 
+Normal initializtion with local vipss total time used : 0.019076 
+average cluster J ele num : 3999 
+--- build_H_time_total sum  time : 0.117493 
+start to call solver ! 
+opt solve time : 0.039210 ! 
+opt fun call count : 113 
+total local vipss running time : 0.192715 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\/vertebra_500_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.004821 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.088009 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 20.8536
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\vertebra_500.ply.ply
+------- tet search time 1.3949
+------- voxel pt ave nn num 12
+------- nn search time: 10.049765 
+------- cal nn coordinate and hrbf time: 9.806088 
+ ------ voxel dist func val evaluated count : 1275057  
+ ------ voxel dist func val evaluated time : 20.500750 
+------- total surface time: 20.949361 
+--------- v cell deallocated size 546 

@@ -1,0 +1,31 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\torus\
+in_filename : torus_wires
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\torus\/torus_wires_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\torus\torus_wires.xyz
+read point size : 991 
+build triangulation and initilization : 0.046317 s ! 
+Normal initializtion with local vipss total time used : 47.292700 
+average cluster J ele num : 46098 
+--- build_H_time_total sum  time : 106.070279 
+start to call solver ! 
+opt solve time : 0.430160 ! 
+opt fun call count : 322 
+total local vipss running time : 153.895945 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\torus\/torus_wires_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.030456 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.963206 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 268.12737
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\torus\torus_wires.ply.ply
+------- tet search time 3.5132739
+------- voxel pt ave nn num 99
+------- nn search time: 153.028982 
+------- cal nn coordinate and hrbf time: 113.410781 
+ ------ voxel dist func val evaluated count : 1252180  
+ ------ voxel dist func val evaluated time : 267.709852 
+------- total surface time: 269.131318 
+--------- v cell deallocated size 1037 

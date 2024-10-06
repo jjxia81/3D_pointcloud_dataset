@@ -1,0 +1,31 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\
+in_filename : phone_wire
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\/phone_wire_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\phone_wire.xyz
+read point size : 999 
+build triangulation and initilization : 0.017058 s ! 
+Normal initializtion with local vipss total time used : 0.054517 
+average cluster J ele num : 6854 
+--- build_H_time_total sum  time : 0.344477 
+start to call solver ! 
+opt solve time : 0.312652 ! 
+opt fun call count : 217 
+total local vipss running time : 0.752038 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\/phone_wire_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.011525 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.187239 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 15.9991
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\phone_wire.ply.ply
+------- tet search time 0.711837
+------- voxel pt ave nn num 27
+------- nn search time: 8.551639 
+------- cal nn coordinate and hrbf time: 6.968286 
+ ------ voxel dist func val evaluated count : 474982  
+ ------ voxel dist func val evaluated time : 15.866926 
+------- total surface time: 16.201105 
+--------- v cell deallocated size 1045 
