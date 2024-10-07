@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\flowsurf_beetle.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\flowsurf_beetle
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\flowsurf_beetle.xyz
+number of points: 817
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 9.2481
+K11: 2451
+setting K, HermiteApprox_Lamnda
+solved: 0.0148573
+K: 2451
+solve K total: 9.36442
+Build Time: 9.45819
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 3.5e-06
+eigval(0): 0.0665696
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.626047
+Statu: 3
+Obj: 870.666413 -> 414.692507
+number of call: 122 t: 0.5837053 ave: 0.004784469672
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.643321
+
+setting K, HermiteApprox_Lamnda
+solved: 1.7767328
+eigval(0): 0.01899783031
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.4652738
+Statu: 3
+Obj: 1695.136746 -> 172.259361
+number of call: 88 t: 0.4404737 ave: 0.005005382955
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.4839465
+
+setting K, HermiteApprox_Lamnda
+solved: 1.7516145
+eigval(0): 0.008649116635
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.4882954
+Statu: 3
+Obj: 2473.349794 -> 172.2593791
+number of call: 95 t: 0.458765 ave: 0.004829105263
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.5033635
+
+setting K, HermiteApprox_Lamnda
+solved: 1.7447703
+eigval(0): 0.004417259184
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.4429641
+Statu: 3
+Obj: 4409.566558 -> 172.2593761
+number of call: 90 t: 0.4187789 ave: 0.004653098889
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.4582123
+
+setting K, HermiteApprox_Lamnda
+solved: 1.7466711
+eigval(0): 0.002451374601
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.490081
+Statu: 3
+Obj: 6058.823339 -> 172.25937
+number of call: 95 t: 0.4629976 ave: 0.004873658947
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.5050551
+
+0: 870.66641 -> 414.69251
+0.001: 1695.1367 -> 172.25936
+0.01: 2473.3498 -> 172.25938
+0.1: 4409.5666 -> 172.25938
+1: 6058.8233 -> 172.25937
+min energy: 
+0.001: 1695.1367 -> 172.25936
+Init Time: 65.577457
+
+OptNormal
+nlopt time: 0.4258402
+Statu: 3
+Obj: 1695.136746 -> 172.259361
+number of call: 88 t: 0.4019638 ave: 0.004567770455
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.4393225
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\flowsurf_beetleflowsurf_beetle_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 59.0094016
+n_evacalls: 1829100   ave: 3.226144093e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\flowsurf_beetleflowsurf_beetle_surface.ply

@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\flowrep_ellipsetorus.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\flowrep_ellipsetorus
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\flowrep_ellipsetorus.xyz
+number of points: 1179
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 27.6784
+K11: 3537
+setting K, HermiteApprox_Lamnda
+solved: 0.0407042
+K: 3537
+solve K total: 27.9243
+Build Time: 28.1292
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 3.3e-06
+eigval(0): 0.0410525
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 3.03861
+Statu: 3
+Obj: 103.0960961 -> 97.73638441
+number of call: 263 t: 2.7341611 ave: 0.01039604981
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 3.0671394
+
+setting K, HermiteApprox_Lamnda
+solved: 5.1039359
+eigval(0): 0.0215195262
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.7765443
+Statu: 3
+Obj: 849.2356853 -> 97.73651647
+number of call: 246 t: 2.5282123 ave: 0.01027728577
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.8047672
+
+setting K, HermiteApprox_Lamnda
+solved: 5.1444952
+eigval(0): 0.01625412964
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.7284223
+Statu: 3
+Obj: 6086.959217 -> 254.3331974
+number of call: 152 t: 1.6229997 ave: 0.01067762961
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.758204
+
+setting K, HermiteApprox_Lamnda
+solved: 5.258851
+eigval(0): 0.007207189599
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.4427931
+Statu: 3
+Obj: 5303.580282 -> 97.7362955
+number of call: 214 t: 2.2401636 ave: 0.01046805421
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.4715836
+
+setting K, HermiteApprox_Lamnda
+solved: 5.3470886
+eigval(0): 0.002129630439
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.5595412
+Statu: 3
+Obj: 8548.699683 -> 97.73627602
+number of call: 221 t: 2.3378457 ave: 0.01057848733
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.5893687
+
+0: 103.0961 -> 97.736384
+0.001: 849.23569 -> 97.736516
+0.01: 6086.9592 -> 254.3332
+0.1: 5303.5803 -> 97.736295
+1: 8548.6997 -> 97.736276
+min energy: 
+1: 8548.6997 -> 97.736276
+Init Time: 205.86957
+
+OptNormal
+nlopt time: 2.5130119
+Statu: 3
+Obj: 8548.699683 -> 97.73627602
+number of call: 221 t: 2.2975218 ave: 0.01039602624
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.5419082
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\flowrep_ellipsetorusflowrep_ellipsetorus_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 52.0941542
+n_evacalls: 1103828   ave: 4.719408658e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\flowrep_ellipsetorusflowrep_ellipsetorus_surface.ply

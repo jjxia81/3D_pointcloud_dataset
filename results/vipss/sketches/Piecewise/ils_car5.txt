@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\ils_car5.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\ils_car5
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\ils_car5.xyz
+number of points: 1193
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 28.7674
+K11: 3579
+setting K, HermiteApprox_Lamnda
+solved: 0.0317075
+K: 3579
+solve K total: 29.0467
+Build Time: 29.2846
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 9.6e-06
+eigval(0): 0.0760262
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.2511
+Statu: 3
+Obj: 2020.056843 -> 967.1859441
+number of call: 111 t: 1.2060515 ave: 0.01086532883
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.289367
+
+setting K, HermiteApprox_Lamnda
+solved: 5.4209888
+eigval(0): 0.01898533202
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.8286058
+Statu: 3
+Obj: 3000.512779 -> 820.9098382
+number of call: 156 t: 1.7122175 ave: 0.01097575321
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.8581644
+
+setting K, HermiteApprox_Lamnda
+solved: 5.2587007
+eigval(0): 0.009724370885
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.7303797
+Statu: 3
+Obj: 3686.002014 -> 769.5114986
+number of call: 152 t: 1.6281761 ave: 0.01071168487
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.7606005
+
+setting K, HermiteApprox_Lamnda
+solved: 5.5252353
+eigval(0): 0.004320772265
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.6575493
+Statu: 3
+Obj: 5359.853904 -> 769.5115157
+number of call: 146 t: 1.5646159 ave: 0.01071654726
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.687319
+
+setting K, HermiteApprox_Lamnda
+solved: 5.4573509
+eigval(0): 0.001675271082
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.9766938
+Statu: 3
+Obj: 12498.55237 -> 769.5115164
+number of call: 172 t: 1.8457177 ave: 0.01073091686
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.0062052
+
+0: 2020.0568 -> 967.18594
+0.001: 3000.5128 -> 820.90984
+0.01: 3686.002 -> 769.5115
+0.1: 5359.8539 -> 769.51152
+1: 12498.552 -> 769.51152
+min energy: 
+0.01: 3686.002 -> 769.5115
+Init Time: 209.70837
+
+OptNormal
+nlopt time: 1.72813
+Statu: 3
+Obj: 3686.002014 -> 769.5114986
+number of call: 152 t: 1.6231554 ave: 0.01067865395
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.757439
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\ils_car5ils_car5_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 51.1221616
+n_evacalls: 1073981   ave: 4.760062012e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\ils_car5ils_car5_surface.ply

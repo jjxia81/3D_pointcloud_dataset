@@ -1,0 +1,46 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowrep_spherecylinder_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowrep_spherecylinder.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.996785
+Iter: 2
+normals variation 1.999934
+Iter: 3
+normals variation 1.994722
+Iter: 4
+normals variation 1.998548
+Iter: 5
+normals variation 1.952830
+Iter: 6
+normals variation 1.580953
+Iter: 7
+normals variation 1.730044
+Iter: 8
+normals variation 1.875917
+Iter: 9
+normals variation 1.207451
+Iter: 10
+normals variation 0.970329
+Iter: 11
+normals variation 1.984248
+Iter: 12
+normals variation 1.849965
+Iter: 13
+normals variation 1.969830
+Iter: 14
+normals variation 1.062597
+Iter: 15
+normals variation 0.203803
+Iter: 16
+normals variation 0.051866
+ normal estimate time : 25.8439
+poisson reconstruction time : 1.56014
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowrep_spherecylinder.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowrep_spherecylinder.ply_n.ply

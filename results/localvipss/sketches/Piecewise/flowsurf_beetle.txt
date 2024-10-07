@@ -1,0 +1,37 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\
+in_filename : flowsurf_beetle
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\/flowsurf_beetle_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\flowsurf_beetle.xyz
+read point size : 1737 
+build triangulation and initilization : 0.046752 s ! 
+finish init adj mat and core pt ids time : 0.001412 ! 
+finish init cluster normals time : 0.069456 ! 
+finish init cluster neigh scores time : 0.002533 ! 
+finish calculate cluster scores time : 0.000006 ! 
+normal MST_time time used : 0.024630 
+normal flip time used : 0.001611 
+Normal initializtion with local vipss total time used : 0.101043 
+average cluster J ele num : 11378 
+--- build_H_time_total sum  time : 0.823051 
+start to call solver ! 
+opt solve time : 0.135165 ! 
+opt fun call count : 86 
+total local vipss running time : 1.145178 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\/flowsurf_beetle_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.027731 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.439651 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 122.767
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\flowsurf_beetle.ply.ply
+------- tet search time 2.75809
+------- voxel pt ave nn num 63
+------- nn search time: 70.429822 
+------- cal nn coordinate and hrbf time: 50.251331 
+ ------ voxel dist func val evaluated count : 1777921  
+ ------ voxel dist func val evaluated time : 122.264955 
+------- total surface time: 123.245340 
+--------- v cell deallocated size 1783 

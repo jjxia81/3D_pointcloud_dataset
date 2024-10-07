@@ -1,0 +1,74 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\ils_car5_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\ils_car5.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.998605
+Iter: 2
+normals variation 1.999604
+Iter: 3
+normals variation 1.993691
+Iter: 4
+normals variation 1.993495
+Iter: 5
+normals variation 1.990761
+Iter: 6
+normals variation 1.988278
+Iter: 7
+normals variation 1.987754
+Iter: 8
+normals variation 1.974535
+Iter: 9
+normals variation 1.921048
+Iter: 10
+normals variation 1.873533
+Iter: 11
+normals variation 1.961154
+Iter: 12
+normals variation 1.756619
+Iter: 13
+normals variation 1.599216
+Iter: 14
+normals variation 1.882749
+Iter: 15
+normals variation 1.363740
+Iter: 16
+normals variation 1.600513
+Iter: 17
+normals variation 1.883368
+Iter: 18
+normals variation 1.665988
+Iter: 19
+normals variation 1.618427
+Iter: 20
+normals variation 1.533374
+Iter: 21
+normals variation 1.309738
+Iter: 22
+normals variation 0.929392
+Iter: 23
+normals variation 1.519846
+Iter: 24
+normals variation 0.874870
+Iter: 25
+normals variation 0.952842
+Iter: 26
+normals variation 0.964921
+Iter: 27
+normals variation 0.620971
+Iter: 28
+normals variation 0.547918
+Iter: 29
+normals variation 0.803245
+Iter: 30
+normals variation 0.530627
+ normal estimate time : 61.5624
+poisson reconstruction time : 1.89349
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\ils_car5.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\ils_car5.ply_n.ply

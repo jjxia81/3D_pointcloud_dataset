@@ -38,7 +38,8 @@ def run_isoconstraints(input_dir, output_dir):
 # ./jet/normals_estimation.exe input_xyz output_xyz neighbour_size 
     filenames = os.listdir(input_dir)
     for file in filenames:
-        
+        if file != 'author1_car.xyz' : 
+            continue
         input_file = os.path.join(input_dir, file) 
         print('input data file : ', input_file)
         estimate_n_file = os.path.join(output_dir, file) 
@@ -69,7 +70,9 @@ def run_iPSR(input_dir, output_dir):
     # ./jet/normals_estimation.exe input_xyz output_xyz neighbour_size 
     filenames = os.listdir(input_dir)
     for file in filenames:
-        
+        # print(file)
+        if file != 'author1_car.xyz' : 
+            continue
         input_file = os.path.join(input_dir, file) 
         filename = file.split('.')[0]
         plyfile = os.path.join(output_dir, filename + '_pt.ply')
@@ -144,22 +147,27 @@ def run_localvipss(input_dir, output_dir):
     filenames = os.listdir(input_dir)
     for file in filenames:
         
+        if file != 'author1_car.xyz' : 
+            continue
         input_file = os.path.join(input_dir, file) 
         print('input file : ', input_file)
         print(file)
         filename = file.split('.')[0]
-        if filename != 'torus_wires': 
-            continue
+        # if filename != 'flowrep_spherecylinder':
+        #     continue
+        
         output_file = os.path.join(output_dir, filename + '.ply') 
         print('output file : ', output_file)
         log_file = os.path.join(output_dir, filename + '.txt')
         print('log file : ', log_file)
         # Construct the command string
         command = f'{executable} -input {input_file} -output {output_file} > {log_file}'
-        if filename == 'walrus' :
-            command = f'{executable} -input {input_file} -output {output_file} -lambda 0.002 > {log_file}'
+        if filename == 'cassie_vacuum'   :
+            command = f'{executable} -input {input_file} -output {output_file} -lambda 0.001 > {log_file}'
+        if  filename == 'author1_car'  :
+            command = f'{executable} -input {input_file} -output {output_file} -lambda 0.001  > {log_file}'
 
-        if filename == 'hand_ok' or filename == 'torus_wires':
+        if filename == 'ils_car2.ply' or filename == 'torus_wires':
             command = f'{executable} -input {input_file} -output {output_file} -initPV 0 > {log_file}'
         
         # print(command)
@@ -227,10 +235,10 @@ def run_WNNC(input_dir, output_dir):
 
 
 data_list = ['vipss_data']
-method_list = ['iprs', 'isoconstraints', 'gcno', 'localvipss', 'vipss']
+method_list = ['ipsr', 'isoconstraints', 'gcno', 'localvipss', 'vipss']
 
-data_folder = 'vipss_data'
-method = 'localvipss'
+data_folder = 'sketches'
+method = 'isoconstraints'
 
 input_dir = r'C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours' 
 input_dir = os.path.join(input_dir, data_folder)

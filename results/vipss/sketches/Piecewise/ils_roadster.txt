@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\ils_roadster.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\ils_roadster
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\ils_roadster.xyz
+number of points: 945
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 14.2387
+K11: 2835
+setting K, HermiteApprox_Lamnda
+solved: 0.0199885
+K: 2835
+solve K total: 14.4005
+Build Time: 14.5228
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 4e-06
+eigval(0): 0.0701039
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 3.29528
+Statu: 3
+Obj: 1239.779327 -> 396.31376
+number of call: 413 t: 2.7479164 ave: 0.006653550605
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 3.3141523
+
+setting K, HermiteApprox_Lamnda
+solved: 2.6935504
+eigval(0): 0.03217701148
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 4.1385602
+Statu: 3
+Obj: 1595.962908 -> 253.0820641
+number of call: 493 t: 3.3205834 ave: 0.006735463286
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 4.1570978
+
+setting K, HermiteApprox_Lamnda
+solved: 2.778349
+eigval(0): 0.01456467062
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 4.8034313
+Statu: 3
+Obj: 2187.630294 -> 253.002753
+number of call: 571 t: 3.8213381 ave: 0.006692360946
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 4.8221583
+
+setting K, HermiteApprox_Lamnda
+solved: 2.6929769
+eigval(0): 0.006023481206
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 4.1554366
+Statu: 3
+Obj: 4165.816061 -> 253.1928906
+number of call: 542 t: 3.596681 ave: 0.006635942804
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 4.1741084
+
+setting K, HermiteApprox_Lamnda
+solved: 2.7021979
+eigval(0): 0.002077788165
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 3.1935533
+Statu: 3
+Obj: 12036.08098 -> 333.4701277
+number of call: 385 t: 2.632385 ave: 0.006837363636
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 3.213122
+
+0: 1239.7793 -> 396.31376
+0.001: 1595.9629 -> 253.08206
+0.01: 2187.6303 -> 253.00275
+0.1: 4165.8161 -> 253.19289
+1: 12036.081 -> 333.47013
+min energy: 
+0.01: 2187.6303 -> 253.00275
+Init Time: 119.19814
+
+OptNormal
+nlopt time: 4.8169214
+Statu: 3
+Obj: 2187.630294 -> 253.002753
+number of call: 571 t: 3.8275975 ave: 0.006703323117
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 4.8357351
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\ils_roadsterils_roadster_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 31.9283961
+n_evacalls: 856822   ave: 3.726374451e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\ils_roadsterils_roadster_surface.ply

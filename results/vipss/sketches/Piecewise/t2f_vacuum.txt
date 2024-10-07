@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\t2f_vacuum.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\t2f_vacuum
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\t2f_vacuum.xyz
+number of points: 1713
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 84.8642
+K11: 5139
+setting K, HermiteApprox_Lamnda
+solved: 0.0670307
+K: 5139
+solve K total: 85.3894
+Build Time: 85.85
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 1.27e-05
+eigval(0): 0.0450964
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 9.63618
+Statu: 3
+Obj: 2125.350574 -> 1137.861841
+number of call: 380 t: 8.6138669 ave: 0.02266807079
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 9.6971231
+
+setting K, HermiteApprox_Lamnda
+solved: 15.5559641
+eigval(0): 0.02777578802
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 18.2366969
+Statu: 3
+Obj: 65065.08249 -> 1496.417539
+number of call: 666 t: 15.2652157 ave: 0.02292074429
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 18.2972417
+
+setting K, HermiteApprox_Lamnda
+solved: 15.8906444
+eigval(0): 0.01144335274
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 24.2777431
+Statu: 3
+Obj: 107595.2709 -> 1934.184867
+number of call: 896 t: 20.1057169 ave: 0.02243941618
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 24.3394772
+
+setting K, HermiteApprox_Lamnda
+solved: 15.9994381
+eigval(0): 0.004646316413
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 24.7482117
+Statu: 3
+Obj: 120138.5859 -> 2186.181967
+number of call: 900 t: 20.4267006 ave: 0.022696334
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 24.8085716
+
+setting K, HermiteApprox_Lamnda
+solved: 15.8168538
+eigval(0): 0.001938086933
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 28.2396104
+Statu: 3
+Obj: 145315.3791 -> 3044.761084
+number of call: 1022 t: 23.2082669 ave: 0.02270867603
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 28.3002921
+
+0: 2125.3506 -> 1137.8618
+0.001: 65065.082 -> 1496.4175
+0.01: 107595.27 -> 1934.1849
+0.1: 120138.59 -> 2186.182
+1: 145315.38 -> 3044.7611
+min energy: 
+0: 2125.3506 -> 1137.8618
+Init Time: 690.26534
+
+OptNormal
+nlopt time: 9.5640661
+Statu: 3
+Obj: 2125.350574 -> 1137.861841
+number of call: 380 t: 8.5593111 ave: 0.02252450289
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 9.6260731
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\t2f_vacuumt2f_vacuum_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 59.5720418
+n_evacalls: 872062   ave: 6.831170467e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\t2f_vacuumt2f_vacuum_surface.ply

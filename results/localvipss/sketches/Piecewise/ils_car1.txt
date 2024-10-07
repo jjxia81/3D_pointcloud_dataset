@@ -1,0 +1,37 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\
+in_filename : ils_car1
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\/ils_car1_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\ils_car1.xyz
+read point size : 2639 
+build triangulation and initilization : 0.082913 s ! 
+finish init adj mat and core pt ids time : 0.002433 ! 
+finish init cluster normals time : 0.156174 ! 
+finish init cluster neigh scores time : 0.004372 ! 
+finish calculate cluster scores time : 0.000009 ! 
+normal MST_time time used : 0.047207 
+normal flip time used : 0.002880 
+Normal initializtion with local vipss total time used : 0.215602 
+average cluster J ele num : 20192 
+--- build_H_time_total sum  time : 19.990956 
+start to call solver ! 
+opt solve time : 0.566226 ! 
+opt fun call count : 157 
+total local vipss running time : 20.917550 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\/ils_car1_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.050996 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 1.091894 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 116.866
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\ils_car1.ply.ply
+------- tet search time 1.99923
+------- voxel pt ave nn num 111
+------- nn search time: 66.207021 
+------- cal nn coordinate and hrbf time: 49.635042 
+ ------ voxel dist func val evaluated count : 789046  
+ ------ voxel dist func val evaluated time : 116.631336 
+------- total surface time: 118.021670 
+--------- v cell deallocated size 2685 

@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\onshape_bishop.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\onshape_bishop
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\onshape_bishop.xyz
+number of points: 1244
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 32.0194
+K11: 3732
+setting K, HermiteApprox_Lamnda
+solved: 0.034153
+K: 3732
+solve K total: 32.3008
+Build Time: 32.5101
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 4.3e-06
+eigval(0): 0.0236036
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.47274
+Statu: 3
+Obj: 2242.88365 -> 879.573735
+number of call: 120 t: 1.4119368 ave: 0.01176614
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.5047427
+
+setting K, HermiteApprox_Lamnda
+solved: 6.0516996
+eigval(0): 0.0178399041
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.5941095
+Statu: 3
+Obj: 13520.75838 -> 1269.257811
+number of call: 206 t: 2.4156613 ave: 0.01172651117
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.6268604
+
+setting K, HermiteApprox_Lamnda
+solved: 6.1022117
+eigval(0): 0.01214665921
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.4538464
+Statu: 3
+Obj: 14386.53034 -> 879.573411
+number of call: 119 t: 1.3900906 ave: 0.01168143361
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.4861456
+
+setting K, HermiteApprox_Lamnda
+solved: 6.0914493
+eigval(0): 0.005703945689
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.4185169
+Statu: 3
+Obj: 17472.83615 -> 879.5728124
+number of call: 116 t: 1.359693 ave: 0.01172149138
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.4508931
+
+setting K, HermiteApprox_Lamnda
+solved: 6.0983286
+eigval(0): 0.003076342503
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.4451831
+Statu: 3
+Obj: 18697.25552 -> 879.5731524
+number of call: 118 t: 1.3837698 ave: 0.01172686271
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.477505
+
+0: 2242.8836 -> 879.57374
+0.001: 13520.758 -> 1269.2578
+0.01: 14386.53 -> 879.57341
+0.1: 17472.836 -> 879.57281
+1: 18697.256 -> 879.57315
+min energy: 
+0.1: 17472.836 -> 879.57281
+Init Time: 234.25175
+
+OptNormal
+nlopt time: 1.3949976
+Statu: 3
+Obj: 17472.83615 -> 879.5728124
+number of call: 116 t: 1.3332674 ave: 0.01149368448
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.4264144
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\onshape_bishoponshape_bishop_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 44.716608
+n_evacalls: 895786   ave: 4.991885115e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\onshape_bishoponshape_bishop_surface.ply

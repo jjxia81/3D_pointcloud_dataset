@@ -1,0 +1,37 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\
+in_filename : onshape_bishop
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\/onshape_bishop_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\onshape_bishop.xyz
+read point size : 3646 
+build triangulation and initilization : 0.082401 s ! 
+finish init adj mat and core pt ids time : 0.002547 ! 
+finish init cluster normals time : 0.110514 ! 
+finish init cluster neigh scores time : 0.003818 ! 
+finish calculate cluster scores time : 0.000012 ! 
+normal MST_time time used : 0.043166 
+normal flip time used : 0.003656 
+Normal initializtion with local vipss total time used : 0.166913 
+average cluster J ele num : 8997 
+--- build_H_time_total sum  time : 6.002770 
+start to call solver ! 
+opt solve time : 0.464581 ! 
+opt fun call count : 189 
+total local vipss running time : 6.776392 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\/onshape_bishop_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.051623 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.780480 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 145.205
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\onshape_bishop.ply.ply
+------- tet search time 2.38494
+------- voxel pt ave nn num 119
+------- nn search time: 89.291545 
+------- cal nn coordinate and hrbf time: 54.466025 
+ ------ voxel dist func val evaluated count : 1109842  
+ ------ voxel dist func val evaluated time : 144.860436 
+------- total surface time: 146.045321 
+--------- v cell deallocated size 3692 

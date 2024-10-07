@@ -1,0 +1,30 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowrep_bottle_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowrep_bottle.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.999859
+Iter: 2
+normals variation 1.985720
+Iter: 3
+normals variation 1.894402
+Iter: 4
+normals variation 1.459372
+Iter: 5
+normals variation 1.445579
+Iter: 6
+normals variation 0.542295
+Iter: 7
+normals variation 0.196447
+Iter: 8
+normals variation 0.070831
+ normal estimate time : 14.7211
+poisson reconstruction time : 1.73513
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowrep_bottle.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowrep_bottle.ply_n.ply

@@ -1,0 +1,37 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\
+in_filename : flowrep_bottle
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\/flowrep_bottle_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\flowrep_bottle.xyz
+read point size : 3462 
+build triangulation and initilization : 0.091943 s ! 
+finish init adj mat and core pt ids time : 0.002820 ! 
+finish init cluster normals time : 0.140994 ! 
+finish init cluster neigh scores time : 0.006118 ! 
+finish calculate cluster scores time : 0.000012 ! 
+normal MST_time time used : 0.043778 
+normal flip time used : 0.005585 
+Normal initializtion with local vipss total time used : 0.202913 
+average cluster J ele num : 12007 
+--- build_H_time_total sum  time : 1.720273 
+start to call solver ! 
+opt solve time : 2.472135 ! 
+opt fun call count : 346 
+total local vipss running time : 4.566625 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\/flowrep_bottle_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.047335 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.871669 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 27.109
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\flowrep_bottle.ply.ply
+------- tet search time 0.868206
+------- voxel pt ave nn num 44
+------- nn search time: 15.176249 
+------- cal nn coordinate and hrbf time: 11.406319 
+ ------ voxel dist func val evaluated count : 507569  
+ ------ voxel dist func val evaluated time : 26.972006 
+------- total surface time: 28.034969 
+--------- v cell deallocated size 3508 

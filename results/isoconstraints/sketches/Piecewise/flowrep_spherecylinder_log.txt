@@ -1,0 +1,1 @@
+Unoriented normals are required for the coarse point cloud, ./jet/normal_estimation.exe can estimate the unoriented normals.

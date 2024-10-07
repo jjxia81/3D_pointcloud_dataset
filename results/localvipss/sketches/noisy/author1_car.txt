@@ -1,0 +1,37 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\noisy\
+in_filename : author1_car
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\noisy\/author1_car_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\noisy\author1_car.xyz
+read point size : 1165 
+build triangulation and initilization : 0.025894 s ! 
+finish init adj mat and core pt ids time : 0.000887 ! 
+finish init cluster normals time : 0.048046 ! 
+finish init cluster neigh scores time : 0.001363 ! 
+finish calculate cluster scores time : 0.000005 ! 
+normal MST_time time used : 0.013043 
+normal flip time used : 0.001137 
+Normal initializtion with local vipss total time used : 0.065599 
+average cluster J ele num : 7049 
+--- build_H_time_total sum  time : 0.430492 
+start to call solver ! 
+opt solve time : 23.021730 ! 
+opt fun call count : 2001 
+total local vipss running time : 23.547363 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\noisy\/author1_car_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.014684 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.216152 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 80.6219
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\noisy\author1_car.ply.ply
+------- tet search time 2.4596
+------- voxel pt ave nn num 40
+------- nn search time: 45.140522 
+------- cal nn coordinate and hrbf time: 33.364165 
+ ------ voxel dist func val evaluated count : 1918615  
+ ------ voxel dist func val evaluated time : 80.077709 
+------- total surface time: 80.859598 
+--------- v cell deallocated size 1211 

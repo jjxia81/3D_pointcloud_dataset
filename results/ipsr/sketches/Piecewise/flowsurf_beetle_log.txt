@@ -1,0 +1,74 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowsurf_beetle_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowsurf_beetle.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.996826
+Iter: 2
+normals variation 1.999063
+Iter: 3
+normals variation 1.991389
+Iter: 4
+normals variation 1.986228
+Iter: 5
+normals variation 1.983515
+Iter: 6
+normals variation 1.939816
+Iter: 7
+normals variation 1.995926
+Iter: 8
+normals variation 1.988345
+Iter: 9
+normals variation 1.993121
+Iter: 10
+normals variation 1.988961
+Iter: 11
+normals variation 1.952065
+Iter: 12
+normals variation 1.941406
+Iter: 13
+normals variation 1.995072
+Iter: 14
+normals variation 1.937753
+Iter: 15
+normals variation 1.726017
+Iter: 16
+normals variation 1.373965
+Iter: 17
+normals variation 0.867928
+Iter: 18
+normals variation 0.531985
+Iter: 19
+normals variation 0.442199
+Iter: 20
+normals variation 0.252583
+Iter: 21
+normals variation 0.282233
+Iter: 22
+normals variation 0.277711
+Iter: 23
+normals variation 0.453026
+Iter: 24
+normals variation 0.441061
+Iter: 25
+normals variation 0.444565
+Iter: 26
+normals variation 0.443979
+Iter: 27
+normals variation 0.444100
+Iter: 28
+normals variation 0.444016
+Iter: 29
+normals variation 0.444136
+Iter: 30
+normals variation 0.444089
+ normal estimate time : 51.893
+poisson reconstruction time : 1.655
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowsurf_beetle.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowsurf_beetle.ply_n.ply

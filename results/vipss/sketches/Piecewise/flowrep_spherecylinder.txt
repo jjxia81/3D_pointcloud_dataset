@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\flowrep_spherecylinder.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\flowrep_spherecylinder
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\flowrep_spherecylinder.xyz
+number of points: 718
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 6.2432
+K11: 2154
+setting K, HermiteApprox_Lamnda
+solved: 0.0318193
+K: 2154
+solve K total: 6.35728
+Build Time: 6.42583
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 6.1e-06
+eigval(0): 0.0661528
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.611963
+Statu: 3
+Obj: 438.5645567 -> 249.924439
+number of call: 157 t: 0.54399 ave: 0.003464904459
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.6229219
+
+setting K, HermiteApprox_Lamnda
+solved: 1.1881317
+eigval(0): 0.007314569885
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.5759439
+Statu: 3
+Obj: 2587.24025 -> 249.9237709
+number of call: 151 t: 0.514733 ave: 0.003408827815
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.5866508
+
+setting K, HermiteApprox_Lamnda
+solved: 1.1965947
+eigval(0): 0.006266033105
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.413024
+Statu: 3
+Obj: 2552.118712 -> 249.9240958
+number of call: 111 t: 0.3797008 ave: 0.003420727928
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.4332097
+
+setting K, HermiteApprox_Lamnda
+solved: 1.226883
+eigval(0): 0.004921243248
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.4621475
+Statu: 3
+Obj: 5098.696936 -> 249.9235902
+number of call: 120 t: 0.4218978 ave: 0.003515815
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.4730352
+
+setting K, HermiteApprox_Lamnda
+solved: 1.1862381
+eigval(0): 0.00376771645
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.5214993
+Statu: 3
+Obj: 5695.761022 -> 249.9238576
+number of call: 138 t: 0.4712503 ave: 0.003414857246
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.5322547
+
+0: 438.56456 -> 249.92444
+0.001: 2587.2403 -> 249.92377
+0.01: 2552.1187 -> 249.9241
+0.1: 5098.6969 -> 249.92359
+1: 5695.761 -> 249.92386
+min energy: 
+0.1: 5098.6969 -> 249.92359
+Init Time: 45.47736
+
+OptNormal
+nlopt time: 0.450656
+Statu: 3
+Obj: 5098.696936 -> 249.9235902
+number of call: 120 t: 0.4097256 ave: 0.00341438
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.4615742
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\flowrep_spherecylinderflowrep_spherecylinder_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 29.6447304
+n_evacalls: 1027579   ave: 2.884910104e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\flowrep_spherecylinderflowrep_spherecylinder_surface.ply

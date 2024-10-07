@@ -1,0 +1,26 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowrep_ellipsetorus_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowrep_ellipsetorus.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.998447
+Iter: 2
+normals variation 1.989471
+Iter: 3
+normals variation 1.969153
+Iter: 4
+normals variation 0.866747
+Iter: 5
+normals variation 0.179758
+Iter: 6
+normals variation 0.072041
+ normal estimate time : 10.0568
+poisson reconstruction time : 1.67472
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowrep_ellipsetorus.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\Piecewise\flowrep_ellipsetorus.ply_n.ply

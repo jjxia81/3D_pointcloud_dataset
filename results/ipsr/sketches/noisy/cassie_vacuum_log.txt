@@ -1,0 +1,24 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\noisy\cassie_vacuum_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\noisy\cassie_vacuum.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.999841
+Iter: 2
+normals variation 1.980194
+Iter: 3
+normals variation 1.707692
+Iter: 4
+normals variation 0.700298
+Iter: 5
+normals variation 0.131731
+ normal estimate time : 8.13986
+poisson reconstruction time : 1.60773
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\noisy\cassie_vacuum.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sketches\noisy\cassie_vacuum.ply_n.ply
