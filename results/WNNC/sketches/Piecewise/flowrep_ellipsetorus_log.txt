@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 6
+[LOG] time (build tree): 0.012074
+[DEBUG] samplePoints.size(): 589
+[DEBUG] N_sample_pts: 589
+[DEBUG] wn_pts_input.size(): 1767
+[DEBUG] num_points: 589
+num_nodes: 1030, num_leaves: 589, tree depth: 8
+tree_depth*num_points: 4712, stdvec_node2point_index.size(): 3734
+[DEBUG] N_grid: 10953
+[DEBUG] Isovalue: -0.00709879
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 8296
+[DEBUG] triangles got: -0.00709879
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/sketches/Piecewise/flowrep_ellipsetorus.ply

@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 6
+[LOG] time (build tree): 0.0106039
+[DEBUG] samplePoints.size(): 582
+[DEBUG] N_sample_pts: 582
+[DEBUG] wn_pts_input.size(): 1746
+[DEBUG] num_points: 582
+num_nodes: 1047, num_leaves: 582, tree depth: 7
+tree_depth*num_points: 4074, stdvec_node2point_index.size(): 4015
+[DEBUG] N_grid: 11180
+[DEBUG] Isovalue: 4.44933e-05
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 8107
+[DEBUG] triangles got: 4.44933e-05
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/sketches/noisy/author1_car.ply

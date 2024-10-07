@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 8
+[LOG] time (build tree): 0.015408
+[DEBUG] samplePoints.size(): 856
+[DEBUG] N_sample_pts: 856
+[DEBUG] wn_pts_input.size(): 2568
+[DEBUG] num_points: 856
+num_nodes: 1583, num_leaves: 856, tree depth: 10
+tree_depth*num_points: 8560, stdvec_node2point_index.size(): 6498
+[DEBUG] N_grid: 20839
+[DEBUG] Isovalue: -0.00311048
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 14596
+[DEBUG] triangles got: -0.00311048
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/sketches/Piecewise/t2f_vacuum.ply

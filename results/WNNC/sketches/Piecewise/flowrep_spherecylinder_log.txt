@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 6
+[LOG] time (build tree): 0.00661111
+[DEBUG] samplePoints.size(): 359
+[DEBUG] N_sample_pts: 359
+[DEBUG] wn_pts_input.size(): 1077
+[DEBUG] num_points: 359
+num_nodes: 665, num_leaves: 359, tree depth: 8
+tree_depth*num_points: 2872, stdvec_node2point_index.size(): 2319
+[DEBUG] N_grid: 6952
+[DEBUG] Isovalue: -0.00359894
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 4782
+[DEBUG] triangles got: -0.00359894
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/sketches/Piecewise/flowrep_spherecylinder.ply

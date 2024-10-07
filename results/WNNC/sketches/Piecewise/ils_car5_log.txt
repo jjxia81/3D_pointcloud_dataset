@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 8
+[LOG] time (build tree): 0.024843
+[DEBUG] samplePoints.size(): 1628
+[DEBUG] N_sample_pts: 1628
+[DEBUG] wn_pts_input.size(): 4884
+[DEBUG] num_points: 1628
+num_nodes: 3077, num_leaves: 1628, tree depth: 9
+tree_depth*num_points: 14652, stdvec_node2point_index.size(): 13221
+[DEBUG] N_grid: 34833
+[DEBUG] Isovalue: 0.000147626
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 24886
+[DEBUG] triangles got: 0.000147626
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/sketches/Piecewise/ils_car5.ply
