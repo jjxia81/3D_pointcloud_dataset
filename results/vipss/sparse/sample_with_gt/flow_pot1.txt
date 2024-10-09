@@ -1,0 +1,12 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\flow_pot1.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\flow_pot1
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\flow_pot1.xyz
+number of points: 5433
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula

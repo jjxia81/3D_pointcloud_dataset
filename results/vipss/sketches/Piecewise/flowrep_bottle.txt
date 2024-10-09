@@ -5,107 +5,107 @@ user lambda: 0
 is surfacing: 1
 number of voxel per D: 100
 Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\flowrep_bottle.xyz
-number of points: 1414
+number of points: 3462
 normals: 0
 Set_HermiteRBF
 setting K
 using new formula
-bigMinv: 47.6156
-K11: 4242
+bigMinv: 673.309
+K11: 10386
 setting K, HermiteApprox_Lamnda
-solved: 0.0456274
-K: 4242
-solve K total: 47.9716
-Build Time: 48.2872
+solved: 0.270265
+K: 10386
+solve K total: 675.456
+Build Time: 677.564
 
 Init Method: 
 setting K, HermiteApprox_Lamnda
 solved: 3.1e-06
-eigval(0): 0.0674517
+eigval(0): 0.0325059
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 3.79949
+nlopt time: 42.441
 Statu: 3
-Obj: 2676.95309 -> 1468.612091
-number of call: 230 t: 3.5262097 ave: 0.01533134652
+Obj: 12167.93275 -> 6347.346158
+number of call: 469 t: 40.324767 ave: 0.08598031343
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 3.8411376
+Opt Time: 42.7895983
 
 setting K, HermiteApprox_Lamnda
-solved: 9.0587221
-eigval(0): 0.02782318059
+solved: 127.5735349
+eigval(0): 0.01504067023
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 3.613045
+nlopt time: 19.1060299
 Statu: 3
-Obj: 5983.850617 -> 1159.812906
-number of call: 217 t: 3.3486676 ave: 0.01543164793
+Obj: 19245.69928 -> 3262.381758
+number of call: 215 t: 18.8229196 ave: 0.08754846326
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 3.6551341
+Opt Time: 19.4788739
 
 setting K, HermiteApprox_Lamnda
-solved: 9.0792962
-eigval(0): 0.01333832218
+solved: 128.6410348
+eigval(0): 0.007467523358
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 2.1868037
+nlopt time: 28.8868504
 Statu: 3
-Obj: 10919.66329 -> 1560.796123
-number of call: 138 t: 2.0928761 ave: 0.01516576884
+Obj: 35769.21504 -> 4560.29822
+number of call: 319 t: 27.6093712 ave: 0.08654975298
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 2.2282124
+Opt Time: 29.137253
 
 setting K, HermiteApprox_Lamnda
-solved: 9.0334486
-eigval(0): 0.006531675139
+solved: 128.0487369
+eigval(0): 0.003480422972
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 3.6208461
+nlopt time: 28.7175408
 Statu: 3
-Obj: 15072.80065 -> 1417.502359
-number of call: 223 t: 3.3855923 ave: 0.01518202825
+Obj: 56996.40178 -> 4786.669321
+number of call: 319 t: 27.4521402 ave: 0.08605686583
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 3.6619757
+Opt Time: 28.9563486
 
 setting K, HermiteApprox_Lamnda
-solved: 9.1104661
-eigval(0): 0.002916781454
+solved: 127.521356
+eigval(0): 0.00181479131
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 4.2201406
+nlopt time: 35.9492989
 Statu: 3
-Obj: 32231.49665 -> 3000.507606
-number of call: 262 t: 4.0314641 ave: 0.01538726756
+Obj: 86821.86826 -> 3290.292081
+number of call: 396 t: 34.1954095 ave: 0.08635204419
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 4.2616948
+Opt Time: 36.1834334
 
-0: 2676.9531 -> 1468.6121
-0.001: 5983.8506 -> 1159.8129
-0.01: 10919.663 -> 1560.7961
-0.1: 15072.801 -> 1417.5024
-1: 32231.497 -> 3000.5076
+0: 12167.933 -> 6347.3462
+0.001: 19245.699 -> 3262.3818
+0.01: 35769.215 -> 4560.2982
+0.1: 56996.402 -> 4786.6693
+1: 86821.868 -> 3290.2921
 min energy: 
-0.001: 5983.8506 -> 1159.8129
-Init Time: 354.36266
+0.001: 19245.699 -> 3262.3818
+Init Time: 5023.2579
 
 OptNormal
-nlopt time: 3.5520391
+nlopt time: 18.719732
 Statu: 3
-Obj: 5983.850617 -> 1159.812906
-number of call: 217 t: 3.3019614 ave: 0.01521641198
+Obj: 19245.69928 -> 3262.381758
+number of call: 215 t: 18.4139211 ave: 0.08564614465
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 3.5938956
+Opt Time: 18.9514215
 
 maxlen_r: 1
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\flowrep_bottleflowrep_bottle_normal.ply
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 30.0053176
-n_evacalls: 527014   ave: 5.693457403e-05
+Total Surfacing time: 67.3059686
+n_evacalls: 506614   ave: 0.0001328545374
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\flowrep_bottleflowrep_bottle_surface.ply

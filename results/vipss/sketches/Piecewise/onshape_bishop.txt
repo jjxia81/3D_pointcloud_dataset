@@ -5,107 +5,107 @@ user lambda: 0
 is surfacing: 1
 number of voxel per D: 100
 Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\onshape_bishop.xyz
-number of points: 1244
+number of points: 3646
 normals: 0
 Set_HermiteRBF
 setting K
 using new formula
-bigMinv: 32.0194
-K11: 3732
+bigMinv: 781.27
+K11: 10938
 setting K, HermiteApprox_Lamnda
-solved: 0.034153
-K: 3732
-solve K total: 32.3008
-Build Time: 32.5101
+solved: 0.304001
+K: 10938
+solve K total: 783.781
+Build Time: 786.1
 
 Init Method: 
 setting K, HermiteApprox_Lamnda
-solved: 4.3e-06
-eigval(0): 0.0236036
+solved: 3.4e-06
+eigval(0): 0.0449191
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 1.47274
+nlopt time: 36.2945
 Statu: 3
-Obj: 2242.88365 -> 879.573735
-number of call: 120 t: 1.4119368 ave: 0.01176614
+Obj: 5703.63485 -> 3133.433508
+number of call: 362 t: 34.7047293 ave: 0.09586941796
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 1.5047427
+Opt Time: 36.5632884
 
 setting K, HermiteApprox_Lamnda
-solved: 6.0516996
-eigval(0): 0.0178399041
+solved: 149.2096324
+eigval(0): 0.006265644841
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 2.5941095
+nlopt time: 34.7482393
 Statu: 3
-Obj: 13520.75838 -> 1269.257811
-number of call: 206 t: 2.4156613 ave: 0.01172651117
+Obj: 43580.2681 -> 2729.940208
+number of call: 349 t: 33.2396801 ave: 0.09524263639
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 2.6268604
+Opt Time: 35.0151531
 
 setting K, HermiteApprox_Lamnda
-solved: 6.1022117
-eigval(0): 0.01214665921
+solved: 149.1241761
+eigval(0): 0.004755971997
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 1.4538464
+nlopt time: 35.549473
 Statu: 3
-Obj: 14386.53034 -> 879.573411
-number of call: 119 t: 1.3900906 ave: 0.01168143361
+Obj: 41801.79582 -> 2517.676627
+number of call: 354 t: 33.9921861 ave: 0.09602312458
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 1.4861456
+Opt Time: 35.8282831
 
 setting K, HermiteApprox_Lamnda
-solved: 6.0914493
-eigval(0): 0.005703945689
+solved: 148.966928
+eigval(0): 0.002807918936
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 1.4185169
+nlopt time: 37.5651759
 Statu: 3
-Obj: 17472.83615 -> 879.5728124
-number of call: 116 t: 1.359693 ave: 0.01172149138
+Obj: 57953.75098 -> 1696.454974
+number of call: 377 t: 35.8862903 ave: 0.09518909894
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 1.4508931
+Opt Time: 37.8282362
 
 setting K, HermiteApprox_Lamnda
-solved: 6.0983286
-eigval(0): 0.003076342503
+solved: 148.736279
+eigval(0): 0.001283000894
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 1.4451831
+nlopt time: 41.5472551
 Statu: 3
-Obj: 18697.25552 -> 879.5731524
-number of call: 118 t: 1.3837698 ave: 0.01172686271
+Obj: 65159.07376 -> 1696.453889
+number of call: 415 t: 39.605776 ave: 0.09543560482
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 1.477505
+Opt Time: 41.819389
 
-0: 2242.8836 -> 879.57374
-0.001: 13520.758 -> 1269.2578
-0.01: 14386.53 -> 879.57341
-0.1: 17472.836 -> 879.57281
-1: 18697.256 -> 879.57315
+0: 5703.6348 -> 3133.4335
+0.001: 43580.268 -> 2729.9402
+0.01: 41801.796 -> 2517.6766
+0.1: 57953.751 -> 1696.455
+1: 65159.074 -> 1696.4539
 min energy: 
-0.1: 17472.836 -> 879.57281
-Init Time: 234.25175
+1: 65159.074 -> 1696.4539
+Init Time: 5802.924
 
 OptNormal
-nlopt time: 1.3949976
+nlopt time: 41.640759
 Statu: 3
-Obj: 17472.83615 -> 879.5728124
-number of call: 116 t: 1.3332674 ave: 0.01149368448
+Obj: 65159.07376 -> 1696.453889
+number of call: 415 t: 39.6903363 ave: 0.09563936458
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 1.4264144
+Opt Time: 41.9035285
 
 maxlen_r: 1
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\onshape_bishoponshape_bishop_normal.ply
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 44.716608
-n_evacalls: 895786   ave: 4.991885115e-05
+Total Surfacing time: 116.9109237
+n_evacalls: 833358   ave: 0.0001402889559
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\onshape_bishoponshape_bishop_surface.ply

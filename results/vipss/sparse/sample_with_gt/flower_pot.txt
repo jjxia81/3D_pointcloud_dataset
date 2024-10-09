@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\flower_pot.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\flower_pot
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\flower_pot.xyz
+number of points: 6230
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 4005.55
+K11: 18690
+setting K, HermiteApprox_Lamnda
+solved: 0.884543
+K: 18690
+solve K total: 4012.12
+Build Time: 4019.13
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 3.4e-06
+eigval(0): 0.00102968
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 21.9522
+Statu: 3
+Obj: 17.34695729 -> 16.05205218
+number of call: 79 t: 22.0509311 ave: 0.2791257101
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 23.0671653
+
+setting K, HermiteApprox_Lamnda
+solved: 749.0133614
+eigval(0): 0.001029678905
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 21.6801763
+Statu: 3
+Obj: 17.34667605 -> 16.05205115
+number of call: 81 t: 21.800367 ave: 0.2691403333
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 22.4354622
+
+setting K, HermiteApprox_Lamnda
+solved: 746.6055381
+eigval(0): 0.001029637028
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 21.3081679
+Statu: 3
+Obj: 17.34415845 -> 16.05205177
+number of call: 79 t: 21.4065658 ave: 0.2709691873
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 22.0500658
+
+setting K, HermiteApprox_Lamnda
+solved: 746.184669
+eigval(0): 0.001029222695
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 21.8215599
+Statu: 3
+Obj: 17.32027017 -> 16.05204857
+number of call: 81 t: 21.922614 ave: 0.2706495556
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 22.5759048
+
+setting K, HermiteApprox_Lamnda
+solved: 750.1127502
+eigval(0): 0.001025457479
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 20.4031697
+Statu: 3
+Obj: 17.17190079 -> 16.05206281
+number of call: 72 t: 20.7078286 ave: 0.2876087306
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 21.7389109
+
+0: 17.346957 -> 16.052052
+0.001: 17.346676 -> 16.052051
+0.01: 17.344158 -> 16.052052
+0.1: 17.32027 -> 16.052049
+1: 17.171901 -> 16.052063
+min energy: 
+0.1: 17.32027 -> 16.052049
+Init Time: 28877.122
+
+OptNormal
+nlopt time: 22.873382
+Statu: 3
+Obj: 17.32027017 -> 16.05204857
+number of call: 81 t: 22.9443362 ave: 0.2832634099
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 23.6350208
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\flower_potflower_pot_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 708.4781155
+n_evacalls: 2814310   ave: 0.0002517413204
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\flower_potflower_pot_surface.ply

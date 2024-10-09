@@ -1,0 +1,43 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\
+in_filename : dragon_100000
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/dragon_100000_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\dragon_100000.xyz
+read point size : 100000 
+start to init mesh 
+pt num : 100000 
+point_id_map_ size : 100000 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 100000, cols : 100000 
+build triangulation and initilization : 3.381560 s ! 
+finish init adj mat and core pt ids time : 0.075483 ! 
+finish init cluster normals time : 1.325600 ! 
+finish init cluster neigh scores time : 0.192379 ! 
+finish calculate cluster scores time : 0.000009 ! 
+normal MST_time time used : 1.012104 
+normal flip time used : 0.106976 
+Normal initializtion with local vipss total time used : 2.744681 
+average cluster J ele num : 5380 
+--- build_H_time_total sum  time : 39.769622 
+start to call solver ! 
+opt solve time : 46.350755 ! 
+opt fun call count : 604 
+total local vipss running time : 93.284830 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/dragon_100000_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.986627 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 17.073842 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 53.8979
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\dragon_100000.ply
+------- tet search time 2.16545
+------- voxel pt ave nn num 32
+------- nn search time: 30.154801 
+------- cal nn coordinate and hrbf time: 22.647734 
+ ------ voxel dist func val evaluated count : 1098668  
+ ------ voxel dist func val evaluated time : 53.551344 
+------- total surface time: 72.266848 
+--------- v cell deallocated size 100046 

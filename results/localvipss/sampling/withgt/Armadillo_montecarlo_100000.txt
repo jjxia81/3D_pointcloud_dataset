@@ -1,0 +1,43 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\
+in_filename : Armadillo_montecarlo_100000
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/Armadillo_montecarlo_100000_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\Armadillo_montecarlo_100000.xyz
+read point size : 100000 
+start to init mesh 
+pt num : 100000 
+point_id_map_ size : 100000 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 100000, cols : 100000 
+build triangulation and initilization : 3.458173 s ! 
+finish init adj mat and core pt ids time : 0.079243 ! 
+finish init cluster normals time : 1.216994 ! 
+finish init cluster neigh scores time : 0.193589 ! 
+finish calculate cluster scores time : 0.000010 ! 
+normal MST_time time used : 0.988642 
+normal flip time used : 0.110802 
+Normal initializtion with local vipss total time used : 2.622197 
+average cluster J ele num : 5166 
+--- build_H_time_total sum  time : 28.620960 
+start to call solver ! 
+opt solve time : 45.474079 ! 
+opt fun call count : 604 
+total local vipss running time : 81.237557 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/Armadillo_montecarlo_100000_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.962854 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 15.614026 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 48.6873
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\Armadillo_montecarlo_100000.ply
+------- tet search time 2.11877
+------- voxel pt ave nn num 30
+------- nn search time: 27.433326 
+------- cal nn coordinate and hrbf time: 20.239522 
+ ------ voxel dist func val evaluated count : 1048300  
+ ------ voxel dist func val evaluated time : 48.371344 
+------- total surface time: 65.562363 
+--------- v cell deallocated size 100046 

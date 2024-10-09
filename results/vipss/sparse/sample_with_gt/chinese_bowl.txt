@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\chinese_bowl.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\chinese_bowl
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\chinese_bowl.xyz
+number of points: 4434
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 1434.87
+K11: 13302
+setting K, HermiteApprox_Lamnda
+solved: 0.444553
+K: 13302
+solve K total: 1438.14
+Build Time: 1441.76
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 3.4e-06
+eigval(0): 0.000787543
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 10.3281
+Statu: 3
+Obj: 10.41123696 -> 9.71764625
+number of call: 75 t: 10.3690399 ave: 0.1382538653
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 10.7205736
+
+setting K, HermiteApprox_Lamnda
+solved: 271.2950413
+eigval(0): 0.0007875369386
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 9.8707657
+Statu: 3
+Obj: 10.41124887 -> 9.71764866
+number of call: 71 t: 9.9673481 ave: 0.1403851845
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 10.4668497
+
+setting K, HermiteApprox_Lamnda
+solved: 277.2328518
+eigval(0): 0.0007874814339
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 10.4669112
+Statu: 3
+Obj: 10.41135655 -> 9.71764714
+number of call: 74 t: 10.5675311 ave: 0.1428044743
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 11.0583345
+
+setting K, HermiteApprox_Lamnda
+solved: 281.3475266
+eigval(0): 0.0007869331557
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 10.4583343
+Statu: 3
+Obj: 10.41248031 -> 9.717646942
+number of call: 76 t: 10.570011 ave: 0.1390790921
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 11.0467951
+
+setting K, HermiteApprox_Lamnda
+solved: 272.4948051
+eigval(0): 0.0007820394152
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 10.0458573
+Statu: 3
+Obj: 10.42759265 -> 9.717646186
+number of call: 74 t: 10.0801864 ave: 0.1362187351
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 10.4272977
+
+0: 10.411237 -> 9.7176462
+0.001: 10.411249 -> 9.7176487
+0.01: 10.411357 -> 9.7176471
+0.1: 10.41248 -> 9.7176469
+1: 10.427593 -> 9.7176462
+min energy: 
+1: 10.427593 -> 9.7176462
+Init Time: 10621.162
+
+OptNormal
+nlopt time: 10.214316
+Statu: 3
+Obj: 10.42759265 -> 9.717646186
+number of call: 74 t: 10.2403556 ave: 0.1383831838
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 10.6000061
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\chinese_bowlchinese_bowl_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 352.5604099
+n_evacalls: 2063046   ave: 0.0001708931405
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\chinese_bowlchinese_bowl_surface.ply

@@ -1,0 +1,43 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\
+in_filename : buddha
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/buddha_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\buddha.xyz
+read point size : 55593 
+start to init mesh 
+pt num : 55593 
+point_id_map_ size : 55593 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 55593, cols : 55593 
+build triangulation and initilization : 1.502079 s ! 
+finish init adj mat and core pt ids time : 0.039017 ! 
+finish init cluster normals time : 0.802256 ! 
+finish init cluster neigh scores time : 0.100099 ! 
+finish calculate cluster scores time : 0.000016 ! 
+normal MST_time time used : 0.468114 
+normal flip time used : 0.050889 
+Normal initializtion with local vipss total time used : 1.477948 
+average cluster J ele num : 4796 
+--- build_H_time_total sum  time : 27.429724 
+start to call solver ! 
+opt solve time : 23.702953 ! 
+opt fun call count : 602 
+total local vipss running time : 54.756373 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/buddha_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.507484 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 6.626161 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 63.4242
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\buddha.ply
+------- tet search time 2.50717
+------- voxel pt ave nn num 26
+------- nn search time: 31.907630 
+------- cal nn coordinate and hrbf time: 30.188372 
+ ------ voxel dist func val evaluated count : 1492865  
+ ------ voxel dist func val evaluated time : 62.979120 
+------- total surface time: 70.682852 
+--------- v cell deallocated size 55639 

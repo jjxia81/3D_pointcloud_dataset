@@ -1,0 +1,74 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\brain_sample_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\brain_sample.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.999253
+Iter: 2
+normals variation 1.988671
+Iter: 3
+normals variation 1.969126
+Iter: 4
+normals variation 1.945011
+Iter: 5
+normals variation 1.941361
+Iter: 6
+normals variation 1.912580
+Iter: 7
+normals variation 1.901190
+Iter: 8
+normals variation 1.867188
+Iter: 9
+normals variation 1.861359
+Iter: 10
+normals variation 1.823740
+Iter: 11
+normals variation 1.804359
+Iter: 12
+normals variation 1.785364
+Iter: 13
+normals variation 1.728728
+Iter: 14
+normals variation 1.711882
+Iter: 15
+normals variation 1.701271
+Iter: 16
+normals variation 1.657320
+Iter: 17
+normals variation 1.548648
+Iter: 18
+normals variation 1.566986
+Iter: 19
+normals variation 1.470746
+Iter: 20
+normals variation 1.444866
+Iter: 21
+normals variation 1.490919
+Iter: 22
+normals variation 1.380998
+Iter: 23
+normals variation 1.377371
+Iter: 24
+normals variation 1.286205
+Iter: 25
+normals variation 1.326997
+Iter: 26
+normals variation 1.312700
+Iter: 27
+normals variation 1.337052
+Iter: 28
+normals variation 1.247383
+Iter: 29
+normals variation 1.194594
+Iter: 30
+normals variation 1.271152
+ normal estimate time : 270.847
+poisson reconstruction time : 8.89723
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\brain_sample.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\brain_sample.ply_n.ply

@@ -1,0 +1,45 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\
+in_filename : 11_horse
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/11_horse_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\11_horse.xyz
+read point size : 100000 
+start to init mesh 
+Warning:  Point #15972 is coincident with #46777. Ignored!
+Warning:  Point #11604 is coincident with #99998. Ignored!
+pt num : 99998 
+point_id_map_ size : 99998 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 99998, cols : 99998 
+build triangulation and initilization : 3.361118 s ! 
+finish init adj mat and core pt ids time : 0.073837 ! 
+finish init cluster normals time : 1.235970 ! 
+finish init cluster neigh scores time : 0.192603 ! 
+finish calculate cluster scores time : 0.000008 ! 
+normal MST_time time used : 0.995564 
+normal flip time used : 0.113453 
+Normal initializtion with local vipss total time used : 2.643900 
+average cluster J ele num : 5190 
+--- build_H_time_total sum  time : 33.985382 
+start to call solver ! 
+opt solve time : 40.449452 ! 
+opt fun call count : 537 
+total local vipss running time : 81.525773 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/11_horse_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.945460 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 15.525752 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 41.9566
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\11_horse.ply
+------- tet search time 1.36673
+------- voxel pt ave nn num 38
+------- nn search time: 23.497449 
+------- cal nn coordinate and hrbf time: 17.719073 
+ ------ voxel dist func val evaluated count : 704536  
+ ------ voxel dist func val evaluated time : 41.747524 
+------- total surface time: 58.715898 
+--------- v cell deallocated size 100044 

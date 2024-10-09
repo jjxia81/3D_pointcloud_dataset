@@ -1,0 +1,24 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\Armadillo_montecarlo_100000_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\Armadillo_montecarlo_100000.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.999257
+Iter: 2
+normals variation 1.990762
+Iter: 3
+normals variation 1.900394
+Iter: 4
+normals variation 0.683466
+Iter: 5
+normals variation 0.088728
+ normal estimate time : 40.7369
+poisson reconstruction time : 7.56532
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\Armadillo_montecarlo_100000.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\Armadillo_montecarlo_100000.ply_n.ply

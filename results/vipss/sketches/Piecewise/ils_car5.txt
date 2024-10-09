@@ -5,107 +5,107 @@ user lambda: 0
 is surfacing: 1
 number of voxel per D: 100
 Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\ils_car5.xyz
-number of points: 1193
+number of points: 3257
 normals: 0
 Set_HermiteRBF
 setting K
 using new formula
-bigMinv: 28.7674
-K11: 3579
+bigMinv: 558.286
+K11: 9771
 setting K, HermiteApprox_Lamnda
-solved: 0.0317075
-K: 3579
-solve K total: 29.0467
-Build Time: 29.2846
+solved: 0.23344
+K: 9771
+solve K total: 560.204
+Build Time: 562.067
 
 Init Method: 
 setting K, HermiteApprox_Lamnda
-solved: 9.6e-06
-eigval(0): 0.0760262
+solved: 1.12e-05
+eigval(0): 0.0599821
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 1.2511
+nlopt time: 29.6901
 Statu: 3
-Obj: 2020.056843 -> 967.1859441
-number of call: 111 t: 1.2060515 ave: 0.01086532883
+Obj: 7210.566986 -> 3321.648719
+number of call: 369 t: 28.135415 ave: 0.07624773713
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 1.289367
+Opt Time: 29.9083344
 
 setting K, HermiteApprox_Lamnda
-solved: 5.4209888
-eigval(0): 0.01898533202
+solved: 106.4564823
+eigval(0): 0.009347983258
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 1.8286058
+nlopt time: 28.8078948
 Statu: 3
-Obj: 3000.512779 -> 820.9098382
-number of call: 156 t: 1.7122175 ave: 0.01097575321
+Obj: 20517.97509 -> 3343.407487
+number of call: 356 t: 27.2909836 ave: 0.07666006629
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 1.8581644
+Opt Time: 29.0198005
 
 setting K, HermiteApprox_Lamnda
-solved: 5.2587007
-eigval(0): 0.009724370885
+solved: 106.3290476
+eigval(0): 0.004928062035
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 1.7303797
+nlopt time: 30.244311
 Statu: 3
-Obj: 3686.002014 -> 769.5114986
-number of call: 152 t: 1.6281761 ave: 0.01071168487
+Obj: 18367.6329 -> 3457.191703
+number of call: 375 t: 28.636167 ave: 0.076363112
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 1.7606005
+Opt Time: 30.4564033
 
 setting K, HermiteApprox_Lamnda
-solved: 5.5252353
-eigval(0): 0.004320772265
+solved: 106.1114206
+eigval(0): 0.002230228389
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 1.6575493
+nlopt time: 30.1059032
 Statu: 3
-Obj: 5359.853904 -> 769.5115157
-number of call: 146 t: 1.5646159 ave: 0.01071654726
+Obj: 28217.9765 -> 3517.317949
+number of call: 372 t: 28.5072825 ave: 0.07663247984
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 1.687319
+Opt Time: 30.3175543
 
 setting K, HermiteApprox_Lamnda
-solved: 5.4573509
-eigval(0): 0.001675271082
+solved: 106.4536945
+eigval(0): 0.0009266940283
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 1.9766938
+nlopt time: 31.2009232
 Statu: 3
-Obj: 12498.55237 -> 769.5115164
-number of call: 172 t: 1.8457177 ave: 0.01073091686
+Obj: 56686.95443 -> 3270.130267
+number of call: 385 t: 29.5225562 ave: 0.07668196416
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 2.0062052
+Opt Time: 31.4154172
 
-0: 2020.0568 -> 967.18594
-0.001: 3000.5128 -> 820.90984
-0.01: 3686.002 -> 769.5115
-0.1: 5359.8539 -> 769.51152
-1: 12498.552 -> 769.51152
+0: 7210.567 -> 3321.6487
+0.001: 20517.975 -> 3343.4075
+0.01: 18367.633 -> 3457.1917
+0.1: 28217.977 -> 3517.3179
+1: 56686.954 -> 3270.1303
 min energy: 
-0.01: 3686.002 -> 769.5115
-Init Time: 209.70837
+1: 56686.954 -> 3270.1303
+Init Time: 4173.1521
 
 OptNormal
-nlopt time: 1.72813
+nlopt time: 31.07393
 Statu: 3
-Obj: 3686.002014 -> 769.5114986
-number of call: 152 t: 1.6231554 ave: 0.01067865395
+Obj: 56686.95443 -> 3270.130267
+number of call: 385 t: 29.3958084 ave: 0.07635274909
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 1.757439
+Opt Time: 31.2805368
 
 maxlen_r: 1
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\ils_car5ils_car5_normal.ply
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 51.1221616
-n_evacalls: 1073981   ave: 4.760062012e-05
+Total Surfacing time: 261.2118649
+n_evacalls: 2080105   ave: 0.0001255762882
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\ils_car5ils_car5_surface.ply

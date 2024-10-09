@@ -1,0 +1,51 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\
+in_filename : gargoyle
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/gargoyle_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\gargoyle.xyz
+read point size : 53036 
+start to init mesh 
+Warning:  Point #4925 is coincident with #2181. Ignored!
+Warning:  Point #50773 is coincident with #17367. Ignored!
+Warning:  Point #40879 is coincident with #26361. Ignored!
+Warning:  Point #29529 is coincident with #47973. Ignored!
+Warning:  Point #26711 is coincident with #41759. Ignored!
+Warning:  Point #33883 is coincident with #21683. Ignored!
+Warning:  Point #32697 is coincident with #51855. Ignored!
+Warning:  Point #43361 is coincident with #52285. Ignored!
+pt num : 53028 
+point_id_map_ size : 53028 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 53028, cols : 53028 
+build triangulation and initilization : 1.491803 s ! 
+finish init adj mat and core pt ids time : 0.034896 ! 
+finish init cluster normals time : 96.316187 ! 
+finish init cluster neigh scores time : 0.083029 ! 
+finish calculate cluster scores time : 0.000017 ! 
+normal MST_time time used : 0.406008 
+normal flip time used : 0.049178 
+Normal initializtion with local vipss total time used : 96.906591 
+average cluster J ele num : 7888 
+--- build_H_time_total sum  time : 383.349757 
+start to call solver ! 
+opt solve time : 135.150746 ! 
+opt fun call count : 2001 
+total local vipss running time : 618.264706 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/gargoyle_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.409319 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 13.843321 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 87.7684
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\gargoyle.ply
+------- tet search time 0.0344794
+------- voxel pt ave nn num 15027
+------- nn search time: 63.355041 
+------- cal nn coordinate and hrbf time: 23.868152 
+ ------ voxel dist func val evaluated count : 2019  
+ ------ voxel dist func val evaluated time : 87.764036 
+------- total surface time: 102.141297 
+--------- v cell deallocated size 53074 

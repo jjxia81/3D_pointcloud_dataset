@@ -10,79 +10,79 @@ normals: 0
 Set_HermiteRBF
 setting K
 using new formula
-bigMinv: 84.8642
+bigMinv: 88.2251
 K11: 5139
 setting K, HermiteApprox_Lamnda
-solved: 0.0670307
+solved: 0.0661602
 K: 5139
-solve K total: 85.3894
-Build Time: 85.85
+solve K total: 88.7245
+Build Time: 89.1531
 
 Init Method: 
 setting K, HermiteApprox_Lamnda
-solved: 1.27e-05
+solved: 1.19e-05
 eigval(0): 0.0450964
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 9.63618
+nlopt time: 9.39798
 Statu: 3
 Obj: 2125.350574 -> 1137.861841
-number of call: 380 t: 8.6138669 ave: 0.02266807079
+number of call: 380 t: 8.3669695 ave: 0.02201834079
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 9.6971231
+Opt Time: 9.4561979
 
 setting K, HermiteApprox_Lamnda
-solved: 15.5559641
+solved: 16.2609928
 eigval(0): 0.02777578802
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 18.2366969
+nlopt time: 17.9218856
 Statu: 3
 Obj: 65065.08249 -> 1496.417539
-number of call: 666 t: 15.2652157 ave: 0.02292074429
+number of call: 666 t: 14.7779401 ave: 0.02218909925
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 18.2972417
+Opt Time: 17.979011
 
 setting K, HermiteApprox_Lamnda
-solved: 15.8906444
+solved: 16.1415793
 eigval(0): 0.01144335274
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 24.2777431
+nlopt time: 24.6341866
 Statu: 3
 Obj: 107595.2709 -> 1934.184867
-number of call: 896 t: 20.1057169 ave: 0.02243941618
+number of call: 896 t: 19.9722944 ave: 0.02229050714
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 24.3394772
+Opt Time: 24.7030462
 
 setting K, HermiteApprox_Lamnda
-solved: 15.9994381
+solved: 17.051437
 eigval(0): 0.004646316413
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 24.7482117
+nlopt time: 24.7055404
 Statu: 3
 Obj: 120138.5859 -> 2186.181967
-number of call: 900 t: 20.4267006 ave: 0.022696334
+number of call: 900 t: 20.2011104 ave: 0.02244567822
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 24.8085716
+Opt Time: 24.7632693
 
 setting K, HermiteApprox_Lamnda
-solved: 15.8168538
+solved: 16.8100478
 eigval(0): 0.001938086933
 Solve_Hermite_PredictNormal_UnitNorm finish
 OptNormal
-nlopt time: 28.2396104
+nlopt time: 28.0515041
 Statu: 3
 Obj: 145315.3791 -> 3044.761084
-number of call: 1022 t: 23.2082669 ave: 0.02270867603
+number of call: 1022 t: 22.7001559 ave: 0.02221150284
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 28.3002921
+Opt Time: 28.1082709
 
 0: 2125.3506 -> 1137.8618
 0.001: 65065.082 -> 1496.4175
@@ -91,21 +91,21 @@ Opt Time: 28.3002921
 1: 145315.38 -> 3044.7611
 min energy: 
 0: 2125.3506 -> 1137.8618
-Init Time: 690.26534
+Init Time: 709.05661
 
 OptNormal
-nlopt time: 9.5640661
+nlopt time: 9.0078243
 Statu: 3
 Obj: 2125.350574 -> 1137.861841
-number of call: 380 t: 8.5593111 ave: 0.02252450289
+number of call: 380 t: 8.0392836 ave: 0.02115600947
 Set_RBFCoef
 Opt_Hermite_PredictNormal_UnitNormal
-Opt Time: 9.6260731
+Opt Time: 9.0640617
 
 maxlen_r: 1
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\t2f_vacuumt2f_vacuum_normal.ply
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 59.5720418
-n_evacalls: 872062   ave: 6.831170467e-05
+Total Surfacing time: 57.8266147
+n_evacalls: 872062   ave: 6.63102104e-05
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\Piecewise\t2f_vacuumt2f_vacuum_surface.ply

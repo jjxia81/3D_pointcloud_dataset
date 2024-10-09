@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\noisy\cassie_vacuum.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\noisy\cassie_vacuum
+user lambda: 0.001
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\noisy\cassie_vacuum.xyz
+number of points: 615
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 3.81102
+K11: 1845
+setting K, HermiteApprox_Lamnda
+solved: 0.768058
+K: 1845
+solve K total: 4.64712
+Build Time: 4.71402
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 1.29e-05
+eigval(0): 0.107843
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.947762
+Statu: 3
+Obj: 221.4427117 -> 107.568254
+number of call: 312 t: 0.7303816 ave: 0.002340966667
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.9566821
+
+setting K, HermiteApprox_Lamnda
+solved: 0.7127537
+eigval(0): 0.08224908326
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 0.9178753
+Statu: 3
+Obj: 222.6642711 -> 107.5680029
+number of call: 306 t: 0.7042579 ave: 0.002301496405
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.92677
+
+setting K, HermiteApprox_Lamnda
+solved: 0.718666
+eigval(0): 0.04098942151
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.2982832
+Statu: 3
+Obj: 355.8430725 -> 118.2286978
+number of call: 405 t: 0.9345475 ave: 0.002307524691
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.3072066
+
+setting K, HermiteApprox_Lamnda
+solved: 0.7151328
+eigval(0): 0.01257432487
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.0748295
+Statu: 3
+Obj: 961.2954616 -> 260.8996445
+number of call: 346 t: 0.8038393 ave: 0.002323234971
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.0837794
+
+setting K, HermiteApprox_Lamnda
+solved: 0.7133467
+eigval(0): 0.003027871451
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.5467451
+Statu: 3
+Obj: 1599.882776 -> 289.1648265
+number of call: 670 t: 1.5680832 ave: 0.002340422687
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.5557441
+
+0: 221.44271 -> 107.56825
+0.001: 222.66427 -> 107.568
+0.01: 355.84307 -> 118.2287
+0.1: 961.29546 -> 260.89964
+1: 1599.8828 -> 289.16483
+min energy: 
+0.001: 222.66427 -> 107.568
+Init Time: 31.582917
+
+OptNormal
+nlopt time: 0.9047438
+Statu: 3
+Obj: 222.6642711 -> 107.5680029
+number of call: 306 t: 0.6965437 ave: 0.002276286601
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.9131927
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\noisy\cassie_vacuumcassie_vacuum_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 15.0034352
+n_evacalls: 627623   ave: 2.39051711e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sketches\noisy\cassie_vacuumcassie_vacuum_surface.ply
