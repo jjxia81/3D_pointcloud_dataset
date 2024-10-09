@@ -1,0 +1,43 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\
+in_filename : rabbit
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\/rabbit_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\rabbit.xyz
+read point size : 1627 
+start to init mesh 
+pt num : 1627 
+point_id_map_ size : 1627 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 1627, cols : 1627 
+build triangulation and initilization : 0.025570 s ! 
+finish init adj mat and core pt ids time : 0.003871 ! 
+finish init cluster normals time : 0.037990 ! 
+finish init cluster neigh scores time : 0.001629 ! 
+finish calculate cluster scores time : 0.000008 ! 
+normal MST_time time used : 0.010594 
+normal flip time used : 0.001142 
+Normal initializtion with local vipss total time used : 0.056353 
+average cluster J ele num : 4350 
+--- build_H_time_total sum  time : 0.341599 
+start to call solver ! 
+opt solve time : 0.097433 ! 
+opt fun call count : 104 
+total local vipss running time : 0.534373 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\/rabbit_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.014859 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.189589 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 24.2943
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\rabbit.ply
+------- tet search time 1.50532
+------- voxel pt ave nn num 13
+------- nn search time: 12.070668 
+------- cal nn coordinate and hrbf time: 11.258092 
+ ------ voxel dist func val evaluated count : 1220015  
+ ------ voxel dist func val evaluated time : 23.942974 
+------- total surface time: 24.504434 
+--------- v cell deallocated size 1673 

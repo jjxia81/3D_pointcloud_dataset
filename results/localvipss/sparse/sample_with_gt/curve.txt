@@ -1,0 +1,279 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\
+in_filename : curve
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\/curve_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\curve.xyz
+read point size : 2816 
+start to init mesh 
+Warning:  Point #2689 is coincident with #2594. Ignored!
+Warning:  Point #2670 is coincident with #2679. Ignored!
+Warning:  Point #1812 is coincident with #1808. Ignored!
+Warning:  Point #2041 is coincident with #2040. Ignored!
+Warning:  Point #759 is coincident with #760. Ignored!
+Warning:  Point #849 is coincident with #850. Ignored!
+Warning:  Point #2678 is coincident with #2595. Ignored!
+Warning:  Point #2537 is coincident with #2536. Ignored!
+Warning:  Point #2687 is coincident with #2688. Ignored!
+Warning:  Point #2690 is coincident with #2594. Ignored!
+Warning:  Point #2671 is coincident with #2594. Ignored!
+Warning:  Point #2691 is coincident with #2688. Ignored!
+Warning:  Point #2546 is coincident with #2547. Ignored!
+Warning:  Point #401 is coincident with #400. Ignored!
+Warning:  Point #2585 is coincident with #2584. Ignored!
+Warning:  Point #2712 is coincident with #2713. Ignored!
+Warning:  Point #2570 is coincident with #2571. Ignored!
+Warning:  Point #2656 is coincident with #2655. Ignored!
+Warning:  Point #2613 is coincident with #2614. Ignored!
+Warning:  Point #2524 is coincident with #2525. Ignored!
+Warning:  Point #2515 is coincident with #2514. Ignored!
+Warning:  Point #2192 is coincident with #2193. Ignored!
+Warning:  Point #2177 is coincident with #213. Ignored!
+Warning:  Point #2178 is coincident with #213. Ignored!
+Warning:  Point #2147 is coincident with #213. Ignored!
+Warning:  Point #1207 is coincident with #1206. Ignored!
+Warning:  Point #382 is coincident with #383. Ignored!
+Warning:  Point #1374 is coincident with #1375. Ignored!
+Warning:  Point #126 is coincident with #1401. Ignored!
+Warning:  Point #1171 is coincident with #1172. Ignored!
+Warning:  Point #141 is coincident with #142. Ignored!
+Warning:  Point #2160 is coincident with #214. Ignored!
+Warning:  Point #1185 is coincident with #1186. Ignored!
+Warning:  Point #1826 is coincident with #1853. Ignored!
+Warning:  Point #1852 is coincident with #1853. Ignored!
+Warning:  Point #391 is coincident with #1853. Ignored!
+Warning:  Point #1913 is coincident with #1898. Ignored!
+Warning:  Point #392 is coincident with #1839. Ignored!
+Warning:  Point #398 is coincident with #1990. Ignored!
+Warning:  Point #1989 is coincident with #1990. Ignored!
+Warning:  Point #1959 is coincident with #1990. Ignored!
+Warning:  Point #454 is coincident with #1921. Ignored!
+Warning:  Point #1899 is coincident with #1921. Ignored!
+Warning:  Point #1863 is coincident with #1887. Ignored!
+Warning:  Point #1888 is coincident with #1887. Ignored!
+Warning:  Point #1955 is coincident with #1887. Ignored!
+Warning:  Point #1314 is coincident with #1323. Ignored!
+Warning:  Point #503 is coincident with #540. Ignored!
+Warning:  Point #1454 is coincident with #1455. Ignored!
+Warning:  Point #2737 is coincident with #2736. Ignored!
+Warning:  Point #488 is coincident with #487. Ignored!
+Warning:  Point #1330 is coincident with #623. Ignored!
+Warning:  Point #1322 is coincident with #248. Ignored!
+Warning:  Point #1245 is coincident with #2750. Ignored!
+Warning:  Point #2746 is coincident with #2750. Ignored!
+Warning:  Point #1242 is coincident with #1241. Ignored!
+Warning:  Point #2749 is coincident with #1256. Ignored!
+Warning:  Point #2311 is coincident with #43. Ignored!
+Warning:  Point #2758 is coincident with #2757. Ignored!
+Warning:  Point #1387 is coincident with #631. Ignored!
+Warning:  Point #1384 is coincident with #631. Ignored!
+Warning:  Point #1383 is coincident with #1386. Ignored!
+Warning:  Point #1385 is coincident with #632. Ignored!
+Warning:  Point #1412 is coincident with #1413. Ignored!
+Warning:  Point #1329 is coincident with #1343. Ignored!
+Warning:  Point #622 is coincident with #1343. Ignored!
+Warning:  Point #1476 is coincident with #1477. Ignored!
+Warning:  Point #226 is coincident with #1294. Ignored!
+Warning:  Point #1301 is coincident with #1283. Ignored!
+Warning:  Point #225 is coincident with #1283. Ignored!
+Warning:  Point #1302 is coincident with #1283. Ignored!
+Warning:  Point #1779 is coincident with #1811. Ignored!
+Warning:  Point #1809 is coincident with #1808. Ignored!
+Warning:  Point #1810 is coincident with #1811. Ignored!
+Warning:  Point #1762 is coincident with #1811. Ignored!
+Warning:  Point #237 is coincident with #1811. Ignored!
+Warning:  Point #125 is coincident with #1388. Ignored!
+Warning:  Point #1402 is coincident with #1388. Ignored!
+Warning:  Point #1786 is coincident with #1787. Ignored!
+Warning:  Point #239 is coincident with #504. Ignored!
+Warning:  Point #580 is coincident with #504. Ignored!
+Warning:  Point #579 is coincident with #504. Ignored!
+Warning:  Point #582 is coincident with #581. Ignored!
+Warning:  Point #577 is coincident with #581. Ignored!
+Warning:  Point #578 is coincident with #581. Ignored!
+Warning:  Point #1778 is coincident with #238. Ignored!
+Warning:  Point #1754 is coincident with #1753. Ignored!
+Warning:  Point #1796 is coincident with #1795. Ignored!
+Warning:  Point #240 is coincident with #539. Ignored!
+Warning:  Point #1466 is coincident with #1467. Ignored!
+Warning:  Point #1468 is coincident with #1469. Ignored!
+Warning:  Point #1328 is coincident with #1315. Ignored!
+Warning:  Point #1331 is coincident with #1315. Ignored!
+Warning:  Point #247 is coincident with #1315. Ignored!
+Warning:  Point #1946 is coincident with #1956. Ignored!
+Warning:  Point #455 is coincident with #1912. Ignored!
+Warning:  Point #456 is coincident with #1934. Ignored!
+Warning:  Point #1922 is coincident with #1934. Ignored!
+Warning:  Point #1947 is coincident with #1958. Ignored!
+Warning:  Point #1975 is coincident with #1958. Ignored!
+Warning:  Point #297 is coincident with #1958. Ignored!
+Warning:  Point #2377 is coincident with #2376. Ignored!
+Warning:  Point #2378 is coincident with #2382. Ignored!
+Warning:  Point #443 is coincident with #444. Ignored!
+Warning:  Point #1223 is coincident with #1222. Ignored!
+Warning:  Point #1840 is coincident with #1825. Ignored!
+Warning:  Point #2367 is coincident with #2366. Ignored!
+Warning:  Point #2357 is coincident with #2358. Ignored!
+Warning:  Point #298 is coincident with #1876. Ignored!
+Warning:  Point #1233 is coincident with #2732. Ignored!
+Warning:  Point #1232 is coincident with #2732. Ignored!
+Warning:  Point #2335 is coincident with #262. Ignored!
+Warning:  Point #2348 is coincident with #2321. Ignored!
+Warning:  Point #2349 is coincident with #2321. Ignored!
+Warning:  Point #261 is coincident with #2321. Ignored!
+Warning:  Point #2356 is coincident with #308. Ignored!
+Warning:  Point #42 is coincident with #2336. Ignored!
+Warning:  Point #2320 is coincident with #2336. Ignored!
+Warning:  Point #2300 is coincident with #2336. Ignored!
+Warning:  Point #32 is coincident with #31. Ignored!
+Warning:  Point #2400 is coincident with #2401. Ignored!
+Warning:  Point #2403 is coincident with #2401. Ignored!
+Warning:  Point #321 is coincident with #2381. Ignored!
+Warning:  Point #2379 is coincident with #320. Ignored!
+Warning:  Point #2402 is coincident with #320. Ignored!
+Warning:  Point #2431 is coincident with #2440. Ignored!
+Warning:  Point #1092 is coincident with #1093. Ignored!
+Warning:  Point #1063 is coincident with #1064. Ignored!
+Warning:  Point #1031 is coincident with #1032. Ignored!
+Warning:  Point #2299 is coincident with #1039. Ignored!
+Warning:  Point #2271 is coincident with #1039. Ignored!
+Warning:  Point #2312 is coincident with #1039. Ignored!
+Warning:  Point #1040 is coincident with #2280. Ignored!
+Warning:  Point #1033 is coincident with #1030. Ignored!
+Warning:  Point #1034 is coincident with #1030. Ignored!
+Warning:  Point #1282 is coincident with #1030. Ignored!
+Warning:  Point #1278 is coincident with #1255. Ignored!
+Warning:  Point #2800 is coincident with #2801. Ignored!
+Warning:  Point #1101 is coincident with #2251. Ignored!
+Warning:  Point #2099 is coincident with #2066. Ignored!
+Warning:  Point #2098 is coincident with #2066. Ignored!
+Warning:  Point #768 is coincident with #2066. Ignored!
+Warning:  Point #1113 is coincident with #1114. Ignored!
+Warning:  Point #2281 is coincident with #2268. Ignored!
+Warning:  Point #2270 is coincident with #2248. Ignored!
+Warning:  Point #2269 is coincident with #2268. Ignored!
+Warning:  Point #1100 is coincident with #2248. Ignored!
+Warning:  Point #2113 is coincident with #2112. Ignored!
+Warning:  Point #2050 is coincident with #2049. Ignored!
+Warning:  Point #2124 is coincident with #2123. Ignored!
+Warning:  Point #799 is coincident with #800. Ignored!
+Warning:  Point #2016 is coincident with #2017. Ignored!
+Warning:  Point #2252 is coincident with #2247. Ignored!
+Warning:  Point #1424 is coincident with #1425. Ignored!
+Warning:  Point #1004 is coincident with #1003. Ignored!
+Warning:  Point #1638 is coincident with #1669. Ignored!
+Warning:  Point #1696 is coincident with #1669. Ignored!
+Warning:  Point #1547 is coincident with #1634. Ignored!
+Warning:  Point #1639 is coincident with #1634. Ignored!
+Warning:  Point #690 is coincident with #1736. Ignored!
+Warning:  Point #1697 is coincident with #1736. Ignored!
+Warning:  Point #1735 is coincident with #1736. Ignored!
+Warning:  Point #77 is coincident with #78. Ignored!
+Warning:  Point #1729 is coincident with #78. Ignored!
+Warning:  Point #94 is coincident with #674. Ignored!
+Warning:  Point #673 is coincident with #674. Ignored!
+Warning:  Point #95 is coincident with #674. Ignored!
+Warning:  Point #702 is coincident with #1685. Ignored!
+Warning:  Point #1609 is coincident with #986. Ignored!
+Warning:  Point #1658 is coincident with #1659. Ignored!
+Warning:  Point #1668 is coincident with #1686. Ignored!
+Warning:  Point #113 is coincident with #1745. Ignored!
+Warning:  Point #116 is coincident with #117. Ignored!
+Warning:  Point #1643 is coincident with #1642. Ignored!
+Warning:  Point #1633 is coincident with #1629. Ignored!
+Warning:  Point #1631 is coincident with #1489. Ignored!
+Warning:  Point #1632 is coincident with #1489. Ignored!
+Warning:  Point #1613 is coincident with #1489. Ignored!
+Warning:  Point #1630 is coincident with #1629. Ignored!
+Warning:  Point #1616 is coincident with #1548. Ignored!
+Warning:  Point #1537 is coincident with #1548. Ignored!
+Warning:  Point #1423 is coincident with #1422. Ignored!
+Warning:  Point #1728 is coincident with #1362. Ignored!
+Warning:  Point #1344 is coincident with #1362. Ignored!
+Warning:  Point #1361 is coincident with #1362. Ignored!
+Warning:  Point #2780 is coincident with #2779. Ignored!
+Warning:  Point #1490 is coincident with #1482. Ignored!
+Warning:  Point #701 is coincident with #1482. Ignored!
+Warning:  Point #1533 is coincident with #1534. Ignored!
+Warning:  Point #2775 is coincident with #1263. Ignored!
+Warning:  Point #2765 is coincident with #1263. Ignored!
+Warning:  Point #1246 is coincident with #1029. Ignored!
+Warning:  Point #1264 is coincident with #1029. Ignored!
+Warning:  Point #2774 is coincident with #1029. Ignored!
+Warning:  Point #1027 is coincident with #1026. Ignored!
+Warning:  Point #2140 is coincident with #2141. Ignored!
+Warning:  Point #1503 is coincident with #1504. Ignored!
+Warning:  Point #1558 is coincident with #1559. Ignored!
+Warning:  Point #2084 is coincident with #769. Ignored!
+Warning:  Point #751 is coincident with #750. Ignored!
+Warning:  Point #1515 is coincident with #1514. Ignored!
+Warning:  Point #1519 is coincident with #1520. Ignored!
+Warning:  Point #1163 is coincident with #1164. Ignored!
+Warning:  Point #2785 is coincident with #2784. Ignored!
+Warning:  Point #694 is coincident with #695. Ignored!
+Warning:  Point #691 is coincident with #1349. Ignored!
+Warning:  Point #1368 is coincident with #1369. Ignored!
+Warning:  Point #977 is coincident with #978. Ignored!
+Warning:  Point #1610 is coincident with #1573. Ignored!
+Warning:  Point #985 is coincident with #1612. Ignored!
+Warning:  Point #1574 is coincident with #1612. Ignored!
+Warning:  Point #1617 is coincident with #1612. Ignored!
+Warning:  Point #2065 is coincident with #2085. Ignored!
+Warning:  Point #2028 is coincident with #2029. Ignored!
+Warning:  Point #2033 is coincident with #2034. Ignored!
+Warning:  Point #2807 is coincident with #2806. Ignored!
+Warning:  Point #1135 is coincident with #1139. Ignored!
+Warning:  Point #1138 is coincident with #1139. Ignored!
+Warning:  Point #1137 is coincident with #1136. Ignored!
+Warning:  Point #1152 is coincident with #1151. Ignored!
+Warning:  Point #956 is coincident with #957. Ignored!
+Warning:  Point #2205 is coincident with #2204. Ignored!
+Warning:  Point #2496 is coincident with #2497. Ignored!
+Warning:  Point #2499 is coincident with #2498. Ignored!
+Warning:  Point #2630 is coincident with #2631. Ignored!
+Warning:  Point #1072 is coincident with #1071. Ignored!
+Warning:  Point #2641 is coincident with #2642. Ignored!
+Warning:  Point #2439 is coincident with #826. Ignored!
+Warning:  Point #825 is coincident with #2432. Ignored!
+Warning:  Point #2468 is coincident with #2432. Ignored!
+Warning:  Point #2467 is coincident with #2432. Ignored!
+Warning:  Point #2466 is coincident with #2470. Ignored!
+Warning:  Point #2469 is coincident with #2470. Ignored!
+Warning:  Point #2465 is coincident with #2470. Ignored!
+Warning:  Point #871 is coincident with #872. Ignored!
+Warning:  Point #2227 is coincident with #2226. Ignored!
+pt num : 2580 
+point_id_map_ size : 2580 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 2580, cols : 2580 
+build triangulation and initilization : 0.048184 s ! 
+finish init adj mat and core pt ids time : 0.001915 ! 
+finish init cluster normals time : 0.071361 ! 
+finish init cluster neigh scores time : 0.002661 ! 
+finish calculate cluster scores time : 0.000006 ! 
+normal MST_time time used : 0.028949 
+normal flip time used : 0.002624 
+Normal initializtion with local vipss total time used : 0.110033 
+average cluster J ele num : 7396 
+--- build_H_time_total sum  time : 0.837929 
+start to call solver ! 
+opt solve time : 5.219304 ! 
+opt fun call count : 740 
+total local vipss running time : 6.251845 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\/curve_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.032868 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.396892 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 39.6414
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\curve.ply
+------- tet search time 1.51103
+------- voxel pt ave nn num 29
+------- nn search time: 22.142239 
+------- cal nn coordinate and hrbf time: 16.489080 
+ ------ voxel dist func val evaluated count : 995442  
+ ------ voxel dist func val evaluated time : 39.388447 
+------- total surface time: 40.083036 
+--------- v cell deallocated size 2626 

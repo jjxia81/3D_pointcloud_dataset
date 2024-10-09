@@ -1,0 +1,74 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sparse\sample_with_gt\wrench_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sparse\sample_with_gt\wrench.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.997817
+Iter: 2
+normals variation 1.942648
+Iter: 3
+normals variation 0.976068
+Iter: 4
+normals variation 0.756623
+Iter: 5
+normals variation 0.492898
+Iter: 6
+normals variation 0.488937
+Iter: 7
+normals variation 0.485114
+Iter: 8
+normals variation 0.382908
+Iter: 9
+normals variation 0.265612
+Iter: 10
+normals variation 0.290587
+Iter: 11
+normals variation 0.238086
+Iter: 12
+normals variation 0.245679
+Iter: 13
+normals variation 0.393423
+Iter: 14
+normals variation 0.426885
+Iter: 15
+normals variation 0.635682
+Iter: 16
+normals variation 0.391779
+Iter: 17
+normals variation 0.301616
+Iter: 18
+normals variation 0.316218
+Iter: 19
+normals variation 0.446535
+Iter: 20
+normals variation 0.251667
+Iter: 21
+normals variation 0.301187
+Iter: 22
+normals variation 0.366665
+Iter: 23
+normals variation 0.416092
+Iter: 24
+normals variation 0.289242
+Iter: 25
+normals variation 0.367175
+Iter: 26
+normals variation 0.420053
+Iter: 27
+normals variation 0.448694
+Iter: 28
+normals variation 0.389113
+Iter: 29
+normals variation 0.381477
+Iter: 30
+normals variation 0.448747
+ normal estimate time : 57.6189
+poisson reconstruction time : 1.69097
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sparse\sample_with_gt\wrench.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sparse\sample_with_gt\wrench.ply_n.ply

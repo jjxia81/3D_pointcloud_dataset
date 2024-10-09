@@ -1,0 +1,43 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\
+in_filename : chair36
+in_extname : .xyz
+out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\/chair36_out_normal
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\chair36.xyz
+read point size : 3568 
+start to init mesh 
+pt num : 3568 
+point_id_map_ size : 3568 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 3568, cols : 3568 
+build triangulation and initilization : 0.085201 s ! 
+finish init adj mat and core pt ids time : 0.002464 ! 
+finish init cluster normals time : 0.070591 ! 
+finish init cluster neigh scores time : 0.004295 ! 
+finish calculate cluster scores time : 0.000009 ! 
+normal MST_time time used : 0.034813 
+normal flip time used : 0.004112 
+Normal initializtion with local vipss total time used : 0.119420 
+average cluster J ele num : 4570 
+--- build_H_time_total sum  time : 0.747067 
+start to call solver ! 
+opt solve time : 2.329200 ! 
+opt fun call count : 500 
+total local vipss running time : 3.319096 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\/chair36_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.030744 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.406116 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 18.9766
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\chair36.ply
+------- tet search time 1.0785
+------- voxel pt ave nn num 13
+------- nn search time: 9.576654 
+------- cal nn coordinate and hrbf time: 8.619036 
+ ------ voxel dist func val evaluated count : 855870  
+ ------ voxel dist func val evaluated time : 18.746727 
+------- total surface time: 19.419309 
+--------- v cell deallocated size 3614 

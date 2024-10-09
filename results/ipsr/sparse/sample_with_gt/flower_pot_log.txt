@@ -1,0 +1,72 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sparse\sample_with_gt\flower_pot_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sparse\sample_with_gt\flower_pot.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.998871
+Iter: 2
+normals variation 1.967020
+Iter: 3
+normals variation 1.910552
+Iter: 4
+normals variation 1.618722
+Iter: 5
+normals variation 1.500955
+Iter: 6
+normals variation 1.510662
+Iter: 7
+normals variation 1.644947
+Iter: 8
+normals variation 1.511476
+Iter: 9
+normals variation 1.542883
+Iter: 10
+normals variation 1.560326
+Iter: 11
+normals variation 1.567365
+Iter: 12
+normals variation 1.557415
+Iter: 13
+normals variation 1.514223
+Iter: 14
+normals variation 1.643450
+Iter: 15
+normals variation 1.670309
+Iter: 16
+normals variation 1.559220
+Iter: 17
+normals variation 1.597358
+Iter: 18
+normals variation 1.610245
+Iter: 19
+normals variation 1.615654
+Iter: 20
+normals variation 1.637312
+Iter: 21
+normals variation 1.975398
+Iter: 22
+normals variation 1.600835
+Iter: 23
+normals variation 1.691225
+Iter: 24
+normals variation 1.967256
+Iter: 25
+normals variation 1.838203
+Iter: 26
+normals variation 1.752013
+Iter: 27
+normals variation 0.937661
+Iter: 28
+normals variation 0.275900
+Iter: 29
+normals variation 0.065328
+ normal estimate time : 81.5338
+poisson reconstruction time : 2.69527
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sparse\sample_with_gt\flower_pot.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sparse\sample_with_gt\flower_pot.ply_n.ply

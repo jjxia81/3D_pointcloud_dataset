@@ -1,5 +1,5 @@
 torus_circle_points
-C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\torus\torus_circle_points.xyz
+c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\gcno\vipss_data\torus\torus_circle_points.xyz
 Read point cloud.
 make Regular_triangulation .
-160
+320
