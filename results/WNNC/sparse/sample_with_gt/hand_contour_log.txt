@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 8
+[LOG] time (build tree): 0.022599
+[DEBUG] samplePoints.size(): 1283
+[DEBUG] N_sample_pts: 1283
+[DEBUG] wn_pts_input.size(): 3849
+[DEBUG] num_points: 1283
+num_nodes: 2516, num_leaves: 1283, tree depth: 12
+tree_depth*num_points: 15396, stdvec_node2point_index.size(): 9709
+[DEBUG] N_grid: 25859
+[DEBUG] Isovalue: 0.000191258
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 19027
+[DEBUG] triangles got: 0.000191258
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/sparse/sample_with_gt/hand_contour.ply

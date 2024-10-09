@@ -1,0 +1,22 @@
+[In PGROctree] Max Depth: 8
+[In PGRExportQuery] Normalizing the point cloud. Result saved to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/sampling/withgt/buddha/samples/buddha_normalized.npy
+[In PGRExportQuery] Exporting points on octree for query. Result saved to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/sampling/withgt/buddha/samples/buddha_for_query.npy
+[In apps.PGRSolve] x_width range: [0.0400, 0.0400], mean: 0.0400
+[94m[Timer] x_width computed in 0[0m
+[In apps.PGRSolve] Starting to solve the system...
+[In solver] Precomputing B...
+---------Settings---------
+min depth:   1
+max depth:   10
+max iters:   None
+width_k:     7
+width_min:   0.04
+width_max:   0.015
+alpha:       2.0
+---------Settings---------
+
+[EXECUTING] ./apps/PGRExportQuery -i /home/jianjun/Documents/projects/3D_pointcloud_dataset/dense/sampling/withgt/buddha.xyz -o /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/sampling/withgt/buddha/samples/buddha -d 10 -m 1 
+
+
+[EXECUTING] python -m apps.PGRSolve --base /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/sampling/withgt/buddha/samples/buddha_normalized.npy --sample /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/sampling/withgt/buddha/samples/buddha_normalized.npy --query /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/sampling/withgt/buddha/samples/buddha_for_query.npy --width_k 7 --width_max 0.015 --width_min 0.04 --alpha 2.0 -o /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/PGR/sampling/withgt/buddha/solve/buddha_k_7_min_0.04_max_0.015_alpha_2.0_depth_min_1_depth_max_1_ 
+

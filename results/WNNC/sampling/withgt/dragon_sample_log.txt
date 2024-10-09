@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 8
+[LOG] time (build tree): 0.493921
+[DEBUG] samplePoints.size(): 37819
+[DEBUG] N_sample_pts: 37819
+[DEBUG] wn_pts_input.size(): 113457
+[DEBUG] num_points: 37819
+num_nodes: 59644, num_leaves: 37819, tree depth: 9
+tree_depth*num_points: 340371, stdvec_node2point_index.size(): 332837
+[DEBUG] N_grid: 640417
+[DEBUG] Isovalue: -0.0135359
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 510399
+[DEBUG] triangles got: -0.0135359
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/sampling/withgt/dragon_sample.ply

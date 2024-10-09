@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 9
+[LOG] time (build tree): 1.11336
+[DEBUG] samplePoints.size(): 80000
+[DEBUG] N_sample_pts: 80000
+[DEBUG] wn_pts_input.size(): 240000
+[DEBUG] num_points: 80000
+num_nodes: 137229, num_leaves: 79995, tree depth: 15
+tree_depth*num_points: 1200000, stdvec_node2point_index.size(): 812236
+[DEBUG] N_grid: 1306480
+[DEBUG] Isovalue: -0.0142305
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 1020804
+[DEBUG] triangles got: -0.0142305
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/sampling/withgt/Elbow_Crab.ply

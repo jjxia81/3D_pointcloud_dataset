@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 6
+[LOG] time (build tree): 0.0301189
+[DEBUG] samplePoints.size(): 1784
+[DEBUG] N_sample_pts: 1784
+[DEBUG] wn_pts_input.size(): 5352
+[DEBUG] num_points: 1784
+num_nodes: 2722, num_leaves: 1784, tree depth: 7
+tree_depth*num_points: 12488, stdvec_node2point_index.size(): 12128
+[DEBUG] N_grid: 28099
+[DEBUG] Isovalue: 0.000246567
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 22429
+[DEBUG] triangles got: 0.000246567
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/sparse/sample_with_gt/chair36.ply

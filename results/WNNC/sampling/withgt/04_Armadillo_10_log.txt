@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 8
+[LOG] time (build tree): 0.121378
+[DEBUG] samplePoints.size(): 8648
+[DEBUG] N_sample_pts: 8648
+[DEBUG] wn_pts_input.size(): 25944
+[DEBUG] num_points: 8648
+num_nodes: 14401, num_leaves: 8648, tree depth: 10
+tree_depth*num_points: 86480, stdvec_node2point_index.size(): 69240
+[DEBUG] N_grid: 150933
+[DEBUG] Isovalue: -0.0120485
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 118287
+[DEBUG] triangles got: -0.0120485
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/sampling/withgt/04_Armadillo_10.ply

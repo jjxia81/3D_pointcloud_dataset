@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 6
+[LOG] time (build tree): 0.0438261
+[DEBUG] samplePoints.size(): 2217
+[DEBUG] N_sample_pts: 2217
+[DEBUG] wn_pts_input.size(): 6651
+[DEBUG] num_points: 2217
+num_nodes: 3347, num_leaves: 2217, tree depth: 7
+tree_depth*num_points: 15519, stdvec_node2point_index.size(): 14207
+[DEBUG] N_grid: 35547
+[DEBUG] Isovalue: 0.000394017
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 26881
+[DEBUG] triangles got: 0.000394017
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/sparse/sample_with_gt/chinese_bowl.ply

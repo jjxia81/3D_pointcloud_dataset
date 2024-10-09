@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 6
+[LOG] time (build tree): 0.066777
+[DEBUG] samplePoints.size(): 3115
+[DEBUG] N_sample_pts: 3115
+[DEBUG] wn_pts_input.size(): 9345
+[DEBUG] num_points: 3115
+num_nodes: 4641, num_leaves: 3115, tree depth: 7
+tree_depth*num_points: 21805, stdvec_node2point_index.size(): 19842
+[DEBUG] N_grid: 44853
+[DEBUG] Isovalue: -0.000119425
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 33853
+[DEBUG] triangles got: -0.000119425
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/sparse/sample_with_gt/flower_pot.ply

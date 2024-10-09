@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 7
+[LOG] time (build tree): 0.025321
+[DEBUG] samplePoints.size(): 1408
+[DEBUG] N_sample_pts: 1408
+[DEBUG] wn_pts_input.size(): 4224
+[DEBUG] num_points: 1408
+num_nodes: 2741, num_leaves: 1364, tree depth: 15
+tree_depth*num_points: 21120, stdvec_node2point_index.size(): 10772
+[DEBUG] N_grid: 27613
+[DEBUG] Isovalue: -0.015348
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 20644
+[DEBUG] triangles got: -0.015348
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/sparse/sample_with_gt/curve.ply

@@ -1,0 +1,14 @@
+[In PGROctree] Max Depth: 8
+[LOG] time (build tree): 0.234046
+[DEBUG] samplePoints.size(): 19411
+[DEBUG] N_sample_pts: 19411
+[DEBUG] wn_pts_input.size(): 58233
+[DEBUG] num_points: 19411
+num_nodes: 30145, num_leaves: 19411, tree depth: 9
+tree_depth*num_points: 174699, stdvec_node2point_index.size(): 164352
+[DEBUG] N_grid: 307035
+[DEBUG] Isovalue: 0.0299591
+[DEBUG] initLeaf done: 
+[DEBUG] num leaves: 231421
+[DEBUG] triangles got: 0.0299591
+[DEBUG] Polygon Written to /home/jianjun/Documents/projects/3D_pointcloud_dataset/results/WNNC/sampling/withgt/happy.ply
