@@ -18,7 +18,7 @@ Iter: 4
 normals variation 0.523553
 Iter: 5
 normals variation 0.140000
- normal estimate time : 20.9817
-poisson reconstruction time : 3.9905
+ normal estimate time : 21.416
+poisson reconstruction time : 3.82381
 writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\04_Armadillo_20.ply
 writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\04_Armadillo_20.ply_n.ply

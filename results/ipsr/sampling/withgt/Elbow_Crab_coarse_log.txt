@@ -1,0 +1,34 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\Elbow_Crab_coarse_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\Elbow_Crab_coarse.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.999258
+Iter: 2
+normals variation 1.988113
+Iter: 3
+normals variation 1.914741
+Iter: 4
+normals variation 1.696558
+Iter: 5
+normals variation 1.429239
+Iter: 6
+normals variation 1.107386
+Iter: 7
+normals variation 0.618026
+Iter: 8
+normals variation 0.315329
+Iter: 9
+normals variation 0.216289
+Iter: 10
+normals variation 0.162109
+ normal estimate time : 52.2044
+poisson reconstruction time : 4.85992
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\Elbow_Crab_coarse.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\Elbow_Crab_coarse.ply_n.ply

@@ -20,7 +20,7 @@ Iter: 5
 normals variation 0.732023
 Iter: 6
 normals variation 0.123333
- normal estimate time : 17.6002
-poisson reconstruction time : 2.52125
+ normal estimate time : 15.1583
+poisson reconstruction time : 2.49388
 writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\seahorse.ply
 writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\seahorse.ply_n.ply

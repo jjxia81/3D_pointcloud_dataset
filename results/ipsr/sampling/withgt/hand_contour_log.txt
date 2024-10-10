@@ -1,0 +1,30 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\hand_contour_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\hand_contour.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.998703
+Iter: 2
+normals variation 1.989264
+Iter: 3
+normals variation 1.912264
+Iter: 4
+normals variation 1.938965
+Iter: 5
+normals variation 1.869388
+Iter: 6
+normals variation 0.584636
+Iter: 7
+normals variation 0.251241
+Iter: 8
+normals variation 0.088827
+ normal estimate time : 13.9759
+poisson reconstruction time : 1.71049
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\hand_contour.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\hand_contour.ply_n.ply

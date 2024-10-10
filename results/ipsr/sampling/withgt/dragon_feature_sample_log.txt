@@ -28,7 +28,7 @@ Iter: 9
 normals variation 0.220079
 Iter: 10
 normals variation 0.123753
- normal estimate time : 25.8753
-poisson reconstruction time : 2.50454
+ normal estimate time : 32.2921
+poisson reconstruction time : 3.27904
 writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\dragon_feature_sample.ply
 writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\dragon_feature_sample.ply_n.ply

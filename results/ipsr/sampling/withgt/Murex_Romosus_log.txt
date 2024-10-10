@@ -9,24 +9,28 @@ Parameters:
 
 random initialization...
 Iter: 1
-normals variation 1.999316
+normals variation 1.999276
 Iter: 2
-normals variation 1.992751
+normals variation 1.991296
 Iter: 3
-normals variation 1.967171
+normals variation 1.976299
 Iter: 4
-normals variation 1.824326
+normals variation 1.904062
 Iter: 5
-normals variation 1.699675
+normals variation 1.007812
 Iter: 6
-normals variation 1.075914
+normals variation 0.507075
 Iter: 7
-normals variation 0.845911
+normals variation 0.341821
 Iter: 8
-normals variation 0.211447
+normals variation 0.261096
 Iter: 9
-normals variation 0.142588
- normal estimate time : 94.1892
-poisson reconstruction time : 10.3794
+normals variation 0.210907
+Iter: 10
+normals variation 0.194503
+Iter: 11
+normals variation 0.173110
+ normal estimate time : 50.1326
+poisson reconstruction time : 4.25062
 writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\Murex_Romosus.ply
 writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\Murex_Romosus.ply_n.ply

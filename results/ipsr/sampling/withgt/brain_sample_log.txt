@@ -68,7 +68,7 @@ Iter: 29
 normals variation 1.194594
 Iter: 30
 normals variation 1.271152
- normal estimate time : 270.847
-poisson reconstruction time : 8.89723
+ normal estimate time : 272.39
+poisson reconstruction time : 8.40787
 writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\brain_sample.ply
 writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\brain_sample.ply_n.ply

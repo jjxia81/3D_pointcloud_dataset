@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\
+in_filename : Elbow_Crab_coarse
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\Elbow_Crab_coarse.xyz
+read point size : 53333 
+start to init mesh 
+pt num : 53333 
+point_id_map_ size : 53333 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 53333, cols : 53333 
+build triangulation and initilization : 1.570766 s ! 
+finish init adj mat and core pt ids time : 0.035967 ! 
+finish init cluster normals time : 0.678844 ! 
+finish init cluster neigh scores time : 0.089210 ! 
+finish calculate cluster scores time : 0.000016 ! 
+normal MST_time time used : 0.490954 
+normal flip time used : 0.060139 
+Normal initializtion with local vipss total time used : 1.373149 
+average cluster J ele num : 5270 
+--- build_H_time_total sum  time : 14.152430 
+start to call solver ! 
+opt solve time : 3.543017 ! 
+opt fun call count : 131 
+total local vipss running time : 21.305580 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/Elbow_Crab_coarse_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.524540 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 7.147082 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 20.9102
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\Elbow_Crab_coarse.ply
+------- tet search time 1.03682
+------- voxel pt ave nn num 23
+------- nn search time: 10.542135 
+------- cal nn coordinate and hrbf time: 9.842858 
+ ------ voxel dist func val evaluated count : 578788  
+ ------ voxel dist func val evaluated time : 20.749019 
+------- total surface time: 28.725316 
+--------- v cell deallocated size 53347 

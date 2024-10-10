@@ -50,7 +50,7 @@ Iter: 20
 normals variation 0.211320
 Iter: 21
 normals variation 0.165543
- normal estimate time : 72.5458
-poisson reconstruction time : 3.64997
+ normal estimate time : 67.4374
+poisson reconstruction time : 3.0289
 writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\knife.ply
 writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\sampling\withgt\knife.ply_n.ply

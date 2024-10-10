@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\
+in_filename : horse_uneven
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\horse_uneven.xyz
+read point size : 70756 
+start to init mesh 
+pt num : 70756 
+point_id_map_ size : 70756 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 70756, cols : 70756 
+build triangulation and initilization : 2.263940 s ! 
+finish init adj mat and core pt ids time : 0.075937 ! 
+finish init cluster normals time : 0.909162 ! 
+finish init cluster neigh scores time : 0.145500 ! 
+finish calculate cluster scores time : 0.000016 ! 
+normal MST_time time used : 0.722077 
+normal flip time used : 0.070373 
+Normal initializtion with local vipss total time used : 1.947180 
+average cluster J ele num : 5275 
+--- build_H_time_total sum  time : 23.355197 
+start to call solver ! 
+opt solve time : 4.433105 ! 
+opt fun call count : 107 
+total local vipss running time : 32.785294 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/horse_uneven_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.697462 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 10.373376 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 39.0425
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\horse_uneven.ply
+------- tet search time 1.30163
+------- voxel pt ave nn num 36
+------- nn search time: 21.653487 
+------- cal nn coordinate and hrbf time: 16.686780 
+ ------ voxel dist func val evaluated count : 704434  
+ ------ voxel dist func val evaluated time : 38.834218 
+------- total surface time: 50.283628 
+--------- v cell deallocated size 70770 

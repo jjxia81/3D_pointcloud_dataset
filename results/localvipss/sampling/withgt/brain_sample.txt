@@ -1,7 +1,6 @@
 input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\
 in_filename : brain_sample
 in_extname : .xyz
-out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/brain_sample_out_normal
 Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\brain_sample.xyz
 read point size : 126110 
 start to init mesh 
@@ -10,34 +9,34 @@ point_id_map_ size : 126110
 finish triangulation 
 finish build adjecent mat 
 adjacent mat rows : 126110, cols : 126110 
-build triangulation and initilization : 4.240039 s ! 
-finish init adj mat and core pt ids time : 0.095802 ! 
-finish init cluster normals time : 1.438531 ! 
-finish init cluster neigh scores time : 0.242279 ! 
+build triangulation and initilization : 4.578574 s ! 
+finish init adj mat and core pt ids time : 0.094107 ! 
+finish init cluster normals time : 1.460317 ! 
+finish init cluster neigh scores time : 0.234708 ! 
 finish calculate cluster scores time : 0.000009 ! 
-normal MST_time time used : 1.357223 
-normal flip time used : 0.145322 
-Normal initializtion with local vipss total time used : 3.321007 
+normal MST_time time used : 1.545899 
+normal flip time used : 0.154270 
+Normal initializtion with local vipss total time used : 3.532719 
 average cluster J ele num : 4563 
---- build_H_time_total sum  time : 31.769862 
+--- build_H_time_total sum  time : 32.508577 
 start to call solver ! 
-opt solve time : 188.121391 ! 
-opt fun call count : 2001 
-total local vipss running time : 228.712659 ! 
+opt solve time : 24.578589 ! 
+opt fun call count : 283 
+total local vipss running time : 66.546890 ! 
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/brain_sample_out_normal.ply
  start ReconSurface 
-generate_voroi_data_time  : 1.121591 ! 
+generate_voroi_data_time  : 1.239131 ! 
  start use_nn_interpolation 
---- build_HRBF_time_total sum  time : 22.141315 
+--- build_HRBF_time_total sum  time : 22.642397 
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 120.623
+Total Surfacing time: 118.307
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\brain_sample.ply
-------- tet search time 8.4685
+------- tet search time 7.77025
 ------- voxel pt ave nn num 14
-------- nn search time: 59.917020 
-------- cal nn coordinate and hrbf time: 56.048699 
- ------ voxel dist func val evaluated count : 5286410  
- ------ voxel dist func val evaluated time : 118.872580 
-------- total surface time: 144.261057 
---------- v cell deallocated size 126156 
+------- nn search time: 56.085498 
+------- cal nn coordinate and hrbf time: 57.877929 
+ ------ voxel dist func val evaluated count : 5281495  
+ ------ voxel dist func val evaluated time : 116.642552 
+------- total surface time: 142.547642 
+--------- v cell deallocated size 126124 
