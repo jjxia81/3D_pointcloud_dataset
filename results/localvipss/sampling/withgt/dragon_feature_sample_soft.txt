@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\
+in_filename : dragon_feature_sample
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\dragon_feature_sample.xyz
+read point size : 11829 
+start to init mesh 
+pt num : 11829 
+point_id_map_ size : 11829 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 11829, cols : 11829 
+build triangulation and initilization : 0.232339 s ! 
+finish init adj mat and core pt ids time : 0.007918 ! 
+finish init cluster normals time : 0.180129 ! 
+finish init cluster neigh scores time : 0.013055 ! 
+finish calculate cluster scores time : 0.000017 ! 
+normal MST_time time used : 0.117141 
+normal flip time used : 0.009004 
+Normal initializtion with local vipss total time used : 0.331197 
+average cluster J ele num : 4869 
+--- build_H_time_total sum  time : 2.755822 
+start to call solver ! 
+opt solve time : 0.080751 ! 
+opt fun call count : 25 
+total local vipss running time : 3.535600 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/dragon_feature_sample_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.066303 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 1.317457 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 25.565
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\dragon_feature_sample_soft.ply
+------- tet search time 1.57674
+------- voxel pt ave nn num 16
+------- nn search time: 13.087289 
+------- cal nn coordinate and hrbf time: 11.521413 
+ ------ voxel dist func val evaluated count : 1108908  
+ ------ voxel dist func val evaluated time : 25.261915 
+------- total surface time: 26.971161 
+--------- v cell deallocated size 11843 

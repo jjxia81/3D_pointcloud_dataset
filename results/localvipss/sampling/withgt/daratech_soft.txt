@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\
+in_filename : daratech
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\daratech.xyz
+read point size : 26414 
+start to init mesh 
+pt num : 26414 
+point_id_map_ size : 26414 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 26414, cols : 26414 
+build triangulation and initilization : 0.622171 s ! 
+finish init adj mat and core pt ids time : 0.015415 ! 
+finish init cluster normals time : 0.329958 ! 
+finish init cluster neigh scores time : 0.031786 ! 
+finish calculate cluster scores time : 0.000016 ! 
+normal MST_time time used : 0.224408 
+normal flip time used : 0.021259 
+Normal initializtion with local vipss total time used : 0.631054 
+average cluster J ele num : 4559 
+--- build_H_time_total sum  time : 6.554053 
+start to call solver ! 
+opt solve time : 0.253420 ! 
+opt fun call count : 24 
+total local vipss running time : 8.338832 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/daratech_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.184986 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 2.817920 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 27.9662
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\daratech_soft.ply
+------- tet search time 1.46796
+------- voxel pt ave nn num 21
+------- nn search time: 15.677655 
+------- cal nn coordinate and hrbf time: 11.566293 
+ ------ voxel dist func val evaluated count : 859418  
+ ------ voxel dist func val evaluated time : 27.724341 
+------- total surface time: 31.041973 
+--------- v cell deallocated size 26428 

@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\
+in_filename : seahorse
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\seahorse.xyz
+read point size : 24299 
+start to init mesh 
+pt num : 24299 
+point_id_map_ size : 24299 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 24299, cols : 24299 
+build triangulation and initilization : 0.573324 s ! 
+finish init adj mat and core pt ids time : 0.015009 ! 
+finish init cluster normals time : 0.310005 ! 
+finish init cluster neigh scores time : 0.032745 ! 
+finish calculate cluster scores time : 0.000016 ! 
+normal MST_time time used : 0.217267 
+normal flip time used : 0.019740 
+Normal initializtion with local vipss total time used : 0.602851 
+average cluster J ele num : 4778 
+--- build_H_time_total sum  time : 5.732125 
+start to call solver ! 
+opt solve time : 1.829081 ! 
+opt fun call count : 131 
+total local vipss running time : 8.976559 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/seahorse_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.198812 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 2.604243 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 7.7471
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\seahorse_soft.ply
+------- tet search time 0.439981
+------- voxel pt ave nn num 20
+------- nn search time: 4.255708 
+------- cal nn coordinate and hrbf time: 3.260897 
+ ------ voxel dist func val evaluated count : 264127  
+ ------ voxel dist func val evaluated time : 7.670736 
+------- total surface time: 10.600265 
+--------- v cell deallocated size 24313 

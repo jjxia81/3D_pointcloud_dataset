@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\
+in_filename : 04_Armadillo_50
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\04_Armadillo_50.xyz
+read point size : 86485 
+start to init mesh 
+pt num : 86485 
+point_id_map_ size : 86485 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 86485, cols : 86485 
+build triangulation and initilization : 1.991098 s ! 
+finish init adj mat and core pt ids time : 0.055184 ! 
+finish init cluster normals time : 0.971735 ! 
+finish init cluster neigh scores time : 0.137123 ! 
+finish calculate cluster scores time : 0.000016 ! 
+normal MST_time time used : 0.759909 
+normal flip time used : 0.079229 
+Normal initializtion with local vipss total time used : 2.031258 
+average cluster J ele num : 4995 
+--- build_H_time_total sum  time : 20.832878 
+start to call solver ! 
+opt solve time : 6.061821 ! 
+opt fun call count : 112 
+total local vipss running time : 31.814300 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/04_Armadillo_50_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.668471 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 12.427033 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 41.7585
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\04_Armadillo_50_soft.ply
+------- tet search time 1.92838
+------- voxel pt ave nn num 27
+------- nn search time: 23.576488 
+------- cal nn coordinate and hrbf time: 17.212142 
+ ------ voxel dist func val evaluated count : 1051381  
+ ------ voxel dist func val evaluated time : 41.442556 
+------- total surface time: 55.102687 
+--------- v cell deallocated size 86499 

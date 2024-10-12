@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\
+in_filename : gargoyle
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\gargoyle.xyz
+read point size : 26518 
+start to init mesh 
+pt num : 26518 
+point_id_map_ size : 26518 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 26518, cols : 26518 
+build triangulation and initilization : 0.643365 s ! 
+finish init adj mat and core pt ids time : 0.016036 ! 
+finish init cluster normals time : 0.353639 ! 
+finish init cluster neigh scores time : 0.032608 ! 
+finish calculate cluster scores time : 0.000015 ! 
+normal MST_time time used : 0.222827 
+normal flip time used : 0.022063 
+Normal initializtion with local vipss total time used : 0.655542 
+average cluster J ele num : 4596 
+--- build_H_time_total sum  time : 5.551625 
+start to call solver ! 
+opt solve time : 0.304858 ! 
+opt fun call count : 31 
+total local vipss running time : 7.451615 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/gargoyle_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.201929 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 2.850218 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 44.2559
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\gargoyle_soft.ply
+------- tet search time 2.52885
+------- voxel pt ave nn num 16
+------- nn search time: 21.529118 
+------- cal nn coordinate and hrbf time: 21.293224 
+ ------ voxel dist func val evaluated count : 1701344  
+ ------ voxel dist func val evaluated time : 43.765696 
+------- total surface time: 47.360078 
+--------- v cell deallocated size 26532 

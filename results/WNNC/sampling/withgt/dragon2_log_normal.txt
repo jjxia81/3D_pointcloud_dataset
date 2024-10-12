@@ -1,6 +1,6 @@
-[LOG] You are using width config l5 width wsmin = 0.05, wsmax = 0.2
-[LOG] time_preproc: 0.19128870964050293
-[LOG] time_main: 0.47159266471862793
-[LOG] mem: 1524.48046875
+[LOG] You are using width config l0 width wsmin = 0.002, wsmax = 0.016
+[LOG] time_preproc: 0.030769824981689453
+[LOG] time_main: 128.7519040107727
+[LOG] mem: 395.37890625
 num_nodes: 32345, num_leaves: 21213, tree depth: 9
 tree_depth*num_points: 190917, stdvec_node2point_index.size(): 183401

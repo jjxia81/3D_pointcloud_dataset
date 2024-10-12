@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\
+in_filename : Murex_Romosus
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\sampling\withgt\Murex_Romosus.xyz
+read point size : 64045 
+start to init mesh 
+pt num : 64045 
+point_id_map_ size : 64045 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 64045, cols : 64045 
+build triangulation and initilization : 1.799504 s ! 
+finish init adj mat and core pt ids time : 0.044096 ! 
+finish init cluster normals time : 0.761947 ! 
+finish init cluster neigh scores time : 0.116597 ! 
+finish calculate cluster scores time : 0.000017 ! 
+normal MST_time time used : 0.549268 
+normal flip time used : 0.062985 
+Normal initializtion with local vipss total time used : 1.556552 
+average cluster J ele num : 4763 
+--- build_H_time_total sum  time : 20.325216 
+start to call solver ! 
+opt solve time : 1.792504 ! 
+opt fun call count : 53 
+total local vipss running time : 26.177097 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\/Murex_Romosus_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.561169 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 7.945097 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 31.3932
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sampling\withgt\Murex_Romosus_soft.ply
+------- tet search time 1.63809
+------- voxel pt ave nn num 20
+------- nn search time: 15.671861 
+------- cal nn coordinate and hrbf time: 14.916404 
+ ------ voxel dist func val evaluated count : 936492  
+ ------ voxel dist func val evaluated time : 31.144308 
+------- total surface time: 40.049776 
+--------- v cell deallocated size 64059 
