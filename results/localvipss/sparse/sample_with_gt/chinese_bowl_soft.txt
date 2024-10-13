@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\
+in_filename : chinese_bowl
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\chinese_bowl.xyz
+read point size : 4434 
+start to init mesh 
+pt num : 4434 
+point_id_map_ size : 4434 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 4434, cols : 4434 
+build triangulation and initilization : 0.080710 s ! 
+finish init adj mat and core pt ids time : 0.002657 ! 
+finish init cluster normals time : 0.074312 ! 
+finish init cluster neigh scores time : 0.004184 ! 
+finish calculate cluster scores time : 0.000011 ! 
+normal MST_time time used : 0.041623 
+normal flip time used : 0.004448 
+Normal initializtion with local vipss total time used : 0.131081 
+average cluster J ele num : 3970 
+--- build_H_time_total sum  time : 0.821936 
+start to call solver ! 
+opt solve time : 0.129123 ! 
+opt fun call count : 75 
+total local vipss running time : 1.215367 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\/chinese_bowl_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.041422 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.393969 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 62.0943
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\chinese_bowl_soft.ply
+------- tet search time 2.64214
+------- voxel pt ave nn num 20
+------- nn search time: 35.841916 
+------- cal nn coordinate and hrbf time: 24.573973 
+ ------ voxel dist func val evaluated count : 2062099  
+ ------ voxel dist func val evaluated time : 61.517912 
+------- total surface time: 62.543965 
+--------- v cell deallocated size 4448 

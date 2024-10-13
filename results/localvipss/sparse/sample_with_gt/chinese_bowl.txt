@@ -1,7 +1,6 @@
 input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\
 in_filename : chinese_bowl
 in_extname : .xyz
-out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\/chinese_bowl_out_normal
 Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\chinese_bowl.xyz
 read point size : 4434 
 start to init mesh 
@@ -10,34 +9,34 @@ point_id_map_ size : 4434
 finish triangulation 
 finish build adjecent mat 
 adjacent mat rows : 4434, cols : 4434 
-build triangulation and initilization : 0.069755 s ! 
-finish init adj mat and core pt ids time : 0.002832 ! 
-finish init cluster normals time : 0.071151 ! 
-finish init cluster neigh scores time : 0.004290 ! 
+build triangulation and initilization : 0.065595 s ! 
+finish init adj mat and core pt ids time : 0.002629 ! 
+finish init cluster normals time : 0.068423 ! 
+finish init cluster neigh scores time : 0.003511 ! 
 finish calculate cluster scores time : 0.000008 ! 
-normal MST_time time used : 0.043566 
-normal flip time used : 0.005665 
-Normal initializtion with local vipss total time used : 0.131602 
+normal MST_time time used : 0.043530 
+normal flip time used : 0.004541 
+Normal initializtion with local vipss total time used : 0.125360 
 average cluster J ele num : 3970 
---- build_H_time_total sum  time : 0.766471 
+--- build_H_time_total sum  time : 0.800261 
 start to call solver ! 
-opt solve time : 0.109876 ! 
+opt solve time : 0.128013 ! 
 opt fun call count : 47 
-total local vipss running time : 1.113140 ! 
+total local vipss running time : 1.159090 ! 
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\/chinese_bowl_out_normal.ply
  start ReconSurface 
-generate_voroi_data_time  : 0.033006 ! 
+generate_voroi_data_time  : 0.041078 ! 
  start use_nn_interpolation 
---- build_HRBF_time_total sum  time : 0.429613 
+--- build_HRBF_time_total sum  time : 0.429822 
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 64.4014
+Total Surfacing time: 62.9692
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\chinese_bowl.ply
-------- tet search time 2.66331
+------- tet search time 2.65487
 ------- voxel pt ave nn num 20
-------- nn search time: 37.695708 
-------- cal nn coordinate and hrbf time: 24.764583 
- ------ voxel dist func val evaluated count : 2062393  
- ------ voxel dist func val evaluated time : 63.795513 
-------- total surface time: 64.873861 
---------- v cell deallocated size 4480 
+------- nn search time: 35.931137 
+------- cal nn coordinate and hrbf time: 25.323639 
+ ------ voxel dist func val evaluated count : 2062595  
+ ------ voxel dist func val evaluated time : 62.419471 
+------- total surface time: 63.450953 
+--------- v cell deallocated size 4448 

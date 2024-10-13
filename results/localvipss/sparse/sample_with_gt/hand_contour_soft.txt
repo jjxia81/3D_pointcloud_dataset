@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\
+in_filename : hand_contour
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\hand_contour.xyz
+read point size : 2373 
+start to init mesh 
+pt num : 2373 
+point_id_map_ size : 2373 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 2373, cols : 2373 
+build triangulation and initilization : 0.084979 s ! 
+finish init adj mat and core pt ids time : 0.001816 ! 
+finish init cluster normals time : 0.062648 ! 
+finish init cluster neigh scores time : 0.003453 ! 
+finish calculate cluster scores time : 0.000008 ! 
+normal MST_time time used : 0.024186 
+normal flip time used : 0.002152 
+Normal initializtion with local vipss total time used : 0.095705 
+average cluster J ele num : 7428 
+--- build_H_time_total sum  time : 0.813606 
+start to call solver ! 
+opt solve time : 0.151186 ! 
+opt fun call count : 132 
+total local vipss running time : 1.188686 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\/hand_contour_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.025224 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.384547 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 43.51
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\hand_contour_soft.ply
+------- tet search time 1.45593
+------- voxel pt ave nn num 31
+------- nn search time: 23.504251 
+------- cal nn coordinate and hrbf time: 18.937250 
+ ------ voxel dist func val evaluated count : 1005791  
+ ------ voxel dist func val evaluated time : 43.230793 
+------- total surface time: 43.931169 
+--------- v cell deallocated size 2387 

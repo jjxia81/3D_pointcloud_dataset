@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\
+in_filename : flower_pot
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\flower_pot.xyz
+read point size : 6230 
+start to init mesh 
+pt num : 6230 
+point_id_map_ size : 6230 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 6230, cols : 6230 
+build triangulation and initilization : 0.140688 s ! 
+finish init adj mat and core pt ids time : 0.003856 ! 
+finish init cluster normals time : 0.089883 ! 
+finish init cluster neigh scores time : 0.005104 ! 
+finish calculate cluster scores time : 0.000008 ! 
+normal MST_time time used : 0.062395 
+normal flip time used : 0.007421 
+Normal initializtion with local vipss total time used : 0.174167 
+average cluster J ele num : 4314 
+--- build_H_time_total sum  time : 1.739500 
+start to call solver ! 
+opt solve time : 0.201323 ! 
+opt fun call count : 86 
+total local vipss running time : 2.321745 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\/flower_pot_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.032941 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.600748 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 57.105
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\flower_pot_soft.ply
+------- tet search time 3.60624
+------- voxel pt ave nn num 13
+------- nn search time: 30.124750 
+------- cal nn coordinate and hrbf time: 24.763266 
+ ------ voxel dist func val evaluated count : 2813446  
+ ------ voxel dist func val evaluated time : 56.283380 
+------- total surface time: 57.751173 
+--------- v cell deallocated size 6244 

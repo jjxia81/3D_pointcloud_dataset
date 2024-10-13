@@ -1,7 +1,6 @@
 input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\
 in_filename : flower_pot
 in_extname : .xyz
-out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\/flower_pot_out_normal
 Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\flower_pot.xyz
 read point size : 6230 
 start to init mesh 
@@ -10,34 +9,34 @@ point_id_map_ size : 6230
 finish triangulation 
 finish build adjecent mat 
 adjacent mat rows : 6230, cols : 6230 
-build triangulation and initilization : 0.110427 s ! 
-finish init adj mat and core pt ids time : 0.004038 ! 
-finish init cluster normals time : 0.091977 ! 
-finish init cluster neigh scores time : 0.005194 ! 
-finish calculate cluster scores time : 0.000010 ! 
-normal MST_time time used : 0.064768 
-normal flip time used : 0.008582 
-Normal initializtion with local vipss total time used : 0.180268 
+build triangulation and initilization : 0.118152 s ! 
+finish init adj mat and core pt ids time : 0.004096 ! 
+finish init cluster normals time : 0.093369 ! 
+finish init cluster neigh scores time : 0.005077 ! 
+finish calculate cluster scores time : 0.000005 ! 
+normal MST_time time used : 0.063761 
+normal flip time used : 0.007780 
+Normal initializtion with local vipss total time used : 0.179512 
 average cluster J ele num : 4314 
---- build_H_time_total sum  time : 1.894251 
+--- build_H_time_total sum  time : 1.902148 
 start to call solver ! 
-opt solve time : 0.602998 ! 
+opt solve time : 0.587859 ! 
 opt fun call count : 105 
-total local vipss running time : 2.856022 ! 
+total local vipss running time : 2.845556 ! 
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\/flower_pot_out_normal.ply
  start ReconSurface 
-generate_voroi_data_time  : 0.033146 ! 
+generate_voroi_data_time  : 0.039472 ! 
  start use_nn_interpolation 
---- build_HRBF_time_total sum  time : 0.609991 
+--- build_HRBF_time_total sum  time : 0.611300 
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 57.1925
+Total Surfacing time: 60.4031
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\flower_pot.ply
-------- tet search time 3.64479
+------- tet search time 3.61479
 ------- voxel pt ave nn num 13
-------- nn search time: 30.180148 
-------- cal nn coordinate and hrbf time: 24.859795 
- ------ voxel dist func val evaluated count : 2813334  
- ------ voxel dist func val evaluated time : 56.391433 
-------- total surface time: 57.847937 
---------- v cell deallocated size 6276 
+------- nn search time: 31.872031 
+------- cal nn coordinate and hrbf time: 25.845960 
+ ------ voxel dist func val evaluated count : 2813335  
+ ------ voxel dist func val evaluated time : 59.438409 
+------- total surface time: 61.067358 
+--------- v cell deallocated size 6244 

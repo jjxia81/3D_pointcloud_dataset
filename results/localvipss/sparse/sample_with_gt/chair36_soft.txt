@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\
+in_filename : chair36
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\chair36.xyz
+read point size : 3568 
+start to init mesh 
+pt num : 3568 
+point_id_map_ size : 3568 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 3568, cols : 3568 
+build triangulation and initilization : 0.073635 s ! 
+finish init adj mat and core pt ids time : 0.002219 ! 
+finish init cluster normals time : 0.065366 ! 
+finish init cluster neigh scores time : 0.003609 ! 
+finish calculate cluster scores time : 0.000007 ! 
+normal MST_time time used : 0.034465 
+normal flip time used : 0.003847 
+Normal initializtion with local vipss total time used : 0.112822 
+average cluster J ele num : 4570 
+--- build_H_time_total sum  time : 0.774989 
+start to call solver ! 
+opt solve time : 0.032232 ! 
+opt fun call count : 28 
+total local vipss running time : 1.042328 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\/chair36_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.033235 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.367871 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 18.5956
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\chair36_soft.ply
+------- tet search time 1.06957
+------- voxel pt ave nn num 14
+------- nn search time: 9.300732 
+------- cal nn coordinate and hrbf time: 8.607106 
+ ------ voxel dist func val evaluated count : 866778  
+ ------ voxel dist func val evaluated time : 18.371492 
+------- total surface time: 19.007941 
+--------- v cell deallocated size 3582 

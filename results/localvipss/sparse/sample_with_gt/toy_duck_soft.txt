@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\
+in_filename : toy_duck
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\toy_duck.xyz
+read point size : 1700 
+start to init mesh 
+pt num : 1700 
+point_id_map_ size : 1700 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 1700, cols : 1700 
+build triangulation and initilization : 0.050117 s ! 
+finish init adj mat and core pt ids time : 0.001043 ! 
+finish init cluster normals time : 0.042843 ! 
+finish init cluster neigh scores time : 0.002047 ! 
+finish calculate cluster scores time : 0.000005 ! 
+normal MST_time time used : 0.015318 
+normal flip time used : 0.001579 
+Normal initializtion with local vipss total time used : 0.064403 
+average cluster J ele num : 3894 
+--- build_H_time_total sum  time : 0.316234 
+start to call solver ! 
+opt solve time : 0.656393 ! 
+opt fun call count : 275 
+total local vipss running time : 1.104748 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\/toy_duck_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.016327 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.182355 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 42.8094
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sparse\sample_with_gt\toy_duck_soft.ply
+------- tet search time 2.37134
+------- voxel pt ave nn num 13
+------- nn search time: 20.657388 
+------- cal nn coordinate and hrbf time: 20.508833 
+ ------ voxel dist func val evaluated count : 2041562  
+ ------ voxel dist func val evaluated time : 42.214996 
+------- total surface time: 43.014589 
+--------- v cell deallocated size 1714 
