@@ -1,0 +1,99 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\rabbit.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\rabbit
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\rabbit.xyz
+number of points: 1627
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 68.574
+K11: 4881
+setting K, HermiteApprox_Lamnda
+solved: 0.056083
+K: 4881
+solve K total: 68.9916
+Build Time: 69.3873
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 1.01e-05
+eigval(0): 0.000563174
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt failed: nlopt failure
+number of call: 13 t: 0.211336 ave: 0.0162566
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.243342
+
+setting K, HermiteApprox_Lamnda
+solved: 12.5489
+eigval(0): 0.000563172
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt failed: nlopt failure
+number of call: 13 t: 0.204176 ave: 0.0157059
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.234513
+
+setting K, HermiteApprox_Lamnda
+solved: 13.1033
+eigval(0): 0.000563152
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt failed: nlopt failure
+number of call: 13 t: 0.202287 ave: 0.0155606
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.23229
+
+setting K, HermiteApprox_Lamnda
+solved: 13.0702
+eigval(0): 0.000562954
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt failed: nlopt failure
+number of call: 13 t: 0.201796 ave: 0.0155228
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.231735
+
+setting K, HermiteApprox_Lamnda
+solved: 13.053
+eigval(0): 0.000561015
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt failed: nlopt failure
+number of call: 13 t: 0.202221 ave: 0.0155554
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.232407
+
+0: 25.427365 -> 25.427365
+0.001: 25.427341 -> 25.427341
+0.01: 25.426953 -> 25.426953
+0.1: 25.413891 -> 25.413891
+1: 25.384333 -> 25.384333
+min energy: 
+1: 25.384333 -> 25.384333
+Init Time: 474.07204
+
+OptNormal
+nlopt failed: nlopt failure
+number of call: 13 t: 0.2027132 ave: 0.015593323
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 0.2339508
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\rabbitrabbit_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 272.11975
+n_evacalls: 4375518   ave: 6.2191437e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\rabbitrabbit_surface.ply

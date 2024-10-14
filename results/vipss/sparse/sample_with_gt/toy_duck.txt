@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\toy_duck.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\toy_duck
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\toy_duck.xyz
+number of points: 1700
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 78.2094
+K11: 5100
+setting K, HermiteApprox_Lamnda
+solved: 0.0608572
+K: 5100
+solve K total: 78.6637
+Build Time: 79.109
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 1.03e-05
+eigval(0): 0.000454666
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.34493
+Statu: 3
+Obj: 22.20690578 -> 15.74792091
+number of call: 134 t: 2.2691436 ave: 0.01693390746
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.4022132
+
+setting K, HermiteApprox_Lamnda
+solved: 14.9036576
+eigval(0): 0.0004546527173
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.3914739
+Statu: 3
+Obj: 22.20212425 -> 15.74792055
+number of call: 137 t: 2.3050777 ave: 0.01682538467
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.4384312
+
+setting K, HermiteApprox_Lamnda
+solved: 14.8513315
+eigval(0): 0.0004545321172
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.2311575
+Statu: 3
+Obj: 22.17260253 -> 15.74792073
+number of call: 129 t: 2.1503801 ave: 0.01666961318
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.2786604
+
+setting K, HermiteApprox_Lamnda
+solved: 14.885401
+eigval(0): 0.0004533458018
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 2.6481433
+Statu: 3
+Obj: 22.12042044 -> 15.6067114
+number of call: 148 t: 2.532993 ave: 0.01711481757
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.6968368
+
+setting K, HermiteApprox_Lamnda
+solved: 14.9032943
+eigval(0): 0.000443107311
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 1.2793191
+Statu: 3
+Obj: 21.84766051 -> 18.09771196
+number of call: 75 t: 1.2578327 ave: 0.01677110267
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 1.3262482
+
+0: 22.206906 -> 15.747921
+0.001: 22.202124 -> 15.747921
+0.01: 22.172603 -> 15.747921
+0.1: 22.12042 -> 15.606711
+1: 21.847661 -> 18.097712
+min energy: 
+0.1: 22.12042 -> 15.606711
+Init Time: 548.17151
+
+OptNormal
+nlopt time: 2.5779098
+Statu: 3
+Obj: 22.12042044 -> 15.6067114
+number of call: 148 t: 2.4633173 ave: 0.01664403581
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 2.6253751
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\toy_ducktoy_duck_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 249.8145875
+n_evacalls: 3823448   ave: 6.533751407e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\toy_ducktoy_duck_surface.ply

@@ -1,0 +1,111 @@
+input file : 
+input file: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\hand_contour.xyz
+output path: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\hand_contour
+user lambda: 0
+is surfacing: 1
+number of voxel per D: 100
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sparse\sample_with_gt\hand_contour.xyz
+number of points: 2373
+normals: 0
+Set_HermiteRBF
+setting K
+using new formula
+bigMinv: 214.449
+K11: 7119
+setting K, HermiteApprox_Lamnda
+solved: 0.132313
+K: 7119
+solve K total: 215.384
+Build Time: 216.289
+
+Init Method: 
+setting K, HermiteApprox_Lamnda
+solved: 3.3e-06
+eigval(0): 0.095171
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 18.2977
+Statu: 3
+Obj: 3810.511859 -> 2144.842107
+number of call: 496 t: 16.4309291 ave: 0.03312687319
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 18.4266559
+
+setting K, HermiteApprox_Lamnda
+solved: 40.5296516
+eigval(0): 0.01752367931
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 21.6776723
+Statu: 3
+Obj: 27083.56604 -> 1148.082451
+number of call: 584 t: 19.2741196 ave: 0.03300362945
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 21.8029729
+
+setting K, HermiteApprox_Lamnda
+solved: 40.5183227
+eigval(0): 0.01120693648
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 28.3069067
+Statu: 3
+Obj: 62636.9287 -> 1148.106656
+number of call: 742 t: 24.9633847 ave: 0.03364337561
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 28.4039938
+
+setting K, HermiteApprox_Lamnda
+solved: 40.6214082
+eigval(0): 0.005451006127
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 45.7491029
+Statu: 3
+Obj: 101829.3854 -> 2935.103509
+number of call: 1213 t: 40.2008423 ave: 0.03314166719
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 45.8438809
+
+setting K, HermiteApprox_Lamnda
+solved: 40.5880385
+eigval(0): 0.000735810036
+Solve_Hermite_PredictNormal_UnitNorm finish
+OptNormal
+nlopt time: 38.4360618
+Statu: 3
+Obj: 127541.8623 -> 3004.749114
+number of call: 1026 t: 34.1587817 ave: 0.03329315955
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 38.5277044
+
+0: 3810.5119 -> 2144.8421
+0.001: 27083.566 -> 1148.0825
+0.01: 62636.929 -> 1148.1067
+0.1: 101829.39 -> 2935.1035
+1: 127541.86 -> 3004.7491
+min energy: 
+0.001: 27083.566 -> 1148.0825
+Init Time: 1603.9319
+
+OptNormal
+nlopt time: 21.788402
+Statu: 3
+Obj: 27083.56604 -> 1148.082451
+number of call: 584 t: 19.3980995 ave: 0.0332159238
+Set_RBFCoef
+Opt_Hermite_PredictNormal_UnitNormal
+Opt Time: 21.8857814
+
+maxlen_r: 1
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\hand_contourhand_contour_normal.ply
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 91.0021623
+n_evacalls: 1001809   ave: 9.083783665e-05
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\vipss\sparse\sample_with_gt\hand_contourhand_contour_surface.ply
