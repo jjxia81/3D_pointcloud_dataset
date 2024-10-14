@@ -1,31 +1,42 @@
 input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\
 in_filename : fertility
 in_extname : .xyz
-out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\/fertility_out_normal
 Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\fertility.xyz
 read point size : 1000 
-build triangulation and initilization : 0.017715 s ! 
-Normal initializtion with local vipss total time used : 0.049385 
+start to init mesh 
+pt num : 1000 
+point_id_map_ size : 1000 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 1000, cols : 1000 
+build triangulation and initilization : 0.016980 s ! 
+finish init adj mat and core pt ids time : 0.001120 ! 
+finish init cluster normals time : 0.020885 ! 
+finish init cluster neigh scores time : 0.001574 ! 
+finish calculate cluster scores time : 0.000007 ! 
+normal MST_time time used : 0.010644 
+normal flip time used : 0.001131 
+Normal initializtion with local vipss total time used : 0.036314 
 average cluster J ele num : 5957 
---- build_H_time_total sum  time : 0.321995 
+--- build_H_time_total sum  time : 0.335049 
 start to call solver ! 
-opt solve time : 0.155576 ! 
+opt solve time : 0.141386 ! 
 opt fun call count : 161 
-total local vipss running time : 0.569324 ! 
+total local vipss running time : 0.548629 ! 
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\/fertility_out_normal.ply
  start ReconSurface 
-generate_voroi_data_time  : 0.012103 ! 
+generate_voroi_data_time  : 0.010423 ! 
  start use_nn_interpolation 
---- build_HRBF_time_total sum  time : 0.169234 
+--- build_HRBF_time_total sum  time : 0.175529 
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 30.8727
-saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\fertility.ply.ply
-------- tet search time 1.4079
+Total Surfacing time: 31.8497
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\fertility.ply
+------- tet search time 1.3455
 ------- voxel pt ave nn num 24
-------- nn search time: 16.441061 
-------- cal nn coordinate and hrbf time: 13.435164 
- ------ voxel dist func val evaluated count : 1031101  
- ------ voxel dist func val evaluated time : 30.602410 
-------- total surface time: 31.058079 
---------- v cell deallocated size 1046 
+------- nn search time: 17.615906 
+------- cal nn coordinate and hrbf time: 13.208625 
+ ------ voxel dist func val evaluated count : 1031629  
+ ------ voxel dist func val evaluated time : 31.577530 
+------- total surface time: 32.039632 
+--------- v cell deallocated size 1014 

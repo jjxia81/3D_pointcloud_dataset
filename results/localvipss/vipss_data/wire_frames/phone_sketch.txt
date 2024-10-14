@@ -1,31 +1,42 @@
 input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\
 in_filename : phone_sketch
 in_extname : .xyz
-out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\/phone_sketch_out_normal
 Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\phone_sketch.xyz
 read point size : 999 
-build triangulation and initilization : 0.019224 s ! 
-Normal initializtion with local vipss total time used : 0.056903 
+start to init mesh 
+pt num : 999 
+point_id_map_ size : 999 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 999, cols : 999 
+build triangulation and initilization : 0.018326 s ! 
+finish init adj mat and core pt ids time : 0.000976 ! 
+finish init cluster normals time : 0.025027 ! 
+finish init cluster neigh scores time : 0.001219 ! 
+finish calculate cluster scores time : 0.000005 ! 
+normal MST_time time used : 0.009435 
+normal flip time used : 0.001037 
+Normal initializtion with local vipss total time used : 0.038660 
 average cluster J ele num : 7411 
---- build_H_time_total sum  time : 0.355599 
+--- build_H_time_total sum  time : 0.364472 
 start to call solver ! 
-opt solve time : 0.269477 ! 
+opt solve time : 0.251311 ! 
 opt fun call count : 177 
-total local vipss running time : 0.725356 ! 
+total local vipss running time : 0.692075 ! 
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\/phone_sketch_out_normal.ply
  start ReconSurface 
-generate_voroi_data_time  : 0.014692 ! 
+generate_voroi_data_time  : 0.009439 ! 
  start use_nn_interpolation 
---- build_HRBF_time_total sum  time : 0.211797 
+--- build_HRBF_time_total sum  time : 0.193617 
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 37.5618
-saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\phone_sketch.ply.ply
-------- tet search time 1.24148
+Total Surfacing time: 37.9728
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\phone_sketch.ply
+------- tet search time 1.21932
 ------- voxel pt ave nn num 37
-------- nn search time: 21.825892 
-------- cal nn coordinate and hrbf time: 14.860742 
- ------ voxel dist func val evaluated count : 810223  
- ------ voxel dist func val evaluated time : 37.343909 
-------- total surface time: 37.792968 
---------- v cell deallocated size 1045 
+------- nn search time: 21.895462 
+------- cal nn coordinate and hrbf time: 15.199875 
+ ------ voxel dist func val evaluated count : 808145  
+ ------ voxel dist func val evaluated time : 37.729929 
+------- total surface time: 38.179607 
+--------- v cell deallocated size 1013 

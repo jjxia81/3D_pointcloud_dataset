@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\
+in_filename : trebol
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\trebol.xyz
+read point size : 498 
+start to init mesh 
+pt num : 498 
+point_id_map_ size : 498 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 498, cols : 498 
+build triangulation and initilization : 0.024182 s ! 
+finish init adj mat and core pt ids time : 0.001470 ! 
+finish init cluster normals time : 0.027596 ! 
+finish init cluster neigh scores time : 0.000865 ! 
+finish calculate cluster scores time : 0.000008 ! 
+normal MST_time time used : 0.008391 
+normal flip time used : 0.000703 
+Normal initializtion with local vipss total time used : 0.039896 
+average cluster J ele num : 6974 
+--- build_H_time_total sum  time : 0.209498 
+start to call solver ! 
+opt solve time : 0.036382 ! 
+opt fun call count : 77 
+total local vipss running time : 0.320196 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\/trebol_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.006521 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.124553 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 62.1695
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\trebol_soft.ply
+------- tet search time 2.11915
+------- voxel pt ave nn num 32
+------- nn search time: 35.995109 
+------- cal nn coordinate and hrbf time: 24.542980 
+ ------ voxel dist func val evaluated count : 1453946  
+ ------ voxel dist func val evaluated time : 61.749355 
+------- total surface time: 62.304295 
+--------- v cell deallocated size 512 

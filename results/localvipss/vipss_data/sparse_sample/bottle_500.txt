@@ -1,31 +1,42 @@
 input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\
 in_filename : bottle_500
 in_extname : .xyz
-out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\/bottle_500_out_normal
 Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\bottle_500.xyz
 read point size : 500 
-build triangulation and initilization : 0.006496 s ! 
-Normal initializtion with local vipss total time used : 0.030648 
+start to init mesh 
+pt num : 500 
+point_id_map_ size : 500 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 500, cols : 500 
+build triangulation and initilization : 0.006742 s ! 
+finish init adj mat and core pt ids time : 0.000378 ! 
+finish init cluster normals time : 0.008853 ! 
+finish init cluster neigh scores time : 0.000342 ! 
+finish calculate cluster scores time : 0.000006 ! 
+normal MST_time time used : 0.002467 
+normal flip time used : 0.000291 
+Normal initializtion with local vipss total time used : 0.012682 
 average cluster J ele num : 4146 
---- build_H_time_total sum  time : 0.123258 
+--- build_H_time_total sum  time : 0.107019 
 start to call solver ! 
-opt solve time : 0.099220 ! 
+opt solve time : 0.078580 ! 
 opt fun call count : 199 
-total local vipss running time : 0.267063 ! 
+total local vipss running time : 0.218691 ! 
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\/bottle_500_out_normal.ply
  start ReconSurface 
-generate_voroi_data_time  : 0.005736 ! 
+generate_voroi_data_time  : 0.003621 ! 
  start use_nn_interpolation 
---- build_HRBF_time_total sum  time : 0.096991 
+--- build_HRBF_time_total sum  time : 0.091030 
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 8.27163
-saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\bottle_500.ply.ply
-------- tet search time 0.578887
-------- voxel pt ave nn num 11
-------- nn search time: 3.717632 
-------- cal nn coordinate and hrbf time: 4.163761 
- ------ voxel dist func val evaluated count : 502909  
- ------ voxel dist func val evaluated time : 8.134854 
-------- total surface time: 8.376490 
---------- v cell deallocated size 546 
+Total Surfacing time: 9.46479
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\bottle_500.ply
+------- tet search time 0.484871
+------- voxel pt ave nn num 10
+------- nn search time: 4.080969 
+------- cal nn coordinate and hrbf time: 5.019961 
+ ------ voxel dist func val evaluated count : 503235  
+ ------ voxel dist func val evaluated time : 9.340032 
+------- total surface time: 9.561513 
+--------- v cell deallocated size 514 

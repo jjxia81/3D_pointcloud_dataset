@@ -1,31 +1,42 @@
 input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\
 in_filename : boat-artmesh_500
 in_extname : .xyz
-out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\/boat-artmesh_500_out_normal
 Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\boat-artmesh_500.xyz
 read point size : 508 
-build triangulation and initilization : 0.006302 s ! 
-Normal initializtion with local vipss total time used : 0.035158 
+start to init mesh 
+pt num : 508 
+point_id_map_ size : 508 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 508, cols : 508 
+build triangulation and initilization : 0.014081 s ! 
+finish init adj mat and core pt ids time : 0.001176 ! 
+finish init cluster normals time : 0.031018 ! 
+finish init cluster neigh scores time : 0.000500 ! 
+finish calculate cluster scores time : 0.000002 ! 
+normal MST_time time used : 0.003417 
+normal flip time used : 0.000456 
+Normal initializtion with local vipss total time used : 0.037058 
 average cluster J ele num : 3851 
---- build_H_time_total sum  time : 0.183623 
+--- build_H_time_total sum  time : 0.209583 
 start to call solver ! 
-opt solve time : 0.066228 ! 
+opt solve time : 0.064517 ! 
 opt fun call count : 118 
-total local vipss running time : 0.295911 ! 
+total local vipss running time : 0.339864 ! 
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\/boat-artmesh_500_out_normal.ply
  start ReconSurface 
-generate_voroi_data_time  : 0.005566 ! 
+generate_voroi_data_time  : 0.004510 ! 
  start use_nn_interpolation 
---- build_HRBF_time_total sum  time : 0.092492 
+--- build_HRBF_time_total sum  time : 0.092816 
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 10.3669
-saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\boat-artmesh_500.ply.ply
-------- tet search time 0.730802
-------- voxel pt ave nn num 11
-------- nn search time: 4.666708 
-------- cal nn coordinate and hrbf time: 5.236019 
- ------ voxel dist func val evaluated count : 650587  
- ------ voxel dist func val evaluated time : 10.212905 
-------- total surface time: 10.467251 
---------- v cell deallocated size 554 
+Total Surfacing time: 11.7046
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\boat-artmesh_500.ply
+------- tet search time 0.619731
+------- voxel pt ave nn num 10
+------- nn search time: 5.155677 
+------- cal nn coordinate and hrbf time: 6.075620 
+ ------ voxel dist func val evaluated count : 650389  
+ ------ voxel dist func val evaluated time : 11.544871 
+------- total surface time: 11.804129 
+--------- v cell deallocated size 522 

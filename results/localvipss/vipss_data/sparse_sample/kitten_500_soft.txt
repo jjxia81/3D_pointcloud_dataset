@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\
+in_filename : kitten_500
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\sparse_sample\kitten_500.xyz
+read point size : 500 
+start to init mesh 
+pt num : 500 
+point_id_map_ size : 500 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 500, cols : 500 
+build triangulation and initilization : 0.021227 s ! 
+finish init adj mat and core pt ids time : 0.001194 ! 
+finish init cluster normals time : 0.018366 ! 
+finish init cluster neigh scores time : 0.000805 ! 
+finish calculate cluster scores time : 0.000009 ! 
+normal MST_time time used : 0.008894 
+normal flip time used : 0.000807 
+Normal initializtion with local vipss total time used : 0.031024 
+average cluster J ele num : 3857 
+--- build_H_time_total sum  time : 0.108305 
+start to call solver ! 
+opt solve time : 0.009311 ! 
+opt fun call count : 41 
+total local vipss running time : 0.179395 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\/kitten_500_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.003812 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.085603 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 21.8547
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\sparse_sample\kitten_500_soft.ply
+------- tet search time 1.16608
+------- voxel pt ave nn num 11
+------- nn search time: 10.001621 
+------- cal nn coordinate and hrbf time: 10.999061 
+ ------ voxel dist func val evaluated count : 1132717  
+ ------ voxel dist func val evaluated time : 21.561882 
+------- total surface time: 21.947006 
+--------- v cell deallocated size 514 

@@ -1,31 +1,42 @@
 input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\
 in_filename : walrus
 in_extname : .xyz
-out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\/walrus_out_normal
 Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\walrus.xyz
 read point size : 999 
-build triangulation and initilization : 0.018052 s ! 
-Normal initializtion with local vipss total time used : 0.052132 
+start to init mesh 
+pt num : 999 
+point_id_map_ size : 999 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 999, cols : 999 
+build triangulation and initilization : 0.017634 s ! 
+finish init adj mat and core pt ids time : 0.000989 ! 
+finish init cluster normals time : 0.023529 ! 
+finish init cluster neigh scores time : 0.001497 ! 
+finish calculate cluster scores time : 0.000007 ! 
+normal MST_time time used : 0.009109 
+normal flip time used : 0.000889 
+Normal initializtion with local vipss total time used : 0.036976 
 average cluster J ele num : 6015 
---- build_H_time_total sum  time : 0.338357 
+--- build_H_time_total sum  time : 0.319552 
 start to call solver ! 
-opt solve time : 15.975530 ! 
-opt fun call count : 2001 
-total local vipss running time : 16.395843 ! 
+opt solve time : 0.090464 ! 
+opt fun call count : 150 
+total local vipss running time : 0.484119 ! 
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\/walrus_out_normal.ply
  start ReconSurface 
-generate_voroi_data_time  : 0.011505 ! 
+generate_voroi_data_time  : 0.009882 ! 
  start use_nn_interpolation 
---- build_HRBF_time_total sum  time : 0.187434 
+--- build_HRBF_time_total sum  time : 0.174043 
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 30.2644
-saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\walrus.ply.ply
-------- tet search time 1.08697
-------- voxel pt ave nn num 29
-------- nn search time: 15.801661 
-------- cal nn coordinate and hrbf time: 13.662840 
- ------ voxel dist func val evaluated count : 810497  
- ------ voxel dist func val evaluated time : 30.052665 
-------- total surface time: 30.468048 
---------- v cell deallocated size 1045 
+Total Surfacing time: 48.1294
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\walrus.ply
+------- tet search time 1.65307
+------- voxel pt ave nn num 31
+------- nn search time: 27.017971 
+------- cal nn coordinate and hrbf time: 19.911410 
+ ------ voxel dist func val evaluated count : 1193893  
+ ------ voxel dist func val evaluated time : 47.823175 
+------- total surface time: 48.318010 
+--------- v cell deallocated size 1013 

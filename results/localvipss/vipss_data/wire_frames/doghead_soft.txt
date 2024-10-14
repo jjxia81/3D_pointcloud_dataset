@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\
+in_filename : doghead
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\wire_frames\doghead.xyz
+read point size : 1001 
+start to init mesh 
+pt num : 1001 
+point_id_map_ size : 1001 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 1001, cols : 1001 
+build triangulation and initilization : 0.063817 s ! 
+finish init adj mat and core pt ids time : 0.000924 ! 
+finish init cluster normals time : 0.051216 ! 
+finish init cluster neigh scores time : 0.001182 ! 
+finish calculate cluster scores time : 0.000007 ! 
+normal MST_time time used : 0.012627 
+normal flip time used : 0.001041 
+Normal initializtion with local vipss total time used : 0.069369 
+average cluster J ele num : 9971 
+--- build_H_time_total sum  time : 0.416035 
+start to call solver ! 
+opt solve time : 0.072157 ! 
+opt fun call count : 106 
+total local vipss running time : 0.638650 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\/doghead_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.014234 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.241503 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 64.692
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\wire_frames\doghead_soft.ply
+------- tet search time 1.64646
+------- voxel pt ave nn num 44
+------- nn search time: 37.588896 
+------- cal nn coordinate and hrbf time: 25.930655 
+ ------ voxel dist func val evaluated count : 1019133  
+ ------ voxel dist func val evaluated time : 64.388331 
+------- total surface time: 64.952512 
+--------- v cell deallocated size 1015 

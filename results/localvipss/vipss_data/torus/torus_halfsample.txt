@@ -1,31 +1,42 @@
 input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\torus\
 in_filename : torus_halfsample
 in_extname : .xyz
-out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\torus\/torus_halfsample_out_normal
 Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\vipss_data\torus\torus_halfsample.xyz
 read point size : 241 
-build triangulation and initilization : 0.006610 s ! 
-Normal initializtion with local vipss total time used : 0.022762 
+start to init mesh 
+pt num : 241 
+point_id_map_ size : 241 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 241, cols : 241 
+build triangulation and initilization : 0.003260 s ! 
+finish init adj mat and core pt ids time : 0.000180 ! 
+finish init cluster normals time : 0.005308 ! 
+finish init cluster neigh scores time : 0.000208 ! 
+finish calculate cluster scores time : 0.000003 ! 
+normal MST_time time used : 0.001974 
+normal flip time used : 0.000189 
+Normal initializtion with local vipss total time used : 0.008111 
 average cluster J ele num : 5260 
---- build_H_time_total sum  time : 0.078917 
+--- build_H_time_total sum  time : 0.067808 
 start to call solver ! 
-opt solve time : 0.013864 ! 
+opt solve time : 0.013792 ! 
 opt fun call count : 79 
-total local vipss running time : 0.139668 ! 
+total local vipss running time : 0.104553 ! 
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\torus\/torus_halfsample_out_normal.ply
  start ReconSurface 
-generate_voroi_data_time  : 0.003536 ! 
+generate_voroi_data_time  : 0.002168 ! 
  start use_nn_interpolation 
---- build_HRBF_time_total sum  time : 0.067394 
+--- build_HRBF_time_total sum  time : 0.050352 
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 20.5861
-saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\torus\torus_halfsample.ply.ply
-------- tet search time 1.38594
-------- voxel pt ave nn num 13
-------- nn search time: 9.666234 
-------- cal nn coordinate and hrbf time: 9.950040 
- ------ voxel dist func val evaluated count : 1271008  
- ------ voxel dist func val evaluated time : 20.225132 
-------- total surface time: 20.659253 
---------- v cell deallocated size 287 
+Total Surfacing time: 24.1461
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\vipss_data\torus\torus_halfsample.ply
+------- tet search time 1.18274
+------- voxel pt ave nn num 11
+------- nn search time: 11.311009 
+------- cal nn coordinate and hrbf time: 11.913820 
+ ------ voxel dist func val evaluated count : 1271721  
+ ------ voxel dist func val evaluated time : 23.826306 
+------- total surface time: 24.200641 
+--------- v cell deallocated size 255 
