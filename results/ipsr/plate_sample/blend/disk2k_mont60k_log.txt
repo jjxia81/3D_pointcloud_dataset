@@ -1,0 +1,56 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\plate_sample\blend\disk2k_mont60k_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\plate_sample\blend\disk2k_mont60k.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.999088
+Iter: 2
+normals variation 1.944334
+Iter: 3
+normals variation 1.682546
+Iter: 4
+normals variation 1.450980
+Iter: 5
+normals variation 1.304231
+Iter: 6
+normals variation 0.894106
+Iter: 7
+normals variation 0.622849
+Iter: 8
+normals variation 0.556637
+Iter: 9
+normals variation 0.435973
+Iter: 10
+normals variation 0.477663
+Iter: 11
+normals variation 0.414214
+Iter: 12
+normals variation 0.552787
+Iter: 13
+normals variation 0.410518
+Iter: 14
+normals variation 0.509101
+Iter: 15
+normals variation 0.537499
+Iter: 16
+normals variation 0.413695
+Iter: 17
+normals variation 0.336584
+Iter: 18
+normals variation 0.299087
+Iter: 19
+normals variation 0.198456
+Iter: 20
+normals variation 0.305386
+Iter: 21
+normals variation 0.141419
+ normal estimate time : 76.5859
+poisson reconstruction time : 3.22397
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\plate_sample\blend\disk2k_mont60k.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\plate_sample\blend\disk2k_mont60k.ply_n.ply

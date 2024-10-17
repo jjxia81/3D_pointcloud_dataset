@@ -1,0 +1,6 @@
+author1_car
+c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\gcno\sketches\noisy\author1_car.xyz
+Read point cloud.
+make Regular_triangulation .
+1165
+1 19

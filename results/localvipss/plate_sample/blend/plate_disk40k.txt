@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\plate_sample\blend\
+in_filename : plate_disk40k
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\plate_sample\blend\plate_disk40k.xyz
+read point size : 39983 
+start to init mesh 
+pt num : 39983 
+point_id_map_ size : 39983 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 39983, cols : 39983 
+build triangulation and initilization : 0.776024 s ! 
+finish init adj mat and core pt ids time : 0.023016 ! 
+finish init cluster normals time : 0.304513 ! 
+finish init cluster neigh scores time : 0.034088 ! 
+finish calculate cluster scores time : 0.000014 ! 
+normal MST_time time used : 0.254028 
+normal flip time used : 0.033851 
+Normal initializtion with local vipss total time used : 0.663175 
+average cluster J ele num : 2145 
+--- build_H_time_total sum  time : 1.925846 
+start to call solver ! 
+opt solve time : 48.024820 ! 
+opt fun call count : 2001 
+total local vipss running time : 51.588967 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\plate_sample\blend\/plate_disk40k_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.352758 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 2.288995 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 41.9457
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\plate_sample\blend\plate_disk40k.ply
+------- tet search time 1.49134
+------- voxel pt ave nn num 31
+------- nn search time: 26.954313 
+------- cal nn coordinate and hrbf time: 13.800839 
+ ------ voxel dist func val evaluated count : 1197406  
+ ------ voxel dist func val evaluated time : 41.530669 
+------- total surface time: 44.657804 
+--------- v cell deallocated size 40015 

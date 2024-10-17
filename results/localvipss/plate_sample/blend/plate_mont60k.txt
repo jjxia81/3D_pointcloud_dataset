@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\plate_sample\blend\
+in_filename : plate_mont60k
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\plate_sample\blend\plate_mont60k.xyz
+read point size : 60000 
+start to init mesh 
+pt num : 60000 
+point_id_map_ size : 60000 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 60000, cols : 60000 
+build triangulation and initilization : 1.313894 s ! 
+finish init adj mat and core pt ids time : 0.037092 ! 
+finish init cluster normals time : 0.466637 ! 
+finish init cluster neigh scores time : 0.056480 ! 
+finish calculate cluster scores time : 0.000015 ! 
+normal MST_time time used : 0.365963 
+normal flip time used : 0.053569 
+Normal initializtion with local vipss total time used : 0.999725 
+average cluster J ele num : 2281 
+--- build_H_time_total sum  time : 4.025054 
+start to call solver ! 
+opt solve time : 63.122951 ! 
+opt fun call count : 2001 
+total local vipss running time : 69.717773 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\plate_sample\blend\/plate_mont60k_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.610033 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 3.666851 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 49.2888
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\plate_sample\blend\plate_mont60k.ply
+------- tet search time 1.655
+------- voxel pt ave nn num 36
+------- nn search time: 31.466169 
+------- cal nn coordinate and hrbf time: 16.601063 
+ ------ voxel dist func val evaluated count : 1197284  
+ ------ voxel dist func val evaluated time : 48.841328 
+------- total surface time: 53.685632 
+--------- v cell deallocated size 60032 

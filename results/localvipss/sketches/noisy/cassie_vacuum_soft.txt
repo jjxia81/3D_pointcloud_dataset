@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\noisy\
+in_filename : cassie_vacuum
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\noisy\cassie_vacuum.xyz
+read point size : 615 
+start to init mesh 
+pt num : 615 
+point_id_map_ size : 615 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 615, cols : 615 
+build triangulation and initilization : 0.014036 s ! 
+finish init adj mat and core pt ids time : 0.000819 ! 
+finish init cluster normals time : 0.024127 ! 
+finish init cluster neigh scores time : 0.000509 ! 
+finish calculate cluster scores time : 0.000004 ! 
+normal MST_time time used : 0.004334 
+normal flip time used : 0.000492 
+Normal initializtion with local vipss total time used : 0.030845 
+average cluster J ele num : 4180 
+--- build_H_time_total sum  time : 0.165812 
+start to call solver ! 
+opt solve time : 20.278782 ! 
+opt fun call count : 2001 
+total local vipss running time : 20.493533 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\noisy\/cassie_vacuum_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.005618 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 0.108456 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 13.8766
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\noisy\cassie_vacuum_soft.ply
+------- tet search time 0.691875
+------- voxel pt ave nn num 16
+------- nn search time: 7.297093 
+------- cal nn coordinate and hrbf time: 6.049971 
+ ------ voxel dist func val evaluated count : 624659  
+ ------ voxel dist func val evaluated time : 13.720327 
+------- total surface time: 13.993691 
+--------- v cell deallocated size 647 

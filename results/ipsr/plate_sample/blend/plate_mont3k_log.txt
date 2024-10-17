@@ -1,0 +1,74 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\plate_sample\blend\plate_mont3k_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\plate_sample\blend\plate_mont3k.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.999659
+Iter: 2
+normals variation 1.979047
+Iter: 3
+normals variation 1.935363
+Iter: 4
+normals variation 1.852806
+Iter: 5
+normals variation 1.874207
+Iter: 6
+normals variation 1.870506
+Iter: 7
+normals variation 1.871349
+Iter: 8
+normals variation 1.878728
+Iter: 9
+normals variation 1.096566
+Iter: 10
+normals variation 1.475052
+Iter: 11
+normals variation 0.996739
+Iter: 12
+normals variation 0.832248
+Iter: 13
+normals variation 0.787728
+Iter: 14
+normals variation 0.930410
+Iter: 15
+normals variation 0.658960
+Iter: 16
+normals variation 1.226845
+Iter: 17
+normals variation 0.802011
+Iter: 18
+normals variation 0.609846
+Iter: 19
+normals variation 0.581299
+Iter: 20
+normals variation 0.448986
+Iter: 21
+normals variation 0.625019
+Iter: 22
+normals variation 0.598983
+Iter: 23
+normals variation 0.500265
+Iter: 24
+normals variation 0.477512
+Iter: 25
+normals variation 1.007682
+Iter: 26
+normals variation 0.566631
+Iter: 27
+normals variation 1.023725
+Iter: 28
+normals variation 0.298546
+Iter: 29
+normals variation 0.538115
+Iter: 30
+normals variation 0.379570
+ normal estimate time : 52.6316
+poisson reconstruction time : 1.97491
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\plate_sample\blend\plate_mont3k.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\plate_sample\blend\plate_mont3k.ply_n.ply

@@ -1,37 +1,42 @@
 input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\
 in_filename : ils_roadster
 in_extname : .xyz
-out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\/ils_roadster_out_normal
 Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\ils_roadster.xyz
 read point size : 2607 
-build triangulation and initilization : 0.093838 s ! 
-finish init adj mat and core pt ids time : 0.002670 ! 
-finish init cluster normals time : 0.269915 ! 
-finish init cluster neigh scores time : 0.006966 ! 
-finish calculate cluster scores time : 0.000008 ! 
-normal MST_time time used : 0.054937 
-normal flip time used : 0.003307 
-Normal initializtion with local vipss total time used : 0.340564 
+start to init mesh 
+pt num : 2607 
+point_id_map_ size : 2607 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 2607, cols : 2607 
+build triangulation and initilization : 0.114218 s ! 
+finish init adj mat and core pt ids time : 0.002738 ! 
+finish init cluster normals time : 0.257680 ! 
+finish init cluster neigh scores time : 0.005736 ! 
+finish calculate cluster scores time : 0.000013 ! 
+normal MST_time time used : 0.049652 
+normal flip time used : 0.003978 
+Normal initializtion with local vipss total time used : 0.321979 
 average cluster J ele num : 29157 
---- build_H_time_total sum  time : 81.039069 
+--- build_H_time_total sum  time : 84.084031 
 start to call solver ! 
-opt solve time : 0.724276 ! 
+opt solve time : 0.654154 ! 
 opt fun call count : 257 
-total local vipss running time : 82.276070 ! 
+total local vipss running time : 85.273824 ! 
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\/ils_roadster_out_normal.ply
  start ReconSurface 
-generate_voroi_data_time  : 0.059423 ! 
+generate_voroi_data_time  : 0.055415 ! 
  start use_nn_interpolation 
---- build_HRBF_time_total sum  time : 1.626966 
+--- build_HRBF_time_total sum  time : 1.766615 
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 178.337
-saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\ils_roadster.ply.ply
-------- tet search time 2.39165
-------- voxel pt ave nn num 112
-------- nn search time: 98.196342 
-------- cal nn coordinate and hrbf time: 79.038501 
- ------ voxel dist func val evaluated count : 846299  
- ------ voxel dist func val evaluated time : 178.076657 
-------- total surface time: 180.032641 
---------- v cell deallocated size 2653 
+Total Surfacing time: 231.056
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\ils_roadster.ply
+------- tet search time 2.82817
+------- voxel pt ave nn num 127
+------- nn search time: 127.008501 
+------- cal nn coordinate and hrbf time: 102.850641 
+ ------ voxel dist func val evaluated count : 851266  
+ ------ voxel dist func val evaluated time : 230.770262 
+------- total surface time: 232.888886 
+--------- v cell deallocated size 2639 

@@ -1,37 +1,42 @@
 input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\
 in_filename : flowrep_ellipsetorus
 in_extname : .xyz
-out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\/flowrep_ellipsetorus_out_normal
 Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\flowrep_ellipsetorus.xyz
 read point size : 1179 
-build triangulation and initilization : 0.022483 s ! 
-finish init adj mat and core pt ids time : 0.000920 ! 
-finish init cluster normals time : 0.068286 ! 
-finish init cluster neigh scores time : 0.001744 ! 
-finish calculate cluster scores time : 0.000006 ! 
-normal MST_time time used : 0.012434 
-normal flip time used : 0.000718 
-Normal initializtion with local vipss total time used : 0.085118 
+start to init mesh 
+pt num : 1179 
+point_id_map_ size : 1179 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 1179, cols : 1179 
+build triangulation and initilization : 0.055514 s ! 
+finish init adj mat and core pt ids time : 0.000988 ! 
+finish init cluster normals time : 0.064077 ! 
+finish init cluster neigh scores time : 0.001510 ! 
+finish calculate cluster scores time : 0.000005 ! 
+normal MST_time time used : 0.013705 
+normal flip time used : 0.001243 
+Normal initializtion with local vipss total time used : 0.082708 
 average cluster J ele num : 9300 
---- build_H_time_total sum  time : 0.481478 
+--- build_H_time_total sum  time : 0.460790 
 start to call solver ! 
-opt solve time : 0.337045 ! 
+opt solve time : 0.300450 ! 
 opt fun call count : 173 
-total local vipss running time : 0.947293 ! 
+total local vipss running time : 0.937474 ! 
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\/flowrep_ellipsetorus_out_normal.ply
  start ReconSurface 
-generate_voroi_data_time  : 0.016085 ! 
+generate_voroi_data_time  : 0.017961 ! 
  start use_nn_interpolation 
---- build_HRBF_time_total sum  time : 0.258736 
+--- build_HRBF_time_total sum  time : 0.267577 
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 67.2231
-saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\flowrep_ellipsetorus.ply.ply
-------- tet search time 1.71545
+Total Surfacing time: 73.1632
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\flowrep_ellipsetorus.ply
+------- tet search time 1.72602
 ------- voxel pt ave nn num 47
-------- nn search time: 38.746779 
-------- cal nn coordinate and hrbf time: 27.261752 
- ------ voxel dist func val evaluated count : 1099655  
- ------ voxel dist func val evaluated time : 66.936243 
-------- total surface time: 67.504406 
---------- v cell deallocated size 1225 
+------- nn search time: 43.978161 
+------- cal nn coordinate and hrbf time: 27.982131 
+ ------ voxel dist func val evaluated count : 1099096  
+ ------ voxel dist func val evaluated time : 72.865014 
+------- total surface time: 73.455170 
+--------- v cell deallocated size 1211 

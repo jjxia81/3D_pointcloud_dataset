@@ -1,37 +1,42 @@
 input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\
 in_filename : flowrep_spherecylinder
 in_extname : .xyz
-out normal path : c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\/flowrep_spherecylinder_out_normal
 Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\sketches\Piecewise\flowrep_spherecylinder.xyz
 read point size : 718 
-build triangulation and initilization : 0.016363 s ! 
-finish init adj mat and core pt ids time : 0.000550 ! 
-finish init cluster normals time : 0.035674 ! 
-finish init cluster neigh scores time : 0.001210 ! 
+start to init mesh 
+pt num : 718 
+point_id_map_ size : 718 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 718, cols : 718 
+build triangulation and initilization : 0.039197 s ! 
+finish init adj mat and core pt ids time : 0.000815 ! 
+finish init cluster normals time : 0.033644 ! 
+finish init cluster neigh scores time : 0.000914 ! 
 finish calculate cluster scores time : 0.000006 ! 
-normal MST_time time used : 0.006799 
-normal flip time used : 0.000607 
-Normal initializtion with local vipss total time used : 0.045581 
+normal MST_time time used : 0.007551 
+normal flip time used : 0.000831 
+Normal initializtion with local vipss total time used : 0.044702 
 average cluster J ele num : 5301 
---- build_H_time_total sum  time : 0.203095 
+--- build_H_time_total sum  time : 0.203732 
 start to call solver ! 
-opt solve time : 0.045634 ! 
+opt solve time : 0.038570 ! 
 opt fun call count : 132 
-total local vipss running time : 0.318982 ! 
+total local vipss running time : 0.354371 ! 
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\/flowrep_spherecylinder_out_normal.ply
  start ReconSurface 
-generate_voroi_data_time  : 0.009581 ! 
+generate_voroi_data_time  : 0.008573 ! 
  start use_nn_interpolation 
---- build_HRBF_time_total sum  time : 0.132361 
+--- build_HRBF_time_total sum  time : 0.126585 
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 77.2966
-saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\flowrep_spherecylinder.ply.ply
-------- tet search time 1.56952
-------- voxel pt ave nn num 72
-------- nn search time: 49.575762 
-------- cal nn coordinate and hrbf time: 26.492676 
- ------ voxel dist func val evaluated count : 1028386  
- ------ voxel dist func val evaluated time : 77.005342 
-------- total surface time: 77.442032 
---------- v cell deallocated size 764 
+Total Surfacing time: 82.9212
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\flowrep_spherecylinder.ply
+------- tet search time 1.59358
+------- voxel pt ave nn num 70
+------- nn search time: 54.597690 
+------- cal nn coordinate and hrbf time: 27.036615 
+ ------ voxel dist func val evaluated count : 1029765  
+ ------ voxel dist func val evaluated time : 82.626630 
+------- total surface time: 83.059907 
+--------- v cell deallocated size 750 

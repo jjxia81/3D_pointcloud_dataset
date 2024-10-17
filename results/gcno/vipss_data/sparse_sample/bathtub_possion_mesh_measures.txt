@@ -1,0 +1,5 @@
+-------MEASUREMENT DATA---------
+
+bathtub_possion_mesh.ply
+
+ID : Dist [pointA][pointB]
