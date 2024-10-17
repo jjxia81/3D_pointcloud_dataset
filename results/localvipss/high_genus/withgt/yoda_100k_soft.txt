@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\high_genus\withgt\
+in_filename : yoda_100k
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\high_genus\withgt\yoda_100k.xyz
+read point size : 100000 
+start to init mesh 
+pt num : 100000 
+point_id_map_ size : 100000 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 100000, cols : 100000 
+build triangulation and initilization : 3.612191 s ! 
+finish init adj mat and core pt ids time : 0.076918 ! 
+finish init cluster normals time : 1.361481 ! 
+finish init cluster neigh scores time : 0.201869 ! 
+finish calculate cluster scores time : 0.000009 ! 
+normal MST_time time used : 1.120204 
+normal flip time used : 0.120336 
+Normal initializtion with local vipss total time used : 2.917509 
+average cluster J ele num : 5889 
+--- build_H_time_total sum  time : 34.065476 
+start to call solver ! 
+opt solve time : 7.700981 ! 
+opt fun call count : 116 
+total local vipss running time : 49.456577 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\high_genus\withgt\/yoda_100k_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 1.040510 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 16.996099 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 112.118
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\high_genus\withgt\yoda_100k_soft.ply
+------- tet search time 5.83725
+------- voxel pt ave nn num 20
+------- nn search time: 57.200465 
+------- cal nn coordinate and hrbf time: 51.310408 
+ ------ voxel dist func val evaluated count : 3588124  
+ ------ voxel dist func val evaluated time : 110.929871 
+------- total surface time: 130.442027 
+--------- v cell deallocated size 100032 

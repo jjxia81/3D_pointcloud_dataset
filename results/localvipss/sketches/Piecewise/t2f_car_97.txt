@@ -9,34 +9,34 @@ point_id_map_ size : 4272
 finish triangulation 
 finish build adjecent mat 
 adjacent mat rows : 4272, cols : 4272 
-build triangulation and initilization : 0.118216 s ! 
-finish init adj mat and core pt ids time : 0.003855 ! 
-finish init cluster normals time : 0.658540 ! 
-finish init cluster neigh scores time : 0.014623 ! 
-finish calculate cluster scores time : 0.000020 ! 
-normal MST_time time used : 0.077293 
-normal flip time used : 0.006426 
-Normal initializtion with local vipss total time used : 0.765300 
+build triangulation and initilization : 0.103690 s ! 
+finish init adj mat and core pt ids time : 0.003722 ! 
+finish init cluster normals time : 0.641830 ! 
+finish init cluster neigh scores time : 0.020823 ! 
+finish calculate cluster scores time : 0.000021 ! 
+normal MST_time time used : 0.084862 
+normal flip time used : 0.004849 
+Normal initializtion with local vipss total time used : 0.757790 
 average cluster J ele num : 19762 
---- build_H_time_total sum  time : 7.386952 
+--- build_H_time_total sum  time : 8.013089 
 start to call solver ! 
-opt solve time : 1.281439 ! 
+opt solve time : 1.229351 ! 
 opt fun call count : 271 
-total local vipss running time : 9.646705 ! 
+total local vipss running time : 10.194570 ! 
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\/t2f_car_97_out_normal.ply
  start ReconSurface 
-generate_voroi_data_time  : 0.048424 ! 
+generate_voroi_data_time  : 0.062828 ! 
  start use_nn_interpolation 
---- build_HRBF_time_total sum  time : 1.953005 
+--- build_HRBF_time_total sum  time : 1.710309 
 Implicit Surfacing: 
 Implicit Surfacing Done.
-Total Surfacing time: 100.033
+Total Surfacing time: 91.768
 saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\sketches\Piecewise\t2f_car_97.ply
-------- tet search time 1.75471
-------- voxel pt ave nn num 88
-------- nn search time: 57.035884 
-------- cal nn coordinate and hrbf time: 42.007324 
- ------ voxel dist func val evaluated count : 790436  
- ------ voxel dist func val evaluated time : 99.794281 
-------- total surface time: 102.045525 
---------- v cell deallocated size 4304 
+------- tet search time 1.70125
+------- voxel pt ave nn num 82
+------- nn search time: 52.938524 
+------- cal nn coordinate and hrbf time: 37.849966 
+ ------ voxel dist func val evaluated count : 791422  
+ ------ voxel dist func val evaluated time : 91.523789 
+------- total surface time: 93.553072 
+--------- v cell deallocated size 4318 

@@ -1,0 +1,20 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\torus_sample\combine\
+in_filename : torus_wire
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\torus_sample\combine\torus_wire.xyz
+read point size : 3572 
+start to init mesh 
+pt num : 3572 
+point_id_map_ size : 3572 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 3572, cols : 3572 
+build triangulation and initilization : 0.406238 s ! 
+finish init adj mat and core pt ids time : 0.006639 ! 
+finish init cluster normals time : 1.644411 ! 
+finish init cluster neigh scores time : 0.029847 ! 
+finish calculate cluster scores time : 0.000016 ! 
+normal MST_time time used : 0.142704 
+normal flip time used : 0.003609 
+Normal initializtion with local vipss total time used : 1.829312 
+average cluster J ele num : 193123 

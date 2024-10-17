@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\high_genus\withgt\
+in_filename : Mobius_Net_100k
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\high_genus\withgt\Mobius_Net_100k.xyz
+read point size : 100000 
+start to init mesh 
+pt num : 100000 
+point_id_map_ size : 100000 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 100000, cols : 100000 
+build triangulation and initilization : 3.524285 s ! 
+finish init adj mat and core pt ids time : 0.076274 ! 
+finish init cluster normals time : 1.287810 ! 
+finish init cluster neigh scores time : 0.195596 ! 
+finish calculate cluster scores time : 0.000009 ! 
+normal MST_time time used : 1.052539 
+normal flip time used : 0.106630 
+Normal initializtion with local vipss total time used : 2.752671 
+average cluster J ele num : 5621 
+--- build_H_time_total sum  time : 32.494198 
+start to call solver ! 
+opt solve time : 6.013387 ! 
+opt fun call count : 89 
+total local vipss running time : 45.922548 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\high_genus\withgt\/Mobius_Net_100k_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 1.011796 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 17.465658 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 84.7504
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\high_genus\withgt\Mobius_Net_100k_soft.ply
+------- tet search time 4.89643
+------- voxel pt ave nn num 19
+------- nn search time: 44.655171 
+------- cal nn coordinate and hrbf time: 37.216398 
+ ------ voxel dist func val evaluated count : 2941738  
+ ------ voxel dist func val evaluated time : 83.762671 
+------- total surface time: 103.514478 
+--------- v cell deallocated size 100032 

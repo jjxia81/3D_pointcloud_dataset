@@ -1,0 +1,74 @@
+Iterative Poisson Surface Reconstruction (iPSR)
+Parameters:
+--in          c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\high_genus\withgt\yoda_100k_pt.ply
+--out         c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\high_genus\withgt\yoda_100k.ply
+--iters       30
+--pointWeight 10.000000
+--depth       10
+--neighbors   10
+
+random initialization...
+Iter: 1
+normals variation 1.999057
+Iter: 2
+normals variation 1.978540
+Iter: 3
+normals variation 1.962036
+Iter: 4
+normals variation 1.955260
+Iter: 5
+normals variation 1.943470
+Iter: 6
+normals variation 1.930885
+Iter: 7
+normals variation 1.892682
+Iter: 8
+normals variation 1.871560
+Iter: 9
+normals variation 1.855814
+Iter: 10
+normals variation 1.810524
+Iter: 11
+normals variation 1.796862
+Iter: 12
+normals variation 1.802164
+Iter: 13
+normals variation 1.814105
+Iter: 14
+normals variation 1.808483
+Iter: 15
+normals variation 1.817136
+Iter: 16
+normals variation 1.846708
+Iter: 17
+normals variation 1.800559
+Iter: 18
+normals variation 1.720753
+Iter: 19
+normals variation 1.657153
+Iter: 20
+normals variation 1.713478
+Iter: 21
+normals variation 1.726412
+Iter: 22
+normals variation 1.608939
+Iter: 23
+normals variation 1.664765
+Iter: 24
+normals variation 1.731199
+Iter: 25
+normals variation 1.710115
+Iter: 26
+normals variation 1.591390
+Iter: 27
+normals variation 1.602520
+Iter: 28
+normals variation 1.610891
+Iter: 29
+normals variation 1.562644
+Iter: 30
+normals variation 1.511269
+ normal estimate time : 237.447
+poisson reconstruction time : 7.47845
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\high_genus\withgt\yoda_100k.ply
+writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\high_genus\withgt\yoda_100k.ply_n.ply
