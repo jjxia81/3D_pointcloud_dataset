@@ -16,7 +16,7 @@ Iter: 3
 normals variation 1.019379
 Iter: 4
 normals variation 0.107608
- normal estimate time : 13.3287
-poisson reconstruction time : 3.19298
+ normal estimate time : 12.9419
+poisson reconstruction time : 3.01285
 writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\plate_sample\blend\plate_disk40k.ply
 writing to c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\ipsr\plate_sample\blend\plate_disk40k.ply_n.ply
