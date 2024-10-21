@@ -1,0 +1,6 @@
+[LOG] You are using width config l2 width wsmin = 0.02, wsmax = 0.08
+[LOG] time_preproc: 0.023229122161865234
+[LOG] time_main: 71.60467195510864
+[LOG] mem: 390.140625
+num_nodes: 22171, num_leaves: 12988, tree depth: 14
+tree_depth*num_points: 181832, stdvec_node2point_index.size(): 115733

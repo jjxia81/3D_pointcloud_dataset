@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\torus_sample\sampling\
+in_filename : combine_all
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\contours\torus_sample\sampling\combine_all.xyz
+read point size : 71196 
+start to init mesh 
+pt num : 71196 
+point_id_map_ size : 71196 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 71196, cols : 71196 
+build triangulation and initilization : 2.471362 s ! 
+finish init adj mat and core pt ids time : 0.053235 ! 
+finish init cluster normals time : 1.102376 ! 
+finish init cluster neigh scores time : 0.134744 ! 
+finish calculate cluster scores time : 0.000016 ! 
+normal MST_time time used : 0.725959 
+normal flip time used : 0.072029 
+Normal initializtion with local vipss total time used : 2.113058 
+average cluster J ele num : 5956 
+--- build_H_time_total sum  time : 21.952885 
+start to call solver ! 
+opt solve time : 8.522599 ! 
+opt fun call count : 130 
+total local vipss running time : 36.185440 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\torus_sample\sampling\/combine_all_soft_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 1.043604 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 12.348304 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 258.101
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\torus_sample\sampling\combine_all_soft.ply
+------- tet search time 2.12869
+------- voxel pt ave nn num 114
+------- nn search time: 153.372779 
+------- cal nn coordinate and hrbf time: 100.639769 
+ ------ voxel dist func val evaluated count : 1036765  
+ ------ voxel dist func val evaluated time : 257.714911 
+------- total surface time: 271.703288 
+--------- v cell deallocated size 71242 
