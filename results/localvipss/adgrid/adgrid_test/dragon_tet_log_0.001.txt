@@ -1,0 +1,30 @@
+load mesh file c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\adgrid\adgrid_test\dragon_mesh_0.001.json
+function loading finished.
+tet mesh: 77559 verts, 426487 tets.
+[func signs]: 0.001579s
+num_degenerate_vertex = 0
+[filter]: 0.0178188s
+num_intersecting_tet = 194584
+[simp_arr]: 1.37783s
+ -- [simp_arr(1 func)]: 1.37088 s
+ -- [simp_arr(2 func)]: 0 s
+ -- [simp_arr(>=3 func)]: 0 s
+[extract mesh]: 0.264748s
+num iso-vertices = 125581
+num iso-faces = 194584
+[compute xyz]: 0.0039091s
+[isoEdge-face connectivity]: 0.169757s
+num iso-edges = 320167
+[patches]: 0.0395086s
+num patches = 1
+[face-patch map]: 0.0008072s
+[chains]: 0.0030104s
+num chains = 0
+[vert-tet connectivity(degenerate vert only)]: 5e-07s
+incident_tets.size() = 0
+[order patches around chains]: 6.2e-06s
+[shells and components]: 4.7e-06s
+num shells = 2
+num components = 1
+[arrangement cells]: 9e-07s
+num_cells = 2

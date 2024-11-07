@@ -1,0 +1,30 @@
+load mesh file c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\adgrid\adgrid_test\arma_mesh_0.002.json
+function loading finished.
+tet mesh: 31206 verts, 172784 tets.
+[func signs]: 0.0002458s
+num_degenerate_vertex = 0
+[filter]: 0.003389s
+num_intersecting_tet = 80994
+[simp_arr]: 0.551914s
+ -- [simp_arr(1 func)]: 0.549207 s
+ -- [simp_arr(2 func)]: 0 s
+ -- [simp_arr(>=3 func)]: 0 s
+[extract mesh]: 0.107454s
+num iso-vertices = 52770
+num iso-faces = 80994
+[compute xyz]: 0.0014334s
+[isoEdge-face connectivity]: 0.059427s
+num iso-edges = 133762
+[patches]: 0.0139953s
+num patches = 1
+[face-patch map]: 0.0001922s
+[chains]: 0.0011941s
+num chains = 0
+[vert-tet connectivity(degenerate vert only)]: 6e-07s
+incident_tets.size() = 0
+[order patches around chains]: 5.2e-06s
+[shells and components]: 3.3e-06s
+num shells = 2
+num components = 1
+[arrangement cells]: 9e-07s
+num_cells = 2

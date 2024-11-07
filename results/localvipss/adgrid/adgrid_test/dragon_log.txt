@@ -1,0 +1,42 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\adgrid\adgrid_test\
+in_filename : dragon
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\adgrid\adgrid_test\dragon.xyz
+read point size : 31992 
+start to init mesh 
+pt num : 31992 
+point_id_map_ size : 31992 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 31992, cols : 31992 
+build triangulation and initilization : 0.970514 s ! 
+finish init adj mat and core pt ids time : 0.021125 ! 
+finish init cluster normals time : 0.413861 ! 
+finish init cluster neigh scores time : 0.042293 ! 
+finish calculate cluster scores time : 0.000017 ! 
+normal MST_time time used : 0.285765 
+normal flip time used : 0.029198 
+Normal initializtion with local vipss total time used : 0.803670 
+average cluster J ele num : 4855 
+--- build_H_time_total sum  time : 8.669612 
+start to call solver ! 
+opt solve time : 10.167954 ! 
+opt fun call count : 451 
+total local vipss running time : 20.981120 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\adgrid\adgrid_test\/dragon_out_normal.ply
+ start ReconSurface 
+generate_voroi_data_time  : 0.269589 ! 
+ start use_nn_interpolation 
+--- build_HRBF_time_total sum  time : 3.886604 
+Implicit Surfacing: 
+Implicit Surfacing Done.
+Total Surfacing time: 32.0992
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\adgrid\adgrid_test\dragon.ply
+------- tet search time 1.79033
+------- voxel pt ave nn num 19
+------- nn search time: 16.732343 
+------- cal nn coordinate and hrbf time: 14.403922 
+ ------ voxel dist func val evaluated count : 1097876  
+ ------ voxel dist func val evaluated time : 31.783224 
+------- total surface time: 36.325767 
+--------- v cell deallocated size 32038 

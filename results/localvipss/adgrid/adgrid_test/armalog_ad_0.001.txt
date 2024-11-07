@@ -1,0 +1,43 @@
+input path : C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\adgrid\adgrid_test\
+in_filename : arma
+in_extname : .xyz
+Reading: C:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\dense\adgrid\adgrid_test\arma.xyz
+read point size : 34594 
+start to init mesh 
+pt num : 34594 
+point_id_map_ size : 34594 
+finish triangulation 
+finish build adjecent mat 
+adjacent mat rows : 34594, cols : 34594 
+build triangulation and initilization : 0.813159 s ! 
+finish init adj mat and core pt ids time : 0.023211 ! 
+finish init cluster normals time : 0.446007 ! 
+finish init cluster neigh scores time : 0.046642 ! 
+finish calculate cluster scores time : 0.000016 ! 
+normal MST_time time used : 0.305405 
+normal flip time used : 0.030823 
+Normal initializtion with local vipss total time used : 0.864290 
+average cluster J ele num : 4981 
+--- build_H_time_total sum  time : 8.180384 
+start to call solver ! 
+opt solve time : 22.636726 ! 
+opt fun call count : 944 
+total local vipss running time : 32.917813 ! 
+saving finish: c:\Users\jianjun.x\Documents\projects\3D_pointcloud_dataset\results\localvipss\adgrid\adgrid_test\/arma_out_normal.ply
+--- build_HRBF_time_total sum  time : 4.307075 
+start to call  GenerateAdaptiveGridOut
+bbox min -63.5001 -54.0533 -57.7145
+bbox max 63.4197 97.0183 57.714
+ finish init tet mesh
+total time: : 15145.5
+get active multiples: : 0
+single func: : 134.472
+two func: : 0
+three func: : 0
+sub two func: : 0
+sub three func: : 0
+subdivision: : 1238.76
+evaluations: : 12510.8
+splitting: : 339.075
+adaptive grid generation time : 21.965470 ! 
+--------- v cell deallocated size 34640 
